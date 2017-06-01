@@ -93,6 +93,6 @@ dependencies {
     compile 'com.qiniu:qiniu-java-sdk:7.2.+'
     //七牛云文件上传架包,Android端
     compile 'com.qiniu:qiniu-android-sdk:7.2.+'
-    //recyclerview加头部
+    //recyclerView加头部
     compile 'com.bartoszlipinski:recyclerviewheader2:2.0.1'
 }
