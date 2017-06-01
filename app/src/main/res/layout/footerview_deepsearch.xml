@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_rl_patent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:background="@drawable/top_bottom_border"
+        android:paddingBottom="@dimen/margin_8">
+
+        <ImageButton
+            android:id="@+id/item_ib_patent"
+            android:layout_width="@dimen/margin_50"
+            android:layout_height="@dimen/margin_50"
+            android:layout_marginTop="@dimen/font_size_15"
+            android:background="@drawable/shoushuo_shengdushoushuo"/>
+
+        <RelativeLayout
+            android:id="@+id/ad_rv_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/item_ib_patent">
+
+            <TextView
+                android:id="@+id/ad_tv_searchAndSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_15"
+                android:text="搜一搜"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/font_size_16"/>
+
+            <TextView
+                android:id="@+id/ad_tv_searchResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_toRightOf="@+id/ad_tv_searchAndSearch"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/font_size_16"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginRight="@dimen/dis_40"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_tv_patentDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad_rv_search"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_toRightOf="@+id/item_ib_patent"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="深度搜索"
+            android:textColor="@color/colorBlowLabel"
+            android:textSize="@dimen/font_size_14"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/login_zhankai" />
+    </RelativeLayout>
+
+</LinearLayout>

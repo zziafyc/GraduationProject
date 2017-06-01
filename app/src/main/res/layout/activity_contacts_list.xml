@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorContentBg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_app_bar"/>
+    <RelativeLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/margin_12"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/cancel_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="@string/cancel"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/font_size_14"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+        <RelativeLayout
+            android:layout_toLeftOf="@id/cancel_txt"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_rectangle_white"
+            android:layout_height="@dimen/dis_28">
+            <ImageView
+                android:id="@+id/acl_search_img"
+                android:layout_width="@dimen/dis_13"
+                android:layout_height="@dimen/dis_13"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:src="@drawable/common_nav_fangdajin_n"/>
+            <EditText
+                android:id="@+id/acl_search_edit"
+                android:layout_toRightOf="@id/acl_search_img"
+                android:hint="@string/choiceFriend"
+                style="@style/SearchEditItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:id="@+id/acl_clear_search_lyt"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:layout_width="@dimen/dis_40"
+                android:layout_height="@dimen/dis_28">
+                <ImageView
+                    android:layout_width="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:src="@drawable/login_qingchu"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingTop="@dimen/margin_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.shcyd.lib.widget.listview.PinnedHeaderListView
+            android:background="@color/white"
+            android:id="@+id/acm_contacts_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:divider="@null"/>
+        <com.shcyd.lib.widget.SideBar
+            android:id="@+id/acm_sidebar"
+            android:layout_width="@dimen/dis_20"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dis_5"/>
+    </RelativeLayout>
+
+</LinearLayout>

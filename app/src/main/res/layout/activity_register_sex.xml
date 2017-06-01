@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_sex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzia.graduationproject.ui.activity.register.RegisterSexActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorContentBg"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_app_bar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_12"
+            android:background="@color/white">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_12">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/boy"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/bottom_border"
+                        android:gravity="center_vertical"
+                        android:text="@string/boy"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="@dimen/font_size_18"/>
+
+                    <TextView
+                        android:id="@+id/girl"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/bottom_border"
+                        android:gravity="center_vertical"
+                        android:text="@string/girl"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="@dimen/font_size_18"/>
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioBtn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@null"
+                        android:button="@null"
+                        android:checked="true"
+                        android:drawableTop="@drawable/radiobutton_eventstate"
+                        android:paddingLeft="@dimen/dis_320"
+                        android:paddingTop="@dimen/dis_18"/>
+
+                    <RadioButton
+                        android:id="@+id/radioBtn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@null"
+                        android:button="@null"
+                        android:drawableTop="@drawable/radiobutton_eventstate"
+                        android:paddingLeft="@dimen/dis_320"
+                        android:paddingTop="@dimen/dis_21"/>
+
+                </RadioGroup>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <!--下一步-->
+        <TextView
+            android:id="@+id/arn_next_btn"
+            style="@style/ButtonWhiteItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45"
+            android:text="@string/next"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

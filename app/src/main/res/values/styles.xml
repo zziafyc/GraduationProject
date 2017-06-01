@@ -1,0 +1,303 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:textColor">@color/text_grey_666</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+
+    //注册标签样式
+
+    <style name="labelItemStyle">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    //注册输入框样式(手机号)
+
+    <style name="EditItemStyle">
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:layout_marginLeft">@dimen/margin_8</item>
+        <item name="android:paddingLeft">@dimen/margin_8</item>
+        <item name="android:background">@drawable/left_border</item>
+    </style>
+    //注册输入框样式(名称)
+    <style name="EditNameItemStyle">
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginLeft">@dimen/margin_8</item>
+        <item name="android:paddingLeft">@dimen/margin_8</item>
+        <item name="android:background">@drawable/left_border</item>
+    </style>
+
+    //注册输入框样式(证件编号)
+
+    <style name="EditIDNumberItemStyle">
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="EditPwdNumberItemStyle">
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+    </style>
+
+
+    //按钮样式（蓝）
+
+    <style name="ButtonBlueItemStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_marginLeft">@dimen/margin_12</item>
+        <item name="android:layout_marginRight">@dimen/margin_12</item>
+        <item name="android:layout_marginTop">@dimen/dis_20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_button_blue</item>
+    </style>
+
+    <style name="ButtonRedItemStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_marginLeft">@dimen/margin_12</item>
+        <item name="android:layout_marginRight">@dimen/margin_12</item>
+        <item name="android:layout_marginTop">@dimen/margin_12</item>
+        <item name="android:layout_marginBottom">@dimen/margin_12</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_button_red</item>
+    </style>
+
+    <!--ratingbar样式-->
+    <style name="RatingBarStyle" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:minHeight">13dp</item>
+        <item name="android:maxHeight">13dp</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:thumb">@null</item>
+    </style>
+
+
+    <!--ratingbar样式-->
+    <style name="RatingBarStyle2" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar2</item>
+        <item name="android:minHeight">22dp</item>
+        <item name="android:maxHeight">22dp</item>
+        <item name="android:isIndicator">false</item>
+        <item name="android:thumb">@null</item>
+    </style>
+
+    //按钮样式（白）
+
+    <style name="ButtonWhiteItemStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_marginLeft">@dimen/margin_12</item>
+        <item name="android:layout_marginRight">@dimen/margin_12</item>
+        <item name="android:layout_marginTop">@dimen/dis_20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_button_white</item>
+    </style>
+
+    //布局底部按钮样式（白）
+
+    <style name="BottomButtonWhiteItemStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_marginTop">@dimen/dis_20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rect_button_white</item>
+    </style>
+    //布局底部按钮样式（蓝）
+
+    <style name="BottomButtonBlueItemStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_marginTop">@dimen/dis_20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rect_button_blue</item>
+    </style>
+
+    //验证码item样式
+
+    <style name="VerificationItemStyle">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_marginBottom">@dimen/dis_5</item>
+        <item name="android:layout_marginTop">@dimen/dis_5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxEms">1</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="SoftInputItemStyle">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_24</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxEms">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    //搜索框编辑框样式
+
+    <style name="SearchEditItemStyle">
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">@dimen/dis_5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    //弹框蓝色选项控件样式
+
+    <style name="PopBlueChooseStyle">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:paddingTop">@dimen/dis_15</item>
+        <item name="android:paddingBottom">@dimen/dis_15</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //弹框黑色选项控件样式
+
+    <style name="PopBlackChooseStyle">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:paddingTop">@dimen/dis_15</item>
+        <item name="android:paddingBottom">@dimen/dis_15</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //弹框内容控件样式
+
+    <style name="PopContentStyle">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="NoTitleDialogStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/windowTransaction</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 去掉头部 -->
+    </style>
+
+    <!--王高远-->
+    <!--自定义CheckBox-->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+    <!--范二帅-->
+    <!--群头像的尺寸-->
+    <declare-styleable name="MultiAvatarView">
+        <attr name="mav_size" format="dimension" />
+        <attr name="mav_padding" format="dimension" />
+        <attr name="mav_divider_size" format="dimension" />
+    </declare-styleable>
+    <!--视频mediaController-->
+    <style name="MediaController_SeekBar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">3dip</item>
+        <item name="android:paddingLeft">3dip</item>
+        <item name="android:paddingRight">3dip</item>
+    </style>
+
+    <style name="MediaController_Text">
+        <item name="android:textColor">#5d5d5d</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <!--方应春-->
+    <style name="NoTitleNoBackgroundDialogStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+
+        <!-- 去掉头部 -->
+    </style>
+    //弹框内容控件样式
+
+    <style name="PopBlueStyle">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:paddingTop">@dimen/dis_18</item>
+        <item name="android:paddingBottom">@dimen/dis_18</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="radioBtn">
+        <item name="android:width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@drawable/bottomtextcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">3dp</item>
+    </style>
+
+    <style name="topRadioBtn">
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+
+        <!-- <item name="android:textColor">@drawable/bottomtextcolor</item>
+         <item name="android:background">@drawable/</item>-->
+
+    </style>
+</resources>

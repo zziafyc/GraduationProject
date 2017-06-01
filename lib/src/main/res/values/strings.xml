@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lib</string>
+
+    <string name="common_no_network_msg">网络连接失败</string>
+    <string name="common_error_msg">抱歉,系统出错了!\\n请点击屏幕重试~</string>
+    <string name="common_empty_msg">抱歉,暂未获取到数据!\\n请点击屏幕重试~</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="load_succeed">加载完成</string>
+    <string name="load_fail">加载失败</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pullup_to_load">上拉加载</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="release_to_load">松开加载</string>
+    <string name="loading">正在加载</string>
+
+
+    <!--录入语音相关-->
+    <string name="normal">按住说话</string>
+    <string name="recording">松开 结束</string>
+    <string name="want_to_cancle">松开手指，取消发送</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+    <string name="tooshort">录音时间过短</string>
+</resources>

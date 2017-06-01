@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorContentBg"
+    android:orientation="vertical"
+    tools:context="com.zzia.graduationproject.ui.activity.tellbook.SearchUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_12">
+
+        <TextView
+            android:id="@+id/cancel_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/cancel"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/font_size_14"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dis_28"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_toLeftOf="@id/cancel_txt"
+            android:background="@drawable/bg_rectangle_white">
+
+            <ImageView
+                android:id="@+id/ail_search_img"
+                android:layout_width="@dimen/dis_13"
+                android:layout_height="@dimen/dis_13"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:src="@drawable/common_nav_fangdajin_n"/>
+
+            <EditText
+                android:id="@+id/ail_search_edit"
+                style="@style/SearchEditItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ail_clear_search_lyt"
+                android:layout_toRightOf="@+id/ail_search_img"
+                android:hint="输入手机号或昵称搜索"
+                android:imeOptions="actionSearch"/>
+
+            <RelativeLayout
+                android:id="@+id/ail_clear_search_lyt"
+                android:layout_width="@dimen/dis_40"
+                android:layout_height="@dimen/dis_28"
+                android:layout_alignParentRight="true"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_14"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:src="@drawable/login_qingchu"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--所有用户模块-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp">
+
+        <RelativeLayout
+            android:id="@+id/asu_result_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/asu_searchUserResult_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginRight="@dimen/margin_12"
+                android:background="@drawable/bg_rectangle_white"
+                android:divider="@null"/>
+            <!--没有找到相关用户-->
+            <RelativeLayout
+                android:id="@+id/asu_notFindUser_rv"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/margin_12"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="没有找到相关用户"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <!--搜一搜-->
+        <RelativeLayout
+            android:id="@+id/item_search_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/asu_result_rl"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_12"
+            android:background="@drawable/bg_rectangle_white"
+            android:paddingBottom="@dimen/margin_8">
+
+            <ImageView
+                android:id="@+id/item_ib_patent"
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginTop="@dimen/font_size_15"
+                android:background="@drawable/shoushuo_shengdushoushuo"/>
+
+            <RelativeLayout
+                android:id="@+id/ad_rv_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/item_ib_patent">
+
+                <TextView
+                    android:id="@+id/ad_tv_searchAndSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:text="搜一搜"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/font_size_16"/>
+
+                <TextView
+                    android:id="@+id/ad_tv_searchResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/dis_40"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:layout_toRightOf="@+id/ad_tv_searchAndSearch"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/colorBlue"
+                    android:textSize="@dimen/font_size_16"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ad_rv_search"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginRight="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_8"
+                android:layout_toRightOf="@+id/item_ib_patent"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="深度搜索"
+                android:textColor="@color/colorBlowLabel"
+                android:textSize="@dimen/font_size_14"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/login_zhankai"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

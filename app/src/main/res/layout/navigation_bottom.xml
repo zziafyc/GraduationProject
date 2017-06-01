@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/nb_rg_naviBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/nb_rb_smallRecord"
+            style="@style/radioBtn"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:checked="true"
+            android:drawablePadding="@dimen/margin_3"
+            android:paddingTop="@dimen/margin_8"
+            android:drawableTop="@drawable/msgbtn"
+            android:text="@string/smallRecord"
+            android:textSize="@dimen/font_size_10"
+            android:textColor="@drawable/navigation_bottom_textcolor"/>
+
+        <RadioButton
+            android:id="@+id/nb_rb_smallTravel"
+            style="@style/radioBtn"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawablePadding="@dimen/margin_3"
+            android:drawableTop="@drawable/discoverbtn"
+            android:paddingTop="@dimen/margin_8"
+            android:text="@string/smallTravel"
+            android:textSize="@dimen/font_size_10"
+            android:textColor="@drawable/navigation_bottom_textcolor"/>
+
+        <RadioButton
+            android:id="@+id/nb_rb_teleBook"
+            style="@style/radioBtn"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawablePadding="@dimen/margin_3"
+            android:drawableTop="@drawable/managerbtn"
+            android:text="@string/addressBook"
+            android:paddingTop="@dimen/margin_8"
+            android:textSize="@dimen/font_size_10"
+            android:textColor="@drawable/navigation_bottom_textcolor"/>
+
+
+        <RadioButton
+            android:id="@+id/nb_rb_me"
+            style="@style/radioBtn"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawablePadding="@dimen/margin_3"
+            android:drawableTop="@drawable/mebtn"
+            android:text="@string/my"
+            android:paddingTop="@dimen/margin_8"
+            android:textSize="@dimen/font_size_10"
+            android:textColor="@drawable/navigation_bottom_textcolor"/>
+
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/base_main_lyt"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorContentBg"
+              android:orientation="vertical">
+
+    <!--导入标题-->
+    <include layout="@layout/common_app_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:background="@drawable/top_bottom_border"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_12"
+        android:paddingRight="@dimen/margin_12">
+
+        <!--手机号输入-->
+        <RelativeLayout
+            android:id="@+id/arp_phoneNumber_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45">
+
+            <TextView
+                android:id="@+id/arp_phoneNumber_label"
+                style="@style/labelItemStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telephone"/>
+
+            <EditText
+                android:id="@+id/arp_phoneNumber_edit"
+                style="@style/EditItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/arp_phoneNumber_label"
+                android:hint="@string/inputTelephone"
+                android:inputType="number"
+                android:textSize="@dimen/font_size_16"
+                android:text=""/>
+
+            <RelativeLayout
+
+                android:id="@+id/arp_getVerify_rv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/ar_getVerify_tv"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_button"
+                    android:gravity="center"
+                    android:text="@string/getVerificationCode"
+                    android:textSize="@dimen/font_size_12"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/arp_clear_phone_lyt"
+                android:layout_width="@dimen/margin_45"
+                android:layout_height="@dimen/margin_45"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/arp_getVerify_rv"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_14"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/login_qingchu"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:background="@drawable/top_bottom_border"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_12"
+        android:paddingRight="@dimen/margin_12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45">
+
+            <TextView
+                android:id="@+id/ar_verifyTx_tv"
+                style="@style/labelItemStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verificationCode"/>
+
+            <EditText
+                android:id="@+id/arp_verifyTx_edit"
+                style="@style/EditItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ar_verifyTx_tv"
+                android:hint="@string/inputVerification"
+                android:inputType="number"
+                android:text=""
+                android:textSize="@dimen/font_size_16"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--下一步-->
+    <TextView
+        android:id="@+id/arp_next_btn"
+        style="@style/ButtonWhiteItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_45"
+        android:text="@string/next"/>
+</LinearLayout>
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--设置边框线条-->
+    <item >
+        <shape>
+            <solid
+                android:color="@color/colorBlue">
+            </solid>
+        </shape>
+    </item>
+    <!-- 设置背景颜色-->
+    <item
+        android:top="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:bottom="1dp">
+        <selector>
+            <item android:state_checked="true" android:drawable="@color/colorBlue"> </item>
+            <item android:state_checked="false" android:drawable="@color/white"> </item>
+        </selector>
+    </item>
+
+</layer-list>

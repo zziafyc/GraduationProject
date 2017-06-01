@@ -1,0 +1,98 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.zzia.graduationproject"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+
+}
+repositories {
+    flatDir {
+        dirs 'libs' //就是你放aar的目录地址
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //compile 'com.android.support:appcompat-v7:24.2.1'
+    compile project(path: ':lib')
+    testCompile 'junit:junit:4.12'
+    //抽屉式浮型侧滑菜单
+    compile 'com.rom4ek:arcnavigationview:1.0.2'
+    //网络请求
+    compile 'io.reactivex:rxjava:1.0.14'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    //mob架包
+    compile name: 'SMSSDK-2.1.3', ext: 'aar'
+    compile name: 'SMSSDKGUI-2.1.3', ext: 'aar'
+    //省市县三级联动、和时间选择器
+    compile 'com.airsaid.library:pickerview:1.0.3'
+    //二维码扫描库
+    compile 'cn.yipianfengye.android:zxing-library:2.1'
+    //图片剪切
+    compile 'com.oginotihiro:cropview:1.0.0'
+    //coordinatorTabLayOut效果
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.6'
+    //侧滑删除效果
+    compile 'com.baoyz.swipemenulistview:library:1.3.0'
+    //多图选择器
+    compile 'com.github.LuckSiege.PictureSelector:picture_library:v1.4.2'
+    //百度地图
+    compile files('libs/BaiduLBS_Android.jar')
+    //carView的引用
+    compile 'com.android.support:design:25.0.1'
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:cardview-v7:25.0.1'
+    //新版recyclerView，带刷新加载
+    compile 'com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2'
+    //九宫格
+    compile 'com.lzy.widget:ninegridview:0.2.0'
+    //floatingActionButton的使用,依附于recyclerView
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    //轮播图，两边留出一点的magicView（张鸿洋）
+    compile 'com.zhy:magic-viewpager:1.0.1'
+    //七牛云文件上传架包,java端
+    compile 'com.qiniu:qiniu-java-sdk:7.2.+'
+    //七牛云文件上传架包,Android端
+    compile 'com.qiniu:qiniu-android-sdk:7.2.+'
+    //recyclerview加头部
+    compile 'com.bartoszlipinski:recyclerviewheader2:2.0.1'
+}

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorContentBg"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_89"
+            android:background="@drawable/bottom_border"
+            android:padding="@dimen/margin_12">
+
+            <ImageView
+                android:id="@+id/fm_head_img"
+                android:layout_width="@dimen/margin_65"
+                android:layout_height="@dimen/margin_65"
+                android:layout_marginRight="@dimen/margin_10"
+                android:background="@drawable/bg_image_headimg_border"
+                android:src="@drawable/avatar_default"/>
+
+            <ImageView
+                android:id="@+id/fm_myQrCode_iv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_9"
+                android:background="@drawable/qrcode2"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_89"
+                android:layout_toRightOf="@id/fm_head_img"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fm_username_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/dis_3"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxEms="10"
+                    android:paddingLeft="2.5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/font_size_16"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="2.5dp">
+
+                    <LinearLayout
+                        android:id="@+id/fm_editFile_lyt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/dis_13"
+                            android:layout_height="@dimen/dis_13"
+                            android:background="@drawable/me_bianjiziliao"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_12"
+                            android:text="@string/editData"
+                            android:textColor="@color/colorBlue"
+                            android:textSize="@dimen/font_size_12"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.7dp"
+                        android:layout_height="@dimen/dis_13"
+                        android:layout_marginLeft="@dimen/margin_12"
+                        android:layout_marginRight="@dimen/margin_12"
+                        android:background="@color/colorBorder"/>
+
+                    <LinearLayout
+                        android:id="@+id/fm_myCard_lyt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/dis_13"
+                            android:layout_height="@dimen/dis_13"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/me_zuixingguanzhu"/>
+
+                        <TextView
+                            android:id="@+id/fm_confirm_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/margin_12"
+                            android:text="@string/businessCard"
+                            android:textColor="@color/colorBlue"
+                            android:textSize="@dimen/font_size_12"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dis_20">
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bottom_border"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_12"
+            android:paddingTop="@dimen/dis_1">
+
+            <RelativeLayout
+
+                android:id="@+id/fm_release_lyt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45"
+                android:background="@drawable/bottom_border"
+                android:paddingLeft="@dimen/dis_15"
+                android:paddingRight="@dimen/margin_12">
+
+                <ImageView
+                    android:id="@+id/fm_release_img"
+                    android:layout_width="@dimen/dis_20"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/me_me_fabu"/>
+
+                <TextView
+                    style="@style/labelItemStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dis_27"
+                    android:layout_toRightOf="@id/fm_release_img"
+                    android:text="@string/mySendDiary"/>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_8"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/login_zhankai"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fm_participation_lyt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45"
+                android:background="@drawable/bottom_border"
+                android:paddingLeft="@dimen/dis_15"
+                android:paddingRight="@dimen/margin_12">
+
+                <ImageView
+                    android:id="@+id/fm_participation_img"
+                    android:layout_width="@dimen/dis_20"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/me_me_canyu"/>
+
+                <TextView
+                    style="@style/labelItemStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dis_27"
+                    android:layout_toRightOf="@id/fm_participation_img"
+                    android:text="@string/mySendTrend"/>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_8"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/login_zhankai"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fm_attention_lyt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45"
+                android:background="@drawable/bottom_border"
+                android:paddingLeft="@dimen/dis_15"
+                android:paddingRight="@dimen/margin_12">
+
+                <ImageView
+                    android:id="@+id/fm_attention_img"
+                    android:layout_width="@dimen/dis_20"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/me_me_guanzhu"/>
+
+                <TextView
+                    style="@style/labelItemStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dis_27"
+                    android:layout_toRightOf="@id/fm_attention_img"
+                    android:text="@string/myAttention"/>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_8"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/login_zhankai"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fm_invite_lyt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45"
+                android:background="@drawable/bottom_border"
+                android:paddingLeft="@dimen/dis_15"
+                android:paddingRight="@dimen/margin_12">
+
+                <ImageView
+                    android:id="@+id/fm_invite_img"
+                    android:layout_width="@dimen/dis_20"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/me_me_yaoqin"/>
+
+                <TextView
+                    style="@style/labelItemStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dis_27"
+                    android:layout_toRightOf="@id/fm_invite_img"
+                    android:text="@string/myInviteBook"/>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_8"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/login_zhankai"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fm_drafts_lyt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_45"
+                android:background="@drawable/bottom_border"
+                android:paddingLeft="@dimen/dis_15"
+                android:paddingRight="@dimen/margin_12">
+
+                <ImageView
+                    android:id="@+id/fm_drafts_img"
+                    android:layout_width="@dimen/dis_20"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/me_me_caogao"/>
+
+                <TextView
+                    style="@style/labelItemStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dis_27"
+                    android:layout_toRightOf="@id/fm_drafts_img"
+                    android:text="@string/myDrafts"/>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_8"
+                    android:layout_height="@dimen/margin_14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/login_zhankai"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/fm_setting_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45"
+            android:layout_marginTop="@dimen/dis_20"
+            android:background="@drawable/top_bottom_border"
+            android:paddingLeft="@dimen/dis_27"
+            android:paddingRight="@dimen/margin_12">
+
+            <ImageView
+                android:id="@+id/fm_setting_img"
+                android:layout_width="@dimen/dis_20"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/me_shezhi"/>
+
+            <TextView
+                style="@style/labelItemStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dis_27"
+                android:layout_toRightOf="@id/fm_setting_img"
+                android:text="@string/setting"/>
+
+            <ImageView
+                android:layout_width="@dimen/margin_8"
+                android:layout_height="@dimen/margin_14"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/login_zhankai"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

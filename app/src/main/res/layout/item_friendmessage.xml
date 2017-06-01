@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ides_ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_border">
+
+        <RelativeLayout
+            android:id="@+id/item_rl"
+            android:layout_width="match_parent"
+            android:layout_height="67dp">
+
+            <ImageView
+                android:id="@+id/item_avatar_iv"
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="@dimen/margin_50"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:background="@drawable/avatar_default"/>
+
+            <TextView
+                android:id="@+id/item_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_8"
+                android:layout_toRightOf="@+id/item_avatar_iv"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="方应春"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/font_size_16"/>
+
+            <TextView
+                android:id="@+id/item_tel_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_8"
+                android:layout_toRightOf="@id/item_name_tv"
+                android:text="(13024526493)"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/font_size_16"/>
+            <TextView
+                android:id="@+id/item_state_tv"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_12"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_button_blue"
+                android:text="已同意"
+                android:gravity="center"
+                android:textSize="@dimen/font_size_16"
+                android:textColor="@color/white"
+               android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <ImageView
+                android:id="@+id/item_sex_iv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/item_name_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/margin_12"
+                android:layout_toRightOf="@id/item_avatar_iv"/>
+
+            <TextView
+                android:id="@+id/item_address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_tel_tv"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_toRightOf="@id/item_sex_iv"
+                android:text="河南 信阳 光山县"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

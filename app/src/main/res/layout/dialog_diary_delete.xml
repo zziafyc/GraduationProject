@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dis_252"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rectangle_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bottom_border"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dis_18"
+        android:paddingTop="@dimen/dis_18">
+
+        <TextView
+            android:id="@+id/ddd_des_txt"
+            style="@style/PopContentStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ddd_tv_cancel"
+            style="@style/PopContentStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/ddd_tv_sure"
+            style="@style/PopBlueStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/left_border"
+            android:text="@string/sure"
+            android:clickable="true"/>
+    </LinearLayout>
+
+</LinearLayout>

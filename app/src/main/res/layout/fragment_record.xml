@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <!--最新消息-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45"
+            android:background="@color/colorContentBg"
+            android:paddingLeft="@dimen/margin_12">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/shouye_xiaoxi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:gravity="center_vertical"
+                android:text="@string/lastedMsg"/>
+
+        </LinearLayout>
+
+        <!--校园日记和最新动态-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_12"
+            >
+
+            <LinearLayout
+                android:id="@+id/fm_ll_last_business_msg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_68"
+                android:layout_marginTop="@dimen/margin_3"
+                android:background="@drawable/bottom_border"
+                android:orientation="horizontal"
+                android:paddingRight="@dimen/margin_12"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/fm_iv_last_business_msg"
+                    android:layout_width="53dp"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="@dimen/margin_9"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_50"
+                        android:layout_height="@dimen/margin_50"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:src="@drawable/shouye_yewu"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_18"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/campusDiary"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/font_size_16"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/login_zhankai"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/fm_ll_last_dynamics"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_68"
+                android:orientation="horizontal"
+                android:paddingRight="@dimen/margin_12">
+
+                <RelativeLayout
+                    android:id="@+id/fm_iv_last_dynamics"
+                    android:layout_width="53dp"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="@dimen/margin_9">
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_50"
+                        android:layout_height="@dimen/margin_50"
+                        android:layout_marginTop="@dimen/margin_8"
+                        android:src="@drawable/shouye_zuixingdongtai"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/friendsTrend"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/font_size_16"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/login_zhankai"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--沟通记录-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45"
+            android:background="@color/colorContentBg"
+            android:paddingLeft="@dimen/margin_12"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/faxian_renwu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:gravity="center_vertical"
+                android:text="@string/chatRecord"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fr_rongYun_lyt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f9f9f9</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#01000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#D9534F</color>
+    <color name="gray">#FFCCCCCC</color>
+    <!--重要：主色调蓝色，蓝色的字体是可以点击的，按钮点击之后的背景也是蓝色-->
+    <color name="colorBlue">#2397f3</color>
+    <!--重要：用于重要的文字信息，标题信息（如导航名称、大板块标题，类目名称等）-->
+    <color name="colorTitle">#0f0f0f</color>
+    <!--重要：用于二维码扫描的线条颜色-->
+    <color name="scan_corner_color">#FF4081</color>
+
+
+    <!--一般：标题背景颜色-->
+    <color name="colorTitleBg">#f9f9f9</color>
+    <!-- 一般：用于普通级段落信息文字（如一篇文章，一段分享等）-->
+    <color name="colorText">#3a444e</color>
+    <!--一般：用于底部标签栏文字、时间显示和标题-->
+    <color name="colorBlowLabel">#8e8e93</color>
+    <!--一般：时间显示-->
+    <color name="colorTime">#8e8e93</color>
+    <!--一般：提示文字-->
+    <color name="colorHint">#d2d2d2</color>
+    <!--一般：分割线、边框颜色-->
+    <color name="colorBorder">#cdcdcd</color>
+    <!--一般：未选中的按钮颜色-->
+    <color name="colorUnchecked">#cdcdcd</color>
+    <!--一般：标签栏颜色-->
+    <color name="colorLabelBg">#e6f2fb</color>
+    <!--一般：用于列表标题，如华为科技公司-->
+    <color name="colorListTitle">#2497f4</color>
+    <color name="windowTransaction">#00000000</color>
+    <!--【草稿】字体颜色-->
+    <color name="colorDraft">#f43530</color>
+
+
+    <!--较弱：内容区域的背景色-->
+    <color name="colorContentBg">#eae9e7</color>
+    <!--较弱：用于删除图标、按钮删除还有提醒（如删除按钮都是红色，提醒有多少新消息）-->
+    <color name="colorRed">#ff3930</color>
+    <!--较弱：用于一些提示和点赞过后的颜色（如金钱的数值）-->
+    <color name="colorYellow">#ffbf5b</color>
+    <!--较弱：一些按钮的背景色，如分享的取消按钮背景色-->
+    <color name="colorGrayWhiteBlue">#ECF0F3</color>
+
+    <!--定义一个全局的半透明颜色-->
+    <color name="color_globle_argb">#2f000000</color>
+</resources>

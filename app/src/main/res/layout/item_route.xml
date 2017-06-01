@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bottom_border"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_rl_task"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_45"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:layout_marginTop="@dimen/margin_12"
+        android:background="@drawable/bottom_border">
+
+        <TextView
+            android:id="@+id/item_tv_taskLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="旅行线路1："
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/font_size_16"/>
+
+        <EditText
+            android:id="@+id/item_routeDescription_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="45dp"
+            android:layout_toRightOf="@+id/item_tv_taskLabel"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp"
+            android:hint="旅行路线描述"
+            android:singleLine="true"
+            android:textColor="@color/colorText"
+            android:textCursorDrawable="@drawable/edittext_cursor"
+            android:textSize="@dimen/font_size_14"/>
+
+        <ImageView
+            android:id="@+id/deleteRoute"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_12"
+            android:background="@drawable/fabugonggao_jianqu"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_rl_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_45"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:background="@drawable/bottom_border">
+
+        <TextView
+            android:id="@+id/item_tv_timeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="时间节点："
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/font_size_16"/>
+
+        <TextView
+            android:id="@+id/item_tv_startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_toRightOf="@+id/item_tv_timeLabel"
+            android:background="@color/white"
+            android:text="开始时间"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/font_size_14"/>
+
+        <LinearLayout
+            android:id="@+id/item_ll_divider"
+            android:layout_width="20dp"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_3"
+            android:layout_toRightOf="@+id/item_tv_startTime"
+            android:background="@color/colorText"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_tv_endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_3"
+            android:layout_toRightOf="@+id/item_ll_divider"
+            android:text="结束时间"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/font_size_14"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_rl_detailedIntroduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:layout_marginBottom="@dimen/margin_12"
+        android:layout_marginTop="@dimen/margin_12">
+
+        <TextView
+            android:id="@+id/item_tv_introductionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详细介绍："
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/font_size_16"/>
+
+        <EditText
+            android:id="@+id/item_introduction_edt"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_45"
+            android:layout_toRightOf="@+id/item_tv_introductionLabel"
+            android:background="@color/white"
+            android:gravity="left"
+            android:hint="旅行路线详细介绍"
+            android:textColor="@color/colorText"
+            android:textCursorDrawable="@drawable/edittext_cursor"
+            android:textSize="@dimen/font_size_14"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/base_main_lyt"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorContentBg"
+              android:orientation="vertical">
+
+    <!--导入标题-->
+    <include layout="@layout/common_app_bar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:layout_marginTop="@dimen/dis_20"
+        android:text="@string/registerInputNameHint"
+        android:textColor="@color/colorTime"
+        android:textSize="@dimen/font_size_12"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_45"
+        android:layout_marginTop="@dimen/dis_20"
+        android:background="@drawable/top_bottom_border"
+        android:paddingLeft="@dimen/margin_12">
+
+        <TextView
+            android:id="@+id/arn_name_label"
+            style="@style/labelItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"/>
+
+        <EditText
+            android:id="@+id/arn_name_edit"
+            style="@style/EditNameItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_45"
+            android:layout_toRightOf="@id/arn_name_label"
+            android:hint="@string/inputNameHint"
+            android:maxLength="500"/>
+
+        <RelativeLayout
+            android:id="@+id/arn_clear_name_lyt"
+            android:layout_width="@dimen/dis_40"
+            android:layout_height="@dimen/margin_45"
+            android:layout_alignParentRight="true"
+            android:paddingRight="@dimen/margin_12"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/margin_14"
+                android:layout_height="@dimen/margin_14"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/login_qingchu"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--下一步-->
+    <TextView
+        android:id="@+id/arn_next_btn"
+        style="@style/ButtonWhiteItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_45"
+        android:text="@string/next"/>
+</LinearLayout>

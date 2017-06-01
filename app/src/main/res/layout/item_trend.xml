@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/margin_12"
+              android:background="@color/white"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_12"
+            android:paddingBottom="@dimen/margin_8">
+
+            <ImageButton
+                android:id="@+id/idn_btn_pic"
+                android:layout_width="@dimen/margin_45"
+                android:layout_height="@dimen/margin_45"
+                android:background="@drawable/bg_image_headimg_border"
+                android:src="@drawable/avatar_default"/>
+
+            <RelativeLayout
+                android:id="@+id/idn_rl_rightInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/idn_btn_pic">
+
+                <TextView
+                    android:id="@+id/idn_tv_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingBottom="@dimen/margin_12"
+                    android:paddingLeft="@dimen/margin_12"
+                    android:paddingRight="@dimen/margin_15"
+                    android:text="删除"
+                    android:textColor="@color/colorBlowLabel"
+                    android:textSize="@dimen/font_size_12"/>
+
+                <TextView
+                    android:id="@+id/idn_tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_toLeftOf="@+id/idn_tv_delete"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="方应春"
+                    android:textColor="@color/colorListTitle"
+                    android:textSize="@dimen/font_size_16"/>
+
+
+                <TextView
+                    android:id="@+id/idn_tv_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idn_tv_name"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:text="我今天心情真的挺好的，又捡到了10块钱！斑驳的夜色在说什么，谁能告诉我如何选择，每当我想起你的时刻"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/font_size_14"/>
+
+                <TextView
+                    android:id="@+id/idn_tv_allContentLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/idn_tv_description"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:text="全文"
+                    android:textColor="@color/colorListTitle"
+                    android:textSize="@dimen/font_size_14"/>
+
+
+                <com.lzy.ninegrid.NineGridView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/idn_ngv_nineGridView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idn_tv_allContentLabel"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="@dimen/margin_12"
+                    app:ngv_singleImageSize="130dp"
+                    app:ngv_gridSpacing="4dp">
+
+                </com.lzy.ninegrid.NineGridView>
+
+                <RelativeLayout
+                    android:id="@+id/idn_ll_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_below="@+id/idn_ngv_nineGridView"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+                    <!--视频封面，每次最多能够发一个视频-->
+                    <ImageView
+                        android:id="@+id/isiud_video_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_12"
+                        android:divider="@null"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:focusable="false">
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/isiud_video_logoIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/xuanshangrenwu_bofang"/>
+
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/idn_tv_redBag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/idn_ll_video"
+                    android:layout_marginBottom="@dimen/margin_12"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:background="@drawable/redbag1"/>
+
+                <TextView
+                    android:id="@+id/idn_tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idn_ll_video"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:text="河南省光山县"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="@dimen/font_size_12"/>
+
+                <TextView
+                    android:id="@+id/idn_tv_sendTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idn_tv_location"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:text="2015-3-23"
+                    android:textSize="@dimen/font_size_12"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idn_tv_sendTime"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/idn_ll_praise"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/idn_rv_praise"
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/top_bottom"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/idn_tv_praise"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:text="赞"
+                                android:textSize="@dimen/font_size_12"/>
+
+                            <TextView
+                                android:id="@+id/idn_tv_praiseNum"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="@dimen/margin_12"
+                                android:layout_toRightOf="@+id/idn_tv_praise"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textSize="@dimen/font_size_12"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/zuixindongtai_fengexian"/>
+
+                    <RelativeLayout
+                        android:id="@+id/idn_tv_commemtLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="34dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/top_bottom"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/idn_tv_commemt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="34dp"
+                            android:background="@drawable/top_bottom"
+                            android:gravity="center"
+                            android:text="评论"
+                            android:textSize="@dimen/font_size_12"/>
+
+                        <TextView
+                            android:id="@+id/idn_tv_commemtNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/margin_12"
+                            android:layout_toRightOf="@+id/idn_tv_commemt"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textSize="@dimen/font_size_12"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+        <!--间隔-->
+    </LinearLayout>
+</LinearLayout>

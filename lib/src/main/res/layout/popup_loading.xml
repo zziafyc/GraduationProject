@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/loading_lyt"
+        android:layout_width="50dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:background="@drawable/pop_loading_bg">
+        <com.shcyd.lib.widget.progress.ProgressWheel
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            wheel:matProg_barColor="@color/light_blue"
+            wheel:matProg_progressIndeterminate="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/percent_lyt"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:background="#44000000">
+        <com.shcyd.lib.widget.CircleProgressBar
+            android:id="@+id/percent_bar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android_custom:circleStyle="circleSTROKE"
+            android_custom:circleColor="@color/gray"
+            android_custom:circleWidth="2dp"
+            android_custom:circleTextSize="12sp"
+            android_custom:circleTextColor="@color/white"
+            android_custom:circleTextIsDisplayable="true"
+            android_custom:circleProgressColor="@color/white"/>
+    </RelativeLayout>
+</FrameLayout>

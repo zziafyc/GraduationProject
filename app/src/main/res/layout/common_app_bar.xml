@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbarHeight"
+    android:background="@drawable/title_bg"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <RelativeLayout
+        android:id="@+id/actionbar_back"
+        android:layout_width="@dimen/dis_40"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_12">
+
+        <ImageView
+            android:id="@+id/cab_titleBack_iv"
+            android:layout_width="@dimen/margin_12"
+            android:layout_height="@dimen/margin_24"
+            android:layout_centerVertical="true"
+            android:src="@drawable/common_nav_back"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title_tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/font_size_18"/>
+
+    <TextView
+        android:id="@+id/title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_12"
+        android:background="@drawable/bg_button_blue_next"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_14"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/title_iv_right"
+        android:layout_width="@dimen/dis_22"
+        android:layout_height="@dimen/dis_18"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_12"
+        android:src="@drawable/flash_open"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/title_iv_rightImgView"
+        android:layout_width="@dimen/dis_22"
+        android:layout_height="@dimen/dis_18"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_12"
+        android:src="@drawable/camera"
+        android:visibility="gone"/>
+
+</RelativeLayout>

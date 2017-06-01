@@ -1,0 +1,110 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--字体大小-->
+    <!--用于导航栏的标题-->
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <!--用于内容区的标题，如企业名，专家名称等-->
+    <dimen name="font_size_16">16sp</dimen>
+    <!--用于底部标签栏-->
+    <dimen name="font_size_15">15sp</dimen>
+    <!--用于大多数文字，如分享的文字，小标题-->
+    <dimen name="font_size_14">14sp</dimen>
+    <!--用于辅助性文字，如时间节点等-->
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_8">8sp</dimen>
+    <dimen name="font_size_9">9sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+
+    <!--边距-->
+
+    <dimen name="actionbarHeight">44dp</dimen>
+    <!--内容区域左右边距-->
+    <dimen name="margin_12">12dp</dimen>
+    <!--一般边距-->
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_fu18">-18dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <!--标签栏高度-->
+    <dimen name="margin_44">44dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_65">65dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+    <dimen name="margin_68">68dp</dimen>
+    <dimen name="margin_79">79dp</dimen>
+    <dimen name="margin_49">49dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_89">89dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_226">226dp</dimen>
+    <dimen name="margin_90">90dp</dimen>
+    <!--距离-->
+    <dimen name="dis_0.5">0.5dp</dimen>
+    <dimen name="dis_1">1dp</dimen>
+    <dimen name="dis_3">3dp</dimen>
+    <dimen name="dis_20">20dp</dimen>
+    <dimen name="dis_44">44dp</dimen>
+    <dimen name="dis_55">55dp</dimen>
+    <dimen name="dis_220">220dp</dimen>
+    <dimen name="dis_5">5dp</dimen>
+    <dimen name="dis_158">158dp</dimen>
+    <dimen name="dis_13">13dp</dimen>
+    <dimen name="dis_15">15dp</dimen>
+    <dimen name="dis_60">60dp</dimen>
+    <dimen name="dis_67">67dp</dimen>
+    <dimen name="dis_73">73dp</dimen>
+    <dimen name="dis_50">50dp</dimen>
+    <dimen name="dis_51">51dp</dimen>
+    <dimen name="dis_30">30dp</dimen>
+    <dimen name="dis_32">32dp</dimen>
+    <dimen name="dis_28">28dp</dimen>
+    <dimen name="dis_79">79dp</dimen>
+    <dimen name="dis_18">18dp</dimen>
+    <dimen name="dis_22">22dp</dimen>
+    <dimen name="dis_252">252dp</dimen>
+    <dimen name="dis_21">21dp</dimen>
+    <dimen name="dis_29">29dp</dimen>
+    <dimen name="dis_140">140dp</dimen>
+    <dimen name="dis_103">103dp</dimen>
+    <dimen name="dis_98">98dp</dimen>
+    <dimen name="dis_167">167dp</dimen>
+    <dimen name="dis_178">178dp</dimen>
+    <dimen name="dis_16">16dp</dimen>
+    <dimen name="dis_40">40dp</dimen>
+    <dimen name="dis_150">150dp</dimen>
+    <dimen name="dis_180">180dp</dimen>
+    <dimen name="dis_245">245dp</dimen>
+    <dimen name="dis_27">27dp</dimen>
+    <dimen name="dis_19">19dp</dimen>
+    <dimen name="dis_17">17dp</dimen>
+    <dimen name="dis_320">320dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--列表标题与文字的定位-->
+    <dimen name="list_txt_title">17dp</dimen>
+
+    <!--wgy-->
+    <dimen name="font_website_title">16sp</dimen>
+    <dimen name="font_website_content">14sp</dimen>
+    <dimen name="font_website_time">14sp</dimen>
+</resources>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_travelPlan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorContentBg"
+    android:orientation="vertical"
+    tools:context="com.zzia.graduationproject.ui.activity.smalltravel.TravelPlanActivity">
+
+    <include layout="@layout/common_app_bar"/>
+
+    <ScrollView
+        android:id="@+id/at_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_12"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/banner_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_border"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/bottom_border">
+
+                    <ImageView
+                        android:id="@+id/im_iv_specialPerson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/iconfont_tuanduichengyuan"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_toRightOf="@+id/im_iv_specialPerson"
+                        android:text="沿途风景展示"
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_14"/>
+
+                    <TextView
+                        android:id="@+id/im_tv_reWrite_banner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:text="修改"
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_12"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@color/white"
+                android:clipChildren="false">
+
+                <com.zzia.graduationproject.myview.AutoPlayViewPager
+                    android:id="@+id/at_banner_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:clipChildren="false">
+                </com.zzia.graduationproject.myview.AutoPlayViewPager>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginTop="@dimen/margin_12"
+                android:background="@drawable/bottom_border">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/im_createManPic_iv"
+                        android:layout_width="@dimen/margin_65"
+                        android:layout_height="@dimen/margin_65"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_12"
+                        android:background="@drawable/huaiweigongsiliaotian_paishe"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:id="@+id/im_tv_createLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_18"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_toRightOf="@+id/im_createManPic_iv"
+                        android:gravity="center_vertical"
+                        android:text="创建人："
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_14"/>
+
+                    <TextView
+                        android:id="@+id/im_tv_company_createMan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_18"
+                        android:layout_marginRight="@dimen/margin_12"
+                        android:layout_marginTop="18dp"
+                        android:layout_toRightOf="@+id/im_tv_createLabel"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="方应春"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="@dimen/font_size_14"/>
+
+                    <TextView
+                        android:id="@+id/im_tv_timeLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_18"
+                        android:layout_below="@+id/im_tv_createLabel"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_toRightOf="@+id/im_createManPic_iv"
+                        android:gravity="center_vertical"
+                        android:text="创建时间："
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_14"/>
+
+                    <TextView
+                        android:id="@+id/im_tv_company_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/margin_18"
+                        android:layout_below="@+id/im_tv_company_createMan"
+                        android:layout_marginRight="@dimen/margin_12"
+                        android:layout_marginTop="12dp"
+                        android:layout_toRightOf="@+id/im_tv_timeLabel"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="2017-3-1"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="@dimen/font_size_14"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_border"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/bottom_border">
+
+                    <ImageView
+                        android:id="@+id/im_iv_theme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/xiangmu_jianjie"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_toRightOf="@+id/im_iv_theme"
+                        android:text="主题"
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_14"/>
+
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/at_travelTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="请填写旅行主题"
+                    android:padding="12dp"
+                    android:text=""
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/edittext_cursor"
+                    android:textSize="@dimen/font_size_14"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_border"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/bottom_border">
+
+                    <ImageView
+                        android:id="@+id/im_iv_shortDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/xiangmu_jianjie"/>
+
+                    <TextView
+                        android:id="@+id/at_simpleDesLabel_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_toRightOf="@+id/im_iv_shortDescription"
+                        android:text="简述"
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_14"/>
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/at_edt_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="请填写旅行简述"
+                    android:padding="12dp"
+                    android:text=""
+                    android:textColor="@color/colorText"
+                    android:textCursorDrawable="@drawable/edittext_cursor"
+                    android:textSize="@dimen/font_size_14"/>
+
+                <TextView
+                    android:id="@+id/at_allContentLabel_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="@dimen/margin_8"
+                    android:layout_marginLeft="@dimen/margin_12"
+                    android:text="全文"
+                    android:textColor="@color/colorListTitle"
+                    android:textSize="@dimen/font_size_14"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/at_ll_member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/top_border"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="@dimen/dis_0.5"
+                    android:background="@drawable/bottom_border">
+
+                    <ImageView
+                        android:id="@+id/im_iv_member"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/xiangmu_yaoqingchengyuan"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_toRightOf="@+id/im_iv_member"
+                        android:text="成员"
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_14"/>
+
+                    <TextView
+                        android:id="@+id/at_reWriteMember_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:text="修改"
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_12"/>
+
+                </RelativeLayout>
+                <!-- 下面是成员列表-->
+                <com.zzia.graduationproject.myview.NoScrollListView
+                    android:id="@+id/im_lv_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:divider="@null"
+                    android:focusable="false"
+                    android:scrollbars="none">
+
+                </com.zzia.graduationproject.myview.NoScrollListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/top_border"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="@dimen/dis_0.5"
+                    android:background="@drawable/bottom_border">
+
+                    <ImageView
+                        android:id="@+id/im_iv_travelRoute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/xiangmu_yaoqingchengyuan"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_toRightOf="@+id/im_iv_travelRoute"
+                        android:text="旅行路线"
+                        android:textColor="@color/colorBlowLabel"
+                        android:textSize="@dimen/font_size_14"/>
+
+                </RelativeLayout>
+                <!-- 下面是旅行路线列表-->
+                <com.zzia.graduationproject.myview.NoScrollListView
+                    android:id="@+id/im_lv_route"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="12dp"
+                    android:divider="@null"
+                    android:focusable="false"
+                    android:scrollbars="none">
+
+                </com.zzia.graduationproject.myview.NoScrollListView>>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_main_lyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorContentBg"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_app_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dis_28"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:layout_marginRight="@dimen/margin_12"
+        android:layout_marginTop="@dimen/margin_8"
+        android:background="@drawable/bg_rectangle_white">
+
+        <ImageView
+            android:id="@+id/acl_search_img"
+            android:layout_width="@dimen/dis_13"
+            android:layout_height="@dimen/dis_13"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:src="@drawable/common_nav_fangdajin_n"/>
+
+        <EditText
+            android:id="@+id/acl_search_edit"
+            style="@style/SearchEditItemStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_28"
+            android:layout_toRightOf="@id/acl_search_img"
+            android:hint="搜索"/>
+
+        <RelativeLayout
+            android:id="@+id/acl_clear_search_lyt"
+            android:layout_width="@dimen/dis_40"
+            android:layout_height="@dimen/dis_28"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/margin_14"
+                android:layout_height="@dimen/margin_14"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_8"
+                android:src="@drawable/login_qingchu"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/acl_address_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bottom_border"
+        android:divider="@color/colorBorder"
+        android:dividerHeight="@dimen/dis_0.5"
+        android:paddingBottom="@dimen/dis_0.5"
+        android:paddingLeft="@dimen/margin_12"
+        android:paddingTop="@dimen/dis_0.5"/>
+</LinearLayout>

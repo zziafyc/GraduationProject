@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_friend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzia.graduationproject.ui.activity.tellbook.AddFriendActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_app_bar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_12"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/adf_iv_pic"
+                android:layout_width="@dimen/margin_65"
+                android:layout_height="@dimen/margin_65"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:background="@drawable/avatar_default"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/adf_tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dis_5"
+                    android:text="方应春"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_16"/>
+
+                <TextView
+                    android:id="@+id/adf_tv_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_18"
+                    android:text="男 河南 信阳 光山县"
+                    android:textSize="@dimen/font_size_14"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_12"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/adf_verifyLabel_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="填写验证信息"
+                android:textSize="@dimen/font_size_14"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_12"
+                android:background="@drawable/border_up_bottom_grey">
+
+                <EditText
+                    android:id="@+id/adf_edtTxt_verifyInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:maxLength="40"
+                    android:singleLine="true"
+                    android:text="我是方应春，想加你为好友"
+                    android:hint="验证信息"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@drawable/edittext_cursor"
+                    android:textSize="@dimen/font_size_16"
+                    android:background="@null"
+                    android:layout_marginLeft="3dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_12"
+            android:layout_marginTop="@dimen/margin_12"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置备注"
+                android:textSize="@dimen/font_size_14"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_12"
+                android:background="@drawable/border_up_bottom_grey">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:text="备注"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_size_16"
+                        android:layout_marginLeft="3dp"/>
+
+                    <EditText
+                        android:id="@+id/adf_edtTxt_remark"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/left_border"
+                        android:maxLength="30"
+                        android:paddingLeft="@dimen/margin_12"
+                        android:singleLine="true"
+                        android:text="翟天昊"
+                        android:hint="用户备注"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/edittext_cursor"
+                        android:textSize="@dimen/font_size_16"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adf_addFriend_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlue">
+
+        <TextView
+            android:id="@+id/adf_tv_addFriend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="加好友"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_18"/>
+    </LinearLayout>
+
+</RelativeLayout>

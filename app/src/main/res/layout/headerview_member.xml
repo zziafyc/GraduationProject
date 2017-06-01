@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorContentBg"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/acm_rl_shrink"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_select_border">
+
+        <TextView
+            android:id="@+id/haveChoiceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:gravity="center"
+            android:text="已选"
+            android:textColor="@color/colorBlue"/>
+
+        <TextView
+            android:id="@+id/haveChoiceCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/haveChoiceLabel"
+            android:text="(5)"
+            android:textColor="@color/colorBlue"/>
+
+        <ImageView
+            android:id="@+id/haveChoice"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_24"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/login_xiangshangzhankai"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <!--能够侧滑删除的listview-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_12"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.zzia.graduationproject.myview.NoScrollSwipeListView
+            android:id="@+id/hm_userList_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:divider="@null"
+            android:scrollbars="none">
+        </com.zzia.graduationproject.myview.NoScrollSwipeListView>
+    </LinearLayout>
+
+</LinearLayout>

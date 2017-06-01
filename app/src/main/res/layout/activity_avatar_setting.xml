@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_avatar_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzia.graduationproject.ui.activity.me.AvatarSettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorContentBg"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_app_bar"/>
+
+        <com.oginotihiro.cropview.CropView
+            android:id="@+id/acp_crop_cv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/aas_avatar_iv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="@dimen/margin_12"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/aas_fromAlbum_lly"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dis_40"
+                android:background="@drawable/top_left_bottom_right_border">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="从相册选一张"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aas_takePhoto_lly"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dis_30"
+                android:background="@drawable/top_left_bottom_right_border">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="拍一张照片"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_size_16"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
