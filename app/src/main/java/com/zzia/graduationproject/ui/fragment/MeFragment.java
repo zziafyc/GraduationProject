@@ -2,7 +2,6 @@ package com.zzia.graduationproject.ui.fragment;
 
 
 import android.app.Dialog;
-import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -16,18 +15,11 @@ import com.uuzuche.lib_zxing.activity.CodeUtils;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.base.App;
 import com.zzia.graduationproject.base.BaseFragment;
-import com.zzia.graduationproject.base.Constants;
 import com.zzia.graduationproject.event.StringEvent;
 import com.zzia.graduationproject.ui.activity.me.AvatarSettingActivity;
 import com.zzia.graduationproject.ui.activity.me.SettingActivity;
 import com.zzia.graduationproject.ui.activity.smallchat.CampusLifeActivity;
 import com.zzia.graduationproject.utils.ImageUtils;
-
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 import butterknife.Bind;
 
@@ -46,6 +38,8 @@ public class MeFragment extends BaseFragment {
     RelativeLayout settingLyt;
     @Bind(R.id.fm_release_lyt)
     RelativeLayout releaseLayout;
+    @Bind(R.id.fm_attention_lyt)
+    RelativeLayout noticeLayout;
     Dialog dialog;
 
     @Override
@@ -89,9 +83,9 @@ public class MeFragment extends BaseFragment {
         headImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle bundle=new Bundle();
-                bundle.putString("avatar",App.getUser().getAvatar());
-                go(AvatarSettingActivity.class,bundle);
+                Bundle bundle = new Bundle();
+                bundle.putString("avatar", App.getUser().getAvatar());
+                go(AvatarSettingActivity.class, bundle);
             }
         });
         settingLyt.setOnClickListener(new View.OnClickListener() {
@@ -104,9 +98,15 @@ public class MeFragment extends BaseFragment {
         releaseLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle bundle=new Bundle();
-                bundle.putString("mySendDiary","mySendDiary");
-                go(CampusLifeActivity.class,bundle);
+                Bundle bundle = new Bundle();
+                bundle.putString("mySendDiary", "mySendDiary");
+                go(CampusLifeActivity.class, bundle);
+            }
+        });
+        //我的关注
+        noticeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
             }
         });
     }
@@ -115,8 +115,9 @@ public class MeFragment extends BaseFragment {
     protected boolean isBindEventBusHere() {
         return true;
     }
-    public void onEvent(StringEvent event){
-        if(event.getName().equals("updateUserAvatar")){
+
+    public void onEvent(StringEvent event) {
+        if (event.getName().equals("updateUserAvatar")) {
             ImageUtils.setCornerImage(headImg, event.getData());
         }
 

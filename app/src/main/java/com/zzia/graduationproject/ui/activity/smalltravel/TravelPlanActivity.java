@@ -4,8 +4,6 @@ package com.zzia.graduationproject.ui.activity.smalltravel;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.view.PagerAdapter;
-
-
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -36,10 +34,8 @@ import com.zzia.graduationproject.model.TravelRoute;
 import com.zzia.graduationproject.model.User;
 import com.zzia.graduationproject.myview.AutoPlayViewPager;
 import com.zzia.graduationproject.myview.NoScrollListView;
-import com.zzia.graduationproject.myview.UnScrollListView;
 import com.zzia.graduationproject.utils.DateUtils;
 import com.zzia.graduationproject.utils.ImageUtils;
-
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

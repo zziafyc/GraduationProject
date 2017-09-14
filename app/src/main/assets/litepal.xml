@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="GraduationProjectSqLite"></dbname>
+    <version value="7"></version>
+    <list>
+        <mapping class="com.zzia.graduationproject.model.Diary"></mapping>
+        <mapping class="com.zzia.graduationproject.model.PhotoConnect"></mapping>
+    </list>
+    <!--这句话必须要加，否则很容易出现没有权限操作，表无法建立，数据无法插入-->
+    <storage value="external" />
+</litepal>

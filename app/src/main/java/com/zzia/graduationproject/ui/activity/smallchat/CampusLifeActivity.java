@@ -1,14 +1,10 @@
 package com.zzia.graduationproject.ui.activity.smallchat;
 
 import android.app.Dialog;
-import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -28,7 +24,6 @@ import com.luck.picture.lib.ui.PictureVideoPlayActivity;
 import com.lzy.ninegrid.ImageInfo;
 import com.lzy.ninegrid.NineGridView;
 import com.lzy.ninegrid.preview.NineGridViewClickAdapter;
-import com.oginotihiro.cropview.CropUtil;
 import com.shcyd.lib.utils.StringUtils;
 import com.yalantis.ucrop.entity.LocalMedia;
 import com.zzia.graduationproject.R;
@@ -45,18 +40,15 @@ import com.zzia.graduationproject.model.Diary;
 import com.zzia.graduationproject.model.DiaryPraise;
 import com.zzia.graduationproject.model.PhotoConnect;
 import com.zzia.graduationproject.model.VideoConnect;
-import com.zzia.graduationproject.ui.activity.me.AvatarSettingActivity;
 import com.zzia.graduationproject.utils.ImgThumbUtils;
 import com.zzia.graduationproject.utils.WindowUtils;
 
-import java.io.File;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
 
-import static android.provider.MediaStore.Video.Thumbnails.MICRO_KIND;
 import static android.provider.MediaStore.Video.Thumbnails.MINI_KIND;
 
 public class CampusLifeActivity extends BaseActivity {
@@ -88,8 +80,8 @@ public class CampusLifeActivity extends BaseActivity {
     String campusLife;
     String friendsTrend;
     String mySendDiary;
-    int currentPage=0;
-    int count =10;
+    int currentPage = 0;
+    int count = 10;
 
 
     @Override
@@ -130,7 +122,7 @@ public class CampusLifeActivity extends BaseActivity {
                 holder.setText(R.id.idn_tv_name, diary.getUser().getNickName());
                 holder.setText(R.id.idn_tv_description, diary.getDiaryContent());
                 holder.setText(R.id.idn_tv_location, diary.getSendAddress());
-                holder.setText(R.id.idn_tv_sendTime,diary.getCreateDateTransfer());
+                holder.setText(R.id.idn_tv_sendTime, diary.getCreateDateTransfer());
                 //全文点击效果
                 holder.setOnClickListener(R.id.idn_tv_allContentLabel, new View.OnClickListener() {
                     @Override
@@ -304,7 +296,7 @@ public class CampusLifeActivity extends BaseActivity {
 
     private void initData() {
         if (!StringUtils.isEmpty(campusLife)) {
-            call(ApiClient.getApis().getAllDiary(App.getUser().getUserId(),currentPage,count), new MySubscriber<BaseResp<List<Diary>>>() {
+            call(ApiClient.getApis().getAllDiary(App.getUser().getUserId(), currentPage, count), new MySubscriber<BaseResp<List<Diary>>>() {
                 @Override
                 public void onError(Throwable e) {
 
@@ -317,13 +309,21 @@ public class CampusLifeActivity extends BaseActivity {
                             currentPage++;
                             mList.addAll(resp.data);
                             mAdapter.notifyDataSetChanged();
+                            //做缓存添加到sqLite
+                            for (Diary diary : resp.data) {
+                                diary.save();
+                                for (PhotoConnect photoConnect : diary.getPhotoList()) {
+                                    photoConnect.save();
+                                }
+
+                            }
                         }
                     }
                 }
 
             });
         } else if (!StringUtils.isEmpty(friendsTrend)) {
-            call(ApiClient.getApis().getAllFriendsDiary(App.getUser().getUserId(),currentPage,count), new MySubscriber<BaseResp<List<Diary>>>() {
+            call(ApiClient.getApis().getAllFriendsDiary(App.getUser().getUserId(), currentPage, count), new MySubscriber<BaseResp<List<Diary>>>() {
                 @Override
                 public void onError(Throwable e) {
 
@@ -341,8 +341,8 @@ public class CampusLifeActivity extends BaseActivity {
                 }
 
             });
-        }else if(!StringUtils.isEmpty(mySendDiary)){
-            call(ApiClient.getApis().getAllMyDiary(App.getUser().getUserId(),currentPage,count), new MySubscriber<BaseResp<List<Diary>>>() {
+        } else if (!StringUtils.isEmpty(mySendDiary)) {
+            call(ApiClient.getApis().getAllMyDiary(App.getUser().getUserId(), currentPage, count), new MySubscriber<BaseResp<List<Diary>>>() {
                 @Override
                 public void onError(Throwable e) {
 

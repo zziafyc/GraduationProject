@@ -1,6 +1,10 @@
 package com.zzia.graduationproject.model;
 
+import org.litepal.annotation.Column;
+import org.litepal.crud.DataSupport;
+
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,11 +13,11 @@ import java.util.List;
  * 博客：http://blog.csdn.net/u013769274
  */
 
-public class Diary implements Serializable {
+public class Diary extends DataSupport implements Serializable {
     /**
      * 日记类
      */
-    private static final long serialVersionUID = 1L;
+    @Column(unique = true)
     private String diaryId;
 
     private String userId;
@@ -34,7 +38,7 @@ public class Diary implements Serializable {
 
     private User user;
 
-    private List<PhotoConnect> photoList;
+    private List<PhotoConnect> photoList=new ArrayList<>();
 
     private VideoConnect videoConnect;
 
@@ -173,4 +177,5 @@ public class Diary implements Serializable {
     public void setSendAddress(String sendAddress) {
         this.sendAddress = sendAddress;
     }
+
 }

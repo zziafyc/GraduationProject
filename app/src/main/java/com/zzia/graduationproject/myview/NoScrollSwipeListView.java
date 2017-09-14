@@ -67,4 +67,8 @@ public class NoScrollSwipeListView extends SwipeMenuListView {
                 getContext().getResources().getDisplayMetrics());
     }
 
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        return super.dispatchTouchEvent(ev);
+    }
 }

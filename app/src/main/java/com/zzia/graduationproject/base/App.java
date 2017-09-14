@@ -11,21 +11,20 @@ import com.baidu.mapapi.SDKInitializer;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.lzy.ninegrid.NineGridView;
+import com.tencent.bugly.crashreport.CrashReport;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.RongProvider.MyPrivateConversationProvider;
 import com.zzia.graduationproject.api.ApiClient;
 import com.zzia.graduationproject.api.MySubscriber;
 import com.zzia.graduationproject.api.resp.BaseResp;
 import com.zzia.graduationproject.model.User;
-import com.zzia.graduationproject.utils.ImageUtils;
 
-import java.io.IOException;
-import java.util.List;
+import org.litepal.LitePal;
+import org.litepal.tablemanager.Connector;
 
 import cn.smssdk.SMSSDK;
 import io.rong.imkit.RongIM;
 import io.rong.imlib.model.UserInfo;
-import retrofit2.Response;
 
 import static com.zzia.graduationproject.api.ApiClient.call;
 
@@ -56,6 +55,21 @@ public class App extends Application {
         super.onCreate();
         instance = this;
         /**
+         * bugly的初始化
+         * 第三个参数为SDK调试模式开关，调试模式的行为特性如下：
+         * 输出详细的Bugly SDK的Log；
+         * 每一条Crash都会被立即上报；
+         * 自定义日志将会在Logcat中输出。
+         * 建议在测试阶段建议设置成true，发布时设置为false
+         */
+        CrashReport.initCrashReport(getApplicationContext(), "4c24f903ef", true);
+
+        /**
+         * litePal的初始化,以及数据库的创建
+         */
+        LitePal.initialize(this);
+        Connector.getDatabase();
+        /**
          *  关于百度地图
          */
         SDKInitializer.initialize(this);
@@ -81,6 +95,7 @@ public class App extends Application {
                         public void onError(Throwable e) {
 
                         }
+
                         @Override
                         public void onNext(BaseResp<User> resp) {
                             if (resp.resultCode == Constants.RespCode.SUCCESS) {
@@ -100,7 +115,7 @@ public class App extends Application {
             }
         }, true);
         /**
-         * 关于nineGrideview的加载方式,Glide 加载
+         * 关于nineGridView的加载方式,Glide 加载
          */
         class GlideImageLoader implements NineGridView.ImageLoader {
             @Override

@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.widget.RadioGroup;
 
@@ -151,22 +152,26 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     private void connectRongYun() {
         //连接融云
         if (this.getApplicationInfo().packageName.equals(App.getCurProcessName(this))) {
-            RongIM.connect(App.getUser().getToken(), new RongIMClient.ConnectCallback() {
-                @Override
-                public void onTokenIncorrect() {
-                    showToast("token获取失败");
-                }
+            if (App.getUser() != null) {
+                if (!TextUtils.isEmpty(App.getUser().getToken())) {
+                    RongIM.connect(App.getUser().getToken(), new RongIMClient.ConnectCallback() {
+                        @Override
+                        public void onTokenIncorrect() {
+                            showToast("token获取失败");
+                        }
 
-                @Override
-                public void onSuccess(String userId) {
-                    //showToast("连接融云成功");
-                }
+                        @Override
+                        public void onSuccess(String userId) {
+                            //showToast("连接融云成功");
+                        }
 
-                @Override
-                public void onError(RongIMClient.ErrorCode errorCode) {
-                    showToast("融云客户端错误");
+                        @Override
+                        public void onError(RongIMClient.ErrorCode errorCode) {
+                            showToast("融云客户端错误");
+                        }
+                    });
                 }
-            });
+            }
         }
     }
 }

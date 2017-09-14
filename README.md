@@ -71,6 +71,13 @@
            compile 'com.qiniu:qiniu-android-sdk:7.2.+'
            //recyclerView加头部
            compile 'com.bartoszlipinski:recyclerviewheader2:2.0.1'
+            //添加腾讯Bugly错误日志检测
+           dependencies {
+             compile 'com.tencent.bugly:crashreport:latest.release'
+             compile 'com.tencent.bugly:nativecrashreport:latest.release'
+           }
+           //引入litePal关系型sqLite数据库的封装
+             compile 'org.litepal.android:core:1.6.0'
        }
 
 > 最后，该项目的详细介绍和界面展示在我的博客里面可以看到，另外该项目会一直更新，如果发现一些bug，希望大家给我分享一下，我会及时改正。
