@@ -1,11 +1,14 @@
 package com.zzia.graduationproject.ui.activity.login;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
+import android.os.Bundle;
 import android.text.Editable;
 import android.text.Selection;
 import android.text.Spannable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -16,12 +19,17 @@ import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.reflect.TypeToken;
 import com.shcyd.lib.adapter.BasicAdapter;
 import com.shcyd.lib.adapter.ViewHolder;
 import com.shcyd.lib.utils.MD5Utils;
 import com.shcyd.lib.utils.StringUtils;
+import com.umeng.socialize.UMAuthListener;
+import com.umeng.socialize.UMShareAPI;
+import com.umeng.socialize.bean.SHARE_MEDIA;
+import com.umeng.socialize.utils.SocializeUtils;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.api.ApiClient;
 import com.zzia.graduationproject.api.MySubscriber;
@@ -35,12 +43,10 @@ import com.zzia.graduationproject.ui.activity.register.RegisterPhoneActivity;
 import com.zzia.graduationproject.utils.SharePreferenceUtils;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 import butterknife.Bind;
-import io.rong.imkit.RongIM;
-import io.rong.imlib.model.UserInfo;
 
 public class LoginActivity extends BaseActivity {
 
@@ -68,6 +74,7 @@ public class LoginActivity extends BaseActivity {
     LinearLayout qqLoginLv;
     @Bind(R.id.al_verify_lyt)
     RelativeLayout verifyLoginRv;
+    private ProgressDialog dialog;
     User mUser = new User();
 
 
@@ -90,6 +97,7 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void initViews() {
+        dialog = new ProgressDialog(this);
         if (phoneEdit.getText().toString().trim().length() > 0) {
             CharSequence text = phoneEdit.getText();
             if (text instanceof Spannable) {
@@ -137,7 +145,7 @@ public class LoginActivity extends BaseActivity {
                 } else {
                     holder.setBackgroundImage(R.id.iu_root_lyt, R.drawable.bottom_border);
                 }
-                holder.setText(R.id.iu_phone_txt,item);
+                holder.setText(R.id.iu_phone_txt, item);
                 holder.onClick(R.id.iu_delete_lyt, new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -335,7 +343,7 @@ public class LoginActivity extends BaseActivity {
                             }
                         }
                         if (!flag) {
-                            users.add(0,resp.data);
+                            users.add(0, resp.data);
                         }
                         SharePreferenceUtils.put(LoginActivity.this, "users", users);
                         goAndFinish(MainActivity.class);
@@ -353,14 +361,93 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void weiXinLogin() {
-
+        UMShareAPI.get(mContext).doOauthVerify(this, SHARE_MEDIA.WEIXIN, authListener);
     }
 
     private void qqLogin() {
-
+        UMShareAPI.get(mContext).doOauthVerify(this, SHARE_MEDIA.QQ, authListener);
     }
 
     private void verifyLogin() {
+        UMShareAPI.get(mContext).doOauthVerify(this, SHARE_MEDIA.SINA, authListener);
+    }
 
+    UMAuthListener authListener = new UMAuthListener() {
+        @Override
+        public void onStart(SHARE_MEDIA media) {
+            SocializeUtils.safeShowDialog(dialog);
+
+        }
+
+        @Override
+        public void onComplete(SHARE_MEDIA media, int i, Map<String, String> map) {
+            //友盟将回调过来的信息，都封装了，方便同意得到
+            SocializeUtils.safeCloseDialog(dialog);
+            String uid = map.get("uid");
+            String name = map.get("name");
+            String sex = map.get("gender");
+            String imageUrl = map.get("iconurl");
+            Log.e("fyc", uid + " " + name + " " + sex + " " + imageUrl);
+            mUser.setNickName(name);
+            mUser.setSex(sex);
+            mUser.setAddress(imageUrl);
+            if (media == SHARE_MEDIA.QQ) {
+                mUser.setQq(uid);
+            } else if (media == SHARE_MEDIA.WEIXIN) {
+                mUser.setWeChat(map.get("unionid"));
+            } else if (media == SHARE_MEDIA.SINA) {
+
+            }
+           /* call(ApiClient.getApis().register(mUser), new MySubscriber<BaseResp<User>>() {
+                @Override
+                public void onError(Throwable e) {
+                    showToast(getResources().getString(R.string.systemError));
+                }
+
+                @Override
+                public void onNext(final BaseResp<User> resp) {
+                    if (resp.resultCode == Constants.RespCode.SUCCESS) {
+                        if (resp.status == Constants.RespCode.SUCCESS) {
+                            //用户登录成功
+                            App.setUser(resp.data);
+                            goAndFinish(MainActivity.class);
+
+                        } else if (resp.status == Constants.RespCode.ONLINE) {
+                            showToast("对不起，该用户已在其他终端登录");
+                        }
+                    }
+                }
+            });
+*/
+        }
+
+        @Override
+        public void onError(SHARE_MEDIA media, int i, Throwable throwable) {
+            SocializeUtils.safeCloseDialog(dialog);
+            Toast.makeText(mContext, "失败：" + throwable.getMessage(), Toast.LENGTH_LONG).show();
+        }
+
+        @Override
+        public void onCancel(SHARE_MEDIA media, int i) {
+            SocializeUtils.safeCloseDialog(dialog);
+        }
+    };
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        UMShareAPI.get(this).onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        UMShareAPI.get(this).release();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        UMShareAPI.get(this).onSaveInstanceState(outState);
     }
 }

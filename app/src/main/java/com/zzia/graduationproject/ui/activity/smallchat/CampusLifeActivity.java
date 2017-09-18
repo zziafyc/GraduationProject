@@ -1,7 +1,10 @@
 package com.zzia.graduationproject.ui.activity.smallchat;
 
 import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -25,6 +28,17 @@ import com.lzy.ninegrid.ImageInfo;
 import com.lzy.ninegrid.NineGridView;
 import com.lzy.ninegrid.preview.NineGridViewClickAdapter;
 import com.shcyd.lib.utils.StringUtils;
+import com.umeng.social.tool.UMImageMark;
+import com.umeng.socialize.ShareAction;
+import com.umeng.socialize.UMShareAPI;
+import com.umeng.socialize.UMShareListener;
+import com.umeng.socialize.bean.SHARE_MEDIA;
+import com.umeng.socialize.media.UMEmoji;
+import com.umeng.socialize.media.UMImage;
+import com.umeng.socialize.media.UMVideo;
+import com.umeng.socialize.media.UMWeb;
+import com.umeng.socialize.media.UMusic;
+import com.umeng.socialize.utils.SocializeUtils;
 import com.yalantis.ucrop.entity.LocalMedia;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.api.ApiClient;
@@ -36,6 +50,7 @@ import com.zzia.graduationproject.base.Constants;
 import com.zzia.graduationproject.base.recyclerview.CommonAdapter;
 import com.zzia.graduationproject.base.recyclerview.MyDividerItemDecoration;
 import com.zzia.graduationproject.base.recyclerview.ViewHolder;
+import com.zzia.graduationproject.model.DefaultContent;
 import com.zzia.graduationproject.model.Diary;
 import com.zzia.graduationproject.model.DiaryPraise;
 import com.zzia.graduationproject.model.PhotoConnect;
@@ -43,6 +58,10 @@ import com.zzia.graduationproject.model.VideoConnect;
 import com.zzia.graduationproject.utils.ImgThumbUtils;
 import com.zzia.graduationproject.utils.WindowUtils;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -59,6 +78,8 @@ public class CampusLifeActivity extends BaseActivity {
     CommonAdapter<Diary> mAdapter;
     List<Diary> mList = new ArrayList<>();
     Dialog deleteDiaryDialog;
+    Dialog platformDialog;
+    private ProgressDialog dialog;
     PopupWindow mPop;
     List<LocalMedia> selectMedia = new ArrayList<>();
     private int selectMode = FunctionConfig.MODE_MULTIPLE; //多选模式
@@ -82,6 +103,13 @@ public class CampusLifeActivity extends BaseActivity {
     String mySendDiary;
     int currentPage = 0;
     int count = 10;
+    //友盟变量
+    private UMImage imageurl, imagelocal;
+    private UMVideo video;
+    private UMusic music;
+    private UMEmoji emoji;
+    private UMWeb web;
+    private File file;
 
 
     @Override
@@ -109,6 +137,7 @@ public class CampusLifeActivity extends BaseActivity {
     }
 
     private void initViews() {
+        dialog = new ProgressDialog(this);
         rightImgView.setVisibility(View.VISIBLE);
     }
 
@@ -128,6 +157,50 @@ public class CampusLifeActivity extends BaseActivity {
                     @Override
                     public void onClick(View view) {
 
+                    }
+                });
+                holder.setOnClickListener(R.id.idn_iv_share, new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        //分享到第三方平台
+                        platformDialog = new Dialog(CampusLifeActivity.this, R.style.NoTitleDialogStyle);
+                        platformDialog.setContentView(R.layout.dialog_platform);
+                        ImageView qqImg = (ImageView) platformDialog.findViewById(R.id.platform_qq);
+                        ImageView weChatImg = (ImageView) platformDialog.findViewById(R.id.platform_weChat);
+                        ImageView weiBoImg = (ImageView) platformDialog.findViewById(R.id.platform_weiBo);
+                        platformDialog.setCanceledOnTouchOutside(true);
+                        platformDialog.show();
+                        //初始化相关模拟数据
+                        initMedia();
+                        qqImg.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new ShareAction(CampusLifeActivity.this).withText(diary.getDiaryContent())
+                                        .withMedia(imagelocal)
+                                        .setPlatform(SHARE_MEDIA.QQ)
+                                        .setCallback(shareListener).share();
+                            }
+                        });
+                        weChatImg.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new ShareAction(CampusLifeActivity.this).withText(diary.getDiaryContent())
+                                        .withMedia(imagelocal)
+                                        .setPlatform(SHARE_MEDIA.WEIXIN)
+                                        .setCallback(shareListener).share();
+
+                            }
+                        });
+                        weiBoImg.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new ShareAction(CampusLifeActivity.this).withText(diary.getDiaryContent())
+                                        .withMedia(imagelocal)
+                                        .setPlatform(SHARE_MEDIA.SINA)
+                                        .setCallback(shareListener).share();
+
+                            }
+                        });
                     }
                 });
                 //图片九宫格
@@ -492,4 +565,113 @@ public class CampusLifeActivity extends BaseActivity {
             }
         }
     };
+
+    private void initMedia() {
+        UMImageMark umImageMark = new UMImageMark();
+        umImageMark.setGravity(Gravity.BOTTOM | Gravity.RIGHT);
+        umImageMark.setMarkBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.login_logo));
+        imageurl = new UMImage(this, DefaultContent.imageurl);
+        imageurl.setThumb(new UMImage(this, R.drawable.thumb));
+        imagelocal = new UMImage(this, R.drawable.login_logo);
+        imagelocal.setThumb(new UMImage(this, R.drawable.thumb));
+        music = new UMusic(DefaultContent.musicurl);
+        video = new UMVideo(DefaultContent.videourl);
+        web = new UMWeb(DefaultContent.url);
+        web.setTitle("This is web title");
+        web.setThumb(new UMImage(this, R.drawable.thumb));
+        web.setDescription("my description");
+        music.setTitle("This is music title");
+        music.setThumb(new UMImage(this, R.drawable.thumb));
+        music.setDescription("my description");
+        music.setmTargetUrl(DefaultContent.url);
+        video.setThumb(new UMImage(this, R.drawable.thumb));
+        video.setTitle("This is video title");
+        video.setDescription("my description");
+        emoji = new UMEmoji(this, "http://img5.imgtn.bdimg.com/it/u=2749190246,3857616763&fm=21&gp=0.jpg");
+        emoji.setThumb(new UMImage(this, R.drawable.thumb));
+        file = new File(this.getFilesDir() + "test.txt");
+        if (!file.exists()) {
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        if (SocializeUtils.File2byte(file).length <= 0) {
+            String content = "U-share分享";
+            byte[] contentInBytes = content.getBytes();
+            try {
+                FileOutputStream fop = new FileOutputStream(file);
+                fop.write(contentInBytes);
+                fop.flush();
+                fop.close();
+
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
+
+    private UMShareListener shareListener = new UMShareListener() {
+        /**
+         * @descrption 分享开始的回调
+         * @param platform 平台类型
+         */
+        @Override
+        public void onStart(SHARE_MEDIA platform) {
+            SocializeUtils.safeShowDialog(dialog);
+        }
+
+        /**
+         * @descrption 分享成功的回调
+         * @param platform 平台类型
+         */
+        @Override
+        public void onResult(SHARE_MEDIA platform) {
+            showToast("成功了");
+            platformDialog.dismiss();
+            SocializeUtils.safeCloseDialog(dialog);
+
+        }
+
+        /**
+         * @descrption 分享失败的回调
+         * @param platform 平台类型
+         * @param t 错误原因
+         */
+        @Override
+        public void onError(SHARE_MEDIA platform, Throwable t) {
+            SocializeUtils.safeCloseDialog(dialog);
+            platformDialog.dismiss();
+            showToast("失败");
+        }
+
+        /**
+         * @descrption 分享取消的回调
+         * @param platform 平台类型
+         */
+        @Override
+        public void onCancel(SHARE_MEDIA platform) {
+            platformDialog.dismiss();
+            SocializeUtils.safeCloseDialog(dialog);
+
+        }
+    };
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        SocializeUtils.safeCloseDialog(dialog);
+        platformDialog.dismiss();
+        UMShareAPI.get(this).onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        UMShareAPI.get(this).release();
+    }
 }

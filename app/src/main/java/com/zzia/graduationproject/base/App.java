@@ -12,6 +12,8 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.lzy.ninegrid.NineGridView;
 import com.tencent.bugly.crashreport.CrashReport;
+import com.umeng.socialize.PlatformConfig;
+import com.umeng.socialize.UMShareAPI;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.RongProvider.MyPrivateConversationProvider;
 import com.zzia.graduationproject.api.ApiClient;
@@ -37,6 +39,15 @@ public class App extends Application {
     private static App instance;
     private static User user;
     private static User model;
+    static {
+        //微信
+        PlatformConfig.setWeixin("wxdc1e388c3822c80b", "3baf1193c85774b3fd9d18447d76cab0");
+       //QQ
+        PlatformConfig.setQQZone("100424468", "c7394704798a158208a74ab60104f0ba");
+        //微博
+        PlatformConfig.setSinaWeibo("3921700954", "04b48b094faeb16683c32669824ebdad","http://sns.whalecloud.com");
+
+    }
 
     public static App getInstance() {
         return instance;
@@ -69,6 +80,11 @@ public class App extends Application {
          */
         LitePal.initialize(this);
         Connector.getDatabase();
+        /**
+         * 友盟第三方授权登录、分享
+         */
+        //开启debug模式，方便定位错误，具体错误检查方式可以查看http://dev.umeng.com/social/android/quick-integration的报错必看，正式发布，请关闭该模式
+        UMShareAPI.get(this);
         /**
          *  关于百度地图
          */
@@ -153,4 +169,6 @@ public class App extends Application {
         }
         return null;
     }
+
+
 }

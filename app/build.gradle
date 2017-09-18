@@ -102,10 +102,8 @@ dependencies {
     //recyclerView加头部
     compile 'com.bartoszlipinski:recyclerviewheader2:2.0.1'
     //添加腾讯Bugly错误日志检测
-    dependencies {
-        compile 'com.tencent.bugly:crashreport:latest.release'
-        compile 'com.tencent.bugly:nativecrashreport:latest.release'
-    }
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
     //引入litePal关系型sqLite数据库的封装
     compile 'org.litepal.android:core:1.6.0'
 }
