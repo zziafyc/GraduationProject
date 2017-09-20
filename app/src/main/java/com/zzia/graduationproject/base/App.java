@@ -24,6 +24,7 @@ import com.zzia.graduationproject.model.User;
 import org.litepal.LitePal;
 import org.litepal.tablemanager.Connector;
 
+import cn.jpush.android.api.JPushInterface;
 import cn.smssdk.SMSSDK;
 import io.rong.imkit.RongIM;
 import io.rong.imlib.model.UserInfo;
@@ -83,8 +84,11 @@ public class App extends Application {
         /**
          * 友盟第三方授权登录、分享
          */
-        //开启debug模式，方便定位错误，具体错误检查方式可以查看http://dev.umeng.com/social/android/quick-integration的报错必看，正式发布，请关闭该模式
         UMShareAPI.get(this);
+        /**
+         * 极光推送初始化
+         */
+        JPushInterface.init(this);
         /**
          *  关于百度地图
          */

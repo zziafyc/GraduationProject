@@ -33,10 +33,10 @@ public class Constants {
 
     public static class Urls {
         //后台访问地址
-        public static final String API_URL = "http://192.168.31.73:8080/GraduationProjectBackGround/";
+        public static final String API_URL = "http://192.168.1.138:8080/GraduationProjectBackGround/";
         //public static final String API_URL = "http://47.94.152.253:8080/GraduationProjectBackGround/";
         //图片链接地址
-        public static final String PIC_URL = "http://192.168.31.73:8080/GraduationProjectBackGround/";
+        public static final String PIC_URL = "http://192.168.1.138:8080/GraduationProjectBackGround/";
        // public static final String PIC_URL = "http://47.94.152.253:8080/GraduationProjectBackGround/";
         //客户端存放根路径。
         public static final String CZF_ROOT_URL = "CZF/files/";

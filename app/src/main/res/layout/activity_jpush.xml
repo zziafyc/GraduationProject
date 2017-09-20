@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zzia.graduationproject.ui.activity.push.JPushActivity">
+
+    <include layout="@layout/common_app_bar"/>
+
+    <TextView
+        android:id="@+id/aj_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_12"
+        android:hint="推送的标题"
+        android:textColor="@color/colorTitle"
+        android:textSize="@dimen/font_size_20"/>
+
+    <TextView
+        android:id="@+id/aj_tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:layout_marginRight="@dimen/margin_12"
+        android:layout_marginTop="@dimen/margin_12"
+        android:hint="推送的内容"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/font_size_15"/>
+
+</LinearLayout>
