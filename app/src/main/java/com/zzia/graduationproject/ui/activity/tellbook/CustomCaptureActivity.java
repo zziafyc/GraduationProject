@@ -7,15 +7,14 @@ import android.hardware.Camera;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.uuzuche.lib_zxing.activity.CaptureFragment;
 import com.uuzuche.lib_zxing.activity.CodeUtils;
+import com.uuzuche.lib_zxing.camera.CameraManager;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.base.BaseActivity;
 import com.zzia.graduationproject.utils.QrImageUtils;
@@ -99,7 +98,7 @@ public class CustomCaptureActivity extends BaseActivity {
         openFlashTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Camera camera= Camera.open();
+                Camera camera= CameraManager.get().getCamera();
                 //关闭闪光灯
                 if(isOpen){
                     if (camera != null) {

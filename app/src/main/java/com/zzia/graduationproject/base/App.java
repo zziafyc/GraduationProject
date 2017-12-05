@@ -1,17 +1,19 @@
 package com.zzia.graduationproject.base;
 
 import android.app.ActivityManager;
-import android.app.Application;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.support.multidex.MultiDex;
+import android.support.multidex.MultiDexApplication;
 import android.widget.ImageView;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.lzy.ninegrid.NineGridView;
-import com.tencent.bugly.crashreport.CrashReport;
+import com.squareup.leakcanary.LeakCanary;
+import com.tencent.bugly.Bugly;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
 import com.zzia.graduationproject.R;
@@ -36,17 +38,18 @@ import static com.zzia.graduationproject.api.ApiClient.call;
  * Email : 847891359@qq.com .
  * GitHub : https://github.com/zziafyc
  */
-public class App extends Application {
+public class App extends MultiDexApplication {
     private static App instance;
     private static User user;
     private static User model;
+
     static {
         //微信
         PlatformConfig.setWeixin("wxdc1e388c3822c80b", "3baf1193c85774b3fd9d18447d76cab0");
-       //QQ
+        //QQ
         PlatformConfig.setQQZone("100424468", "c7394704798a158208a74ab60104f0ba");
         //微博
-        PlatformConfig.setSinaWeibo("3921700954", "04b48b094faeb16683c32669824ebdad","http://sns.whalecloud.com");
+        PlatformConfig.setSinaWeibo("3921700954", "04b48b094faeb16683c32669824ebdad", "http://sns.whalecloud.com");
 
     }
 
@@ -63,18 +66,26 @@ public class App extends Application {
     }
 
     @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
+    }
+
+    @Override
     public void onCreate() {
         super.onCreate();
         instance = this;
         /**
-         * bugly的初始化
-         * 第三个参数为SDK调试模式开关，调试模式的行为特性如下：
-         * 输出详细的Bugly SDK的Log；
-         * 每一条Crash都会被立即上报；
-         * 自定义日志将会在Logcat中输出。
-         * 建议在测试阶段建议设置成true，发布时设置为false
+         * 内存泄漏检测
          */
-        CrashReport.initCrashReport(getApplicationContext(), "4c24f903ef", true);
+        if(LeakCanary.isInAnalyzerProcess(this)){
+           return;
+        }
+        LeakCanary.install(this);
+        /**
+         * bugly的初始化
+         */
+        Bugly.init(getApplicationContext(), "4c24f903ef", false);
 
         /**
          * litePal的初始化,以及数据库的创建

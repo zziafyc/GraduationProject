@@ -110,5 +110,4 @@ public interface Apis {
     @POST("travelAction_getTravelPlanDetail")
     Observable<BaseResp<TravelPlan>> getTravelPlanDetail(@Query("travelId") String travelId);
 
-
 }

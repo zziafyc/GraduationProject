@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="rc_action_bar_back">返回</string>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
+<string name="rc_action_bar_back">返回</string>
     <string name="rc_action_bar_ok">确定</string>
 
     <string name="rc_plugin_location">位置</string>
@@ -21,7 +22,6 @@
     <string name="rc_ext_warning">提示</string>
     <string name="rc_ext_exit_location_sharing">是否结束位置共享？</string>
     <string name="rc_real_time_exit_notification">离开会话，位置共享也会结束，确定离开？</string>
-
     <string name="rc_ext_location_permission_failed">您需要在设置里打开定位权限</string>
 
     <!-- PictureSelectorActivity -->

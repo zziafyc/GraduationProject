@@ -157,7 +157,26 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
                     RongIM.connect(App.getUser().getToken(), new RongIMClient.ConnectCallback() {
                         @Override
                         public void onTokenIncorrect() {
-                            showToast("token获取失败");
+                            RongIM.connect(App.getUser().getToken(), new RongIMClient.ConnectCallback() {
+                                @Override
+                                public void onTokenIncorrect() {
+                                    showToast("token获取失败");
+
+
+                                }
+
+                                @Override
+                                public void onSuccess(String userId) {
+                                    //showToast("连接融云成功");
+                                }
+
+                                @Override
+                                public void onError(RongIMClient.ErrorCode errorCode) {
+                                    showToast("融云客户端错误");
+                                }
+                            });
+
+
                         }
 
                         @Override

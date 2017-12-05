@@ -23,7 +23,7 @@ import rx.subscriptions.CompositeSubscription;
 /**
  * Created by tiangongyipin on 16/2/15.
  */
-public abstract class BaseActivity extends BaseAppCompatActivity  {
+public abstract class BaseActivity extends BaseAppCompatActivity {
 
     private LoadingPopup loadingPop;
     private CompositeSubscription subscriptions;
@@ -216,7 +216,7 @@ public abstract class BaseActivity extends BaseAppCompatActivity  {
     protected void onNavigateClick() {
         if (hasTitlebar()) {
             RelativeLayout backView = ButterKnife.findById(this, R.id.actionbar_back);
-            if (backView != null&&backView.getVisibility()==View.VISIBLE) {
+            if (backView != null && backView.getVisibility() == View.VISIBLE) {
                 backView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -225,7 +225,7 @@ public abstract class BaseActivity extends BaseAppCompatActivity  {
                         if (imm != null) {
                             imm.hideSoftInputFromWindow(getWindow().getDecorView().getWindowToken(), 0);
                         }
-                       // finish();
+                        // finish();
                     }
                 });
             }

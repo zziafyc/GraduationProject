@@ -1,4 +1,5 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
     <string name="systemError">系统正忙,请稍后重试.......</string>
     <string name="app_name">校园微生活</string>
     <string name="save">保存</string>

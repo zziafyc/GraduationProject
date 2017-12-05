@@ -202,11 +202,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 877,
+                        "startOffset": 965,
                         "endColumn": 57,
-                        "endOffset": 930
+                        "endOffset": 1018
                     }
                 }
             },
@@ -221,11 +221,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 729,
+                        "startOffset": 817,
                         "endColumn": 54,
-                        "endOffset": 779
+                        "endOffset": 867
                     }
                 }
             },
@@ -240,11 +240,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 33,
                         "startColumn": 4,
-                        "startOffset": 1071,
+                        "startOffset": 1159,
                         "endColumn": 56,
-                        "endOffset": 1123
+                        "endOffset": 1211
                     }
                 }
             },
@@ -259,11 +259,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 192,
+                        "startOffset": 280,
                         "endColumn": 60,
-                        "endOffset": 248
+                        "endOffset": 336
                     }
                 }
             },
@@ -278,11 +278,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 284,
+                        "startOffset": 372,
                         "endColumn": 53,
-                        "endOffset": 333
+                        "endOffset": 421
                     }
                 }
             },
@@ -297,11 +297,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 961,
+                        "startOffset": 1049,
                         "endColumn": 45,
-                        "endOffset": 1002
+                        "endOffset": 1090
                     }
                 }
             },
@@ -316,11 +316,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 521,
+                        "startOffset": 609,
                         "endColumn": 61,
-                        "endOffset": 578
+                        "endOffset": 666
                     }
                 }
             },
@@ -2368,11 +2368,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 82,
+                        "startOffset": 170,
                         "endColumn": 69,
-                        "endOffset": 147
+                        "endOffset": 235
                     }
                 }
             },
@@ -2387,11 +2387,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 423,
+                        "startOffset": 511,
                         "endColumn": 70,
-                        "endOffset": 489
+                        "endOffset": 577
                     }
                 }
             },
@@ -2406,11 +2406,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 811,
+                        "startOffset": 899,
                         "endColumn": 60,
-                        "endOffset": 867
+                        "endOffset": 955
                     }
                 }
             },
@@ -2425,11 +2425,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 170,
+                        "startLine": 171,
                         "startColumn": 4,
-                        "startOffset": 8883,
+                        "startOffset": 8971,
                         "endColumn": 56,
-                        "endOffset": 8935
+                        "endOffset": 9023
                     }
                 }
             },
@@ -2444,11 +2444,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 172,
+                        "startLine": 173,
                         "startColumn": 4,
-                        "startOffset": 9019,
+                        "startOffset": 9107,
                         "endColumn": 69,
-                        "endOffset": 9084
+                        "endOffset": 9172
                     }
                 }
             },
@@ -2463,11 +2463,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 154,
+                        "startLine": 155,
                         "startColumn": 4,
-                        "startOffset": 7868,
+                        "startOffset": 7956,
                         "endColumn": 60,
-                        "endOffset": 7924
+                        "endOffset": 8012
                     }
                 }
             },
@@ -2482,11 +2482,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 171,
+                        "startLine": 172,
                         "startColumn": 4,
-                        "startOffset": 8940,
+                        "startOffset": 9028,
                         "endColumn": 78,
-                        "endOffset": 9014
+                        "endOffset": 9102
                     }
                 }
             },
@@ -2501,11 +2501,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 191,
+                        "startLine": 192,
                         "startColumn": 4,
-                        "startOffset": 10252,
+                        "startOffset": 10340,
                         "endColumn": 80,
-                        "endOffset": 10328
+                        "endOffset": 10416
                     }
                 }
             },
@@ -2520,11 +2520,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 193,
+                        "startLine": 194,
                         "startColumn": 4,
-                        "startOffset": 10408,
+                        "startOffset": 10496,
                         "endColumn": 76,
-                        "endOffset": 10480
+                        "endOffset": 10568
                     }
                 }
             },
@@ -2539,11 +2539,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 192,
+                        "startLine": 193,
                         "startColumn": 4,
-                        "startOffset": 10333,
+                        "startOffset": 10421,
                         "endColumn": 74,
-                        "endOffset": 10403
+                        "endOffset": 10491
                     }
                 }
             },
@@ -2558,11 +2558,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 162,
+                        "startLine": 163,
                         "startColumn": 4,
-                        "startOffset": 8387,
+                        "startOffset": 8475,
                         "endColumn": 58,
-                        "endOffset": 8441
+                        "endOffset": 8529
                     }
                 }
             },
@@ -2577,11 +2577,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 163,
+                        "startLine": 164,
                         "startColumn": 4,
-                        "startOffset": 8446,
+                        "startOffset": 8534,
                         "endColumn": 63,
-                        "endOffset": 8505
+                        "endOffset": 8593
                     }
                 }
             },
@@ -2596,11 +2596,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 164,
+                        "startLine": 165,
                         "startColumn": 4,
-                        "startOffset": 8510,
+                        "startOffset": 8598,
                         "endColumn": 63,
-                        "endOffset": 8569
+                        "endOffset": 8657
                     }
                 }
             },
@@ -2615,11 +2615,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 158,
+                        "startLine": 159,
                         "startColumn": 4,
-                        "startOffset": 8126,
+                        "startOffset": 8214,
                         "endColumn": 64,
-                        "endOffset": 8186
+                        "endOffset": 8274
                     }
                 }
             },
@@ -2634,11 +2634,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 156,
+                        "startLine": 157,
                         "startColumn": 4,
-                        "startOffset": 7997,
+                        "startOffset": 8085,
                         "endColumn": 63,
-                        "endOffset": 8056
+                        "endOffset": 8144
                     }
                 }
             },
@@ -2653,11 +2653,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 159,
+                        "startLine": 160,
                         "startColumn": 4,
-                        "startOffset": 8191,
+                        "startOffset": 8279,
                         "endColumn": 66,
-                        "endOffset": 8253
+                        "endOffset": 8341
                     }
                 }
             },
@@ -2672,11 +2672,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 155,
+                        "startLine": 156,
                         "startColumn": 4,
-                        "startOffset": 7929,
+                        "startOffset": 8017,
                         "endColumn": 67,
-                        "endOffset": 7992
+                        "endOffset": 8080
                     }
                 }
             },
@@ -2691,11 +2691,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 157,
+                        "startLine": 158,
                         "startColumn": 4,
-                        "startOffset": 8061,
+                        "startOffset": 8149,
                         "endColumn": 64,
-                        "endOffset": 8121
+                        "endOffset": 8209
                     }
                 }
             },
@@ -2710,11 +2710,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 160,
+                        "startLine": 161,
                         "startColumn": 4,
-                        "startOffset": 8258,
+                        "startOffset": 8346,
                         "endColumn": 62,
-                        "endOffset": 8316
+                        "endOffset": 8404
                     }
                 }
             },
@@ -2729,11 +2729,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 161,
+                        "startLine": 162,
                         "startColumn": 4,
-                        "startOffset": 8321,
+                        "startOffset": 8409,
                         "endColumn": 65,
-                        "endOffset": 8382
+                        "endOffset": 8470
                     }
                 }
             },
@@ -2748,11 +2748,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 185,
+                        "startLine": 186,
                         "startColumn": 4,
-                        "startOffset": 9844,
+                        "startOffset": 9932,
                         "endColumn": 66,
-                        "endOffset": 9906
+                        "endOffset": 9994
                     }
                 }
             },
@@ -2767,11 +2767,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 184,
+                        "startLine": 185,
                         "startColumn": 4,
-                        "startOffset": 9772,
+                        "startOffset": 9860,
                         "endColumn": 71,
-                        "endOffset": 9839
+                        "endOffset": 9927
                     }
                 }
             },
@@ -2786,11 +2786,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 189,
+                        "startLine": 190,
                         "startColumn": 4,
-                        "startOffset": 10109,
+                        "startOffset": 10197,
                         "endColumn": 65,
-                        "endOffset": 10170
+                        "endOffset": 10258
                     }
                 }
             },
@@ -2805,11 +2805,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 188,
+                        "startLine": 189,
                         "startColumn": 4,
-                        "startOffset": 10040,
+                        "startOffset": 10128,
                         "endColumn": 68,
-                        "endOffset": 10104
+                        "endOffset": 10192
                     }
                 }
             },
@@ -2824,11 +2824,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 187,
+                        "startLine": 188,
                         "startColumn": 4,
-                        "startOffset": 9973,
+                        "startOffset": 10061,
                         "endColumn": 66,
-                        "endOffset": 10035
+                        "endOffset": 10123
                     }
                 }
             },
@@ -2843,11 +2843,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 186,
+                        "startLine": 187,
                         "startColumn": 4,
-                        "startOffset": 9911,
+                        "startOffset": 9999,
                         "endColumn": 61,
-                        "endOffset": 9968
+                        "endOffset": 10056
                     }
                 }
             },
@@ -2862,11 +2862,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 173,
+                        "startLine": 174,
                         "startColumn": 4,
-                        "startOffset": 9089,
+                        "startOffset": 9177,
                         "endColumn": 55,
-                        "endOffset": 9140
+                        "endOffset": 9228
                     }
                 }
             },
@@ -2881,11 +2881,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 49,
-                        "endOffset": 100
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 143,
+                        "endColumn": 45,
+                        "endOffset": 188
                     }
                 }
             },
@@ -2900,11 +2900,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 105,
+                        "startOffset": 193,
                         "endColumn": 47,
-                        "endOffset": 148
+                        "endOffset": 236
                     }
                 }
             },
@@ -2919,11 +2919,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 169,
+                        "startLine": 170,
                         "startColumn": 4,
-                        "startOffset": 8831,
+                        "startOffset": 8919,
                         "endColumn": 51,
-                        "endOffset": 8878
+                        "endOffset": 8966
                     }
                 }
             },
@@ -2938,11 +2938,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 167,
+                        "startLine": 168,
                         "startColumn": 4,
-                        "startOffset": 8714,
+                        "startOffset": 8802,
                         "endColumn": 61,
-                        "endOffset": 8771
+                        "endOffset": 8859
                     }
                 }
             },
@@ -2957,11 +2957,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 168,
+                        "startLine": 169,
                         "startColumn": 4,
-                        "startOffset": 8776,
+                        "startOffset": 8864,
                         "endColumn": 54,
-                        "endOffset": 8826
+                        "endOffset": 8914
                     }
                 }
             },
@@ -2976,11 +2976,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 174,
+                        "startLine": 175,
                         "startColumn": 4,
-                        "startOffset": 9145,
+                        "startOffset": 9233,
                         "endColumn": 61,
-                        "endOffset": 9202
+                        "endOffset": 9290
                     }
                 }
             },
@@ -2995,11 +2995,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 175,
+                        "startLine": 176,
                         "startColumn": 4,
-                        "startOffset": 9207,
+                        "startOffset": 9295,
                         "endColumn": 67,
-                        "endOffset": 9270
+                        "endOffset": 9358
                     }
                 }
             },
@@ -3014,11 +3014,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 122,
+                        "startLine": 123,
                         "startColumn": 4,
-                        "startOffset": 6489,
+                        "startOffset": 6577,
                         "endColumn": 50,
-                        "endOffset": 6535
+                        "endOffset": 6623
                     }
                 }
             },
@@ -3033,11 +3033,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 216,
+                        "startLine": 217,
                         "startColumn": 4,
-                        "startOffset": 11574,
+                        "startOffset": 11662,
                         "endColumn": 77,
-                        "endOffset": 11647
+                        "endOffset": 11735
                     }
                 }
             },
@@ -3052,11 +3052,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 215,
+                        "startLine": 216,
                         "startColumn": 4,
-                        "startOffset": 11498,
+                        "startOffset": 11586,
                         "endColumn": 75,
-                        "endOffset": 11569
+                        "endOffset": 11657
                     }
                 }
             },
@@ -3071,11 +3071,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 214,
+                        "startLine": 215,
                         "startColumn": 4,
-                        "startOffset": 11438,
+                        "startOffset": 11526,
                         "endColumn": 59,
-                        "endOffset": 11493
+                        "endOffset": 11581
                     }
                 }
             },
@@ -3090,11 +3090,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 218,
+                        "startLine": 219,
                         "startColumn": 4,
-                        "startOffset": 11719,
+                        "startOffset": 11807,
                         "endColumn": 76,
-                        "endOffset": 11791
+                        "endOffset": 11879
                     }
                 }
             },
@@ -3109,11 +3109,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 217,
+                        "startLine": 218,
                         "startColumn": 4,
-                        "startOffset": 11652,
+                        "startOffset": 11740,
                         "endColumn": 66,
-                        "endOffset": 11714
+                        "endOffset": 11802
                     }
                 }
             },
@@ -3128,11 +3128,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 219,
+                        "startLine": 220,
                         "startColumn": 4,
-                        "startOffset": 11796,
+                        "startOffset": 11884,
                         "endColumn": 77,
-                        "endOffset": 11869
+                        "endOffset": 11957
                     }
                 }
             },
@@ -3147,11 +3147,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 373,
+                        "startOffset": 461,
                         "endColumn": 48,
-                        "endOffset": 417
+                        "endOffset": 505
                     }
                 }
             },
@@ -3166,11 +3166,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 422,
+                        "startOffset": 510,
                         "endColumn": 54,
-                        "endOffset": 472
+                        "endOffset": 560
                     }
                 }
             },
@@ -3185,11 +3185,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 149,
+                        "startLine": 150,
                         "startColumn": 4,
-                        "startOffset": 7662,
+                        "startOffset": 7750,
                         "endColumn": 56,
-                        "endOffset": 7714
+                        "endOffset": 7802
                     }
                 }
             },
@@ -3204,11 +3204,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 133,
+                        "startLine": 134,
                         "startColumn": 4,
-                        "startOffset": 7041,
+                        "startOffset": 7129,
                         "endColumn": 54,
-                        "endOffset": 7091
+                        "endOffset": 7179
                     }
                 }
             },
@@ -3223,11 +3223,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 129,
+                        "startLine": 130,
                         "startColumn": 4,
-                        "startOffset": 6838,
+                        "startOffset": 6926,
                         "endColumn": 56,
-                        "endOffset": 6890
+                        "endOffset": 6978
                     }
                 }
             },
@@ -3242,11 +3242,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 132,
+                        "startLine": 133,
                         "startColumn": 4,
-                        "startOffset": 6986,
+                        "startOffset": 7074,
                         "endColumn": 54,
-                        "endOffset": 7036
+                        "endOffset": 7124
                     }
                 }
             },
@@ -3261,11 +3261,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 128,
+                        "startLine": 129,
                         "startColumn": 4,
-                        "startOffset": 6786,
+                        "startOffset": 6874,
                         "endColumn": 51,
-                        "endOffset": 6833
+                        "endOffset": 6921
                     }
                 }
             },
@@ -3282,9 +3282,9 @@
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
-                        "startOffset": 2451,
+                        "startOffset": 2538,
                         "endColumn": 40,
-                        "endOffset": 2487
+                        "endOffset": 2574
                     }
                 }
             },
@@ -3299,11 +3299,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 152,
+                        "startLine": 153,
                         "startColumn": 4,
-                        "startOffset": 7815,
+                        "startOffset": 7903,
                         "endColumn": 51,
-                        "endOffset": 7862
+                        "endOffset": 7950
                     }
                 }
             },
@@ -3320,9 +3320,9 @@
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 2409,
+                        "startOffset": 2496,
                         "endColumn": 41,
-                        "endOffset": 2446
+                        "endOffset": 2533
                     }
                 }
             },
@@ -3337,11 +3337,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1777,
+                        "startOffset": 1865,
                         "endColumn": 71,
-                        "endOffset": 1844
+                        "endOffset": 1932
                     }
                 }
             },
@@ -3356,11 +3356,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1281,
+                        "startOffset": 1369,
                         "endColumn": 74,
-                        "endOffset": 1351
+                        "endOffset": 1439
                     }
                 }
             },
@@ -3375,11 +3375,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1849,
+                        "startOffset": 1937,
                         "endColumn": 78,
-                        "endOffset": 1923
+                        "endOffset": 2011
                     }
                 }
             },
@@ -3394,11 +3394,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1495,
+                        "startOffset": 1583,
                         "endColumn": 71,
-                        "endOffset": 1562
+                        "endOffset": 1650
                     }
                 }
             },
@@ -3413,11 +3413,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1567,
+                        "startOffset": 1655,
                         "endColumn": 71,
-                        "endOffset": 1634
+                        "endOffset": 1722
                     }
                 }
             },
@@ -3432,11 +3432,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1425,
+                        "startOffset": 1513,
                         "endColumn": 69,
-                        "endOffset": 1490
+                        "endOffset": 1578
                     }
                 }
             },
@@ -3451,11 +3451,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 1928,
+                        "startOffset": 2016,
                         "endColumn": 70,
-                        "endOffset": 1994
+                        "endOffset": 2082
                     }
                 }
             },
@@ -3470,11 +3470,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1066,
+                        "startOffset": 1154,
                         "endColumn": 66,
-                        "endOffset": 1128
+                        "endOffset": 1216
                     }
                 }
             },
@@ -3489,11 +3489,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1133,
+                        "startOffset": 1221,
                         "endColumn": 73,
-                        "endOffset": 1202
+                        "endOffset": 1290
                     }
                 }
             },
@@ -3508,11 +3508,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 997,
+                        "startOffset": 1085,
                         "endColumn": 68,
-                        "endOffset": 1061
+                        "endOffset": 1149
                     }
                 }
             },
@@ -3527,11 +3527,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 934,
+                        "startOffset": 1022,
                         "endColumn": 62,
-                        "endOffset": 992
+                        "endOffset": 1080
                     }
                 }
             },
@@ -3546,11 +3546,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 854,
+                        "startOffset": 942,
                         "endColumn": 79,
-                        "endOffset": 929
+                        "endOffset": 1017
                     }
                 }
             },
@@ -3565,11 +3565,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 31,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1999,
+                        "startOffset": 2087,
                         "endColumn": 70,
-                        "endOffset": 2065
+                        "endOffset": 2153
                     }
                 }
             },
@@ -3584,11 +3584,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1706,
+                        "startOffset": 1794,
                         "endColumn": 70,
-                        "endOffset": 1772
+                        "endOffset": 1860
                     }
                 }
             },
@@ -3603,11 +3603,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1639,
+                        "startOffset": 1727,
                         "endColumn": 66,
-                        "endOffset": 1701
+                        "endOffset": 1789
                     }
                 }
             },
@@ -3622,11 +3622,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1356,
+                        "startOffset": 1444,
                         "endColumn": 68,
-                        "endOffset": 1420
+                        "endOffset": 1508
                     }
                 }
             },
@@ -3641,11 +3641,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1207,
+                        "startOffset": 1295,
                         "endColumn": 73,
-                        "endOffset": 1276
+                        "endOffset": 1364
                     }
                 }
             },
@@ -3660,11 +3660,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 231,
+                        "startLine": 232,
                         "startColumn": 4,
-                        "startOffset": 12343,
+                        "startOffset": 12431,
                         "endColumn": 44,
-                        "endOffset": 12383
+                        "endOffset": 12471
                     }
                 }
             },
@@ -3679,11 +3679,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 142,
+                        "startLine": 143,
                         "startColumn": 4,
-                        "startOffset": 7421,
+                        "startOffset": 7509,
                         "endColumn": 43,
-                        "endOffset": 7460
+                        "endOffset": 7548
                     }
                 }
             },
@@ -3698,11 +3698,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 227,
+                        "startLine": 228,
                         "startColumn": 4,
-                        "startOffset": 12127,
+                        "startOffset": 12215,
                         "endColumn": 45,
-                        "endOffset": 12168
+                        "endOffset": 12256
                     }
                 }
             },
@@ -3717,11 +3717,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 139,
+                        "startLine": 140,
                         "startColumn": 4,
-                        "startOffset": 7255,
+                        "startOffset": 7343,
                         "endColumn": 59,
-                        "endOffset": 7310
+                        "endOffset": 7398
                     }
                 }
             },
@@ -3736,11 +3736,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 140,
+                        "startLine": 141,
                         "startColumn": 4,
-                        "startOffset": 7315,
+                        "startOffset": 7403,
                         "endColumn": 61,
-                        "endOffset": 7372
+                        "endOffset": 7460
                     }
                 }
             },
@@ -3755,11 +3755,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 228,
+                        "startLine": 229,
                         "startColumn": 4,
-                        "startOffset": 12173,
+                        "startOffset": 12261,
                         "endColumn": 62,
-                        "endOffset": 12231
+                        "endOffset": 12319
                     }
                 }
             },
@@ -3774,11 +3774,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 238,
+                        "startLine": 239,
                         "startColumn": 4,
-                        "startOffset": 12759,
+                        "startOffset": 12847,
                         "endColumn": 50,
-                        "endOffset": 12805
+                        "endOffset": 12893
                     }
                 }
             },
@@ -3793,11 +3793,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 240,
+                        "startLine": 241,
                         "startColumn": 4,
-                        "startOffset": 12864,
+                        "startOffset": 12952,
                         "endColumn": 58,
-                        "endOffset": 12918
+                        "endOffset": 13006
                     }
                 }
             },
@@ -3812,11 +3812,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 236,
+                        "startLine": 237,
                         "startColumn": 4,
-                        "startOffset": 12626,
+                        "startOffset": 12714,
                         "endColumn": 61,
-                        "endOffset": 12683
+                        "endOffset": 12771
                     }
                 }
             },
@@ -3831,11 +3831,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 237,
+                        "startLine": 238,
                         "startColumn": 4,
-                        "startOffset": 12688,
+                        "startOffset": 12776,
                         "endColumn": 70,
-                        "endOffset": 12754
+                        "endOffset": 12842
                     }
                 }
             },
@@ -3850,11 +3850,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 234,
+                        "startLine": 235,
                         "startColumn": 4,
-                        "startOffset": 12501,
+                        "startOffset": 12589,
                         "endColumn": 61,
-                        "endOffset": 12558
+                        "endOffset": 12646
                     }
                 }
             },
@@ -3869,11 +3869,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 230,
+                        "startLine": 231,
                         "startColumn": 4,
-                        "startOffset": 12293,
+                        "startOffset": 12381,
                         "endColumn": 49,
-                        "endOffset": 12338
+                        "endOffset": 12426
                     }
                 }
             },
@@ -3888,11 +3888,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 150,
+                        "startLine": 151,
                         "startColumn": 4,
-                        "startOffset": 7719,
+                        "startOffset": 7807,
                         "endColumn": 54,
-                        "endOffset": 7769
+                        "endOffset": 7857
                     }
                 }
             },
@@ -3907,11 +3907,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 141,
+                        "startLine": 142,
                         "startColumn": 4,
-                        "startOffset": 7377,
+                        "startOffset": 7465,
                         "endColumn": 43,
-                        "endOffset": 7416
+                        "endOffset": 7504
                     }
                 }
             },
@@ -3926,11 +3926,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 235,
+                        "startLine": 236,
                         "startColumn": 4,
-                        "startOffset": 12563,
+                        "startOffset": 12651,
                         "endColumn": 62,
-                        "endOffset": 12621
+                        "endOffset": 12709
                     }
                 }
             },
@@ -3945,11 +3945,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 239,
+                        "startLine": 240,
                         "startColumn": 4,
-                        "startOffset": 12810,
+                        "startOffset": 12898,
                         "endColumn": 53,
-                        "endOffset": 12859
+                        "endOffset": 12947
                     }
                 }
             },
@@ -3964,11 +3964,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 232,
+                        "startLine": 233,
                         "startColumn": 4,
-                        "startOffset": 12388,
+                        "startOffset": 12476,
                         "endColumn": 52,
-                        "endOffset": 12436
+                        "endOffset": 12524
                     }
                 }
             },
@@ -3983,11 +3983,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 229,
+                        "startLine": 230,
                         "startColumn": 4,
-                        "startOffset": 12236,
+                        "startOffset": 12324,
                         "endColumn": 56,
-                        "endOffset": 12288
+                        "endOffset": 12376
                     }
                 }
             },
@@ -4002,11 +4002,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 233,
+                        "startLine": 234,
                         "startColumn": 4,
-                        "startOffset": 12441,
+                        "startOffset": 12529,
                         "endColumn": 59,
-                        "endOffset": 12496
+                        "endOffset": 12584
                     }
                 }
             },
@@ -4021,11 +4021,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 111,
+                        "startLine": 112,
                         "startColumn": 4,
-                        "startOffset": 5955,
+                        "startOffset": 6043,
                         "endColumn": 43,
-                        "endOffset": 5994
+                        "endOffset": 6082
                     }
                 }
             },
@@ -4040,11 +4040,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 119,
+                        "startLine": 120,
                         "startColumn": 4,
-                        "startOffset": 6344,
+                        "startOffset": 6432,
                         "endColumn": 49,
-                        "endOffset": 6389
+                        "endOffset": 6477
                     }
                 }
             },
@@ -4059,11 +4059,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 223,
+                        "startLine": 224,
                         "startColumn": 4,
-                        "startOffset": 12008,
+                        "startOffset": 12096,
                         "endColumn": 53,
-                        "endOffset": 12057
+                        "endOffset": 12145
                     }
                 }
             },
@@ -4078,11 +4078,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 62,
+                        "startLine": 63,
                         "startColumn": 4,
-                        "startOffset": 3586,
+                        "startOffset": 3674,
                         "endColumn": 47,
-                        "endOffset": 3629
+                        "endOffset": 3717
                     }
                 }
             },
@@ -4097,11 +4097,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 42,
+                        "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 2553,
+                        "startOffset": 2641,
                         "endColumn": 60,
-                        "endOffset": 2609
+                        "endOffset": 2697
                     }
                 }
             },
@@ -4116,11 +4116,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 41,
+                        "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 2490,
+                        "startOffset": 2578,
                         "endColumn": 62,
-                        "endOffset": 2548
+                        "endOffset": 2636
                     }
                 }
             },
@@ -4135,11 +4135,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 43,
+                        "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 2614,
+                        "startOffset": 2702,
                         "endColumn": 62,
-                        "endOffset": 2672
+                        "endOffset": 2760
                     }
                 }
             },
@@ -4154,11 +4154,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 63,
+                        "startLine": 64,
                         "startColumn": 4,
-                        "startOffset": 3634,
+                        "startOffset": 3722,
                         "endColumn": 43,
-                        "endOffset": 3673
+                        "endOffset": 3761
                     }
                 }
             },
@@ -4173,11 +4173,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 298,
+                        "startOffset": 386,
                         "endColumn": 80,
-                        "endOffset": 374
+                        "endOffset": 462
                     }
                 }
             },
@@ -4192,11 +4192,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 217,
+                        "startOffset": 305,
                         "endColumn": 80,
-                        "endOffset": 293
+                        "endOffset": 381
                     }
                 }
             },
@@ -4211,11 +4211,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 379,
+                        "startOffset": 467,
                         "endColumn": 71,
-                        "endOffset": 446
+                        "endOffset": 534
                     }
                 }
             },
@@ -4230,11 +4230,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 764,
+                        "startOffset": 852,
                         "endColumn": 88,
-                        "endOffset": 848
+                        "endOffset": 936
                     }
                 }
             },
@@ -4249,11 +4249,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 676,
+                        "startOffset": 764,
                         "endColumn": 87,
-                        "endOffset": 759
+                        "endOffset": 847
                     }
                 }
             },
@@ -4268,11 +4268,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 451,
+                        "startOffset": 539,
                         "endColumn": 77,
-                        "endOffset": 524
+                        "endOffset": 612
                     }
                 }
             },
@@ -4287,11 +4287,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 136,
+                        "startOffset": 224,
                         "endColumn": 80,
-                        "endOffset": 212
+                        "endOffset": 300
                     }
                 }
             },
@@ -4306,11 +4306,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 529,
+                        "startOffset": 617,
                         "endColumn": 85,
-                        "endOffset": 610
+                        "endOffset": 698
                     }
                 }
             },
@@ -4325,11 +4325,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 615,
+                        "startOffset": 703,
                         "endColumn": 60,
-                        "endOffset": 671
+                        "endOffset": 759
                     }
                 }
             },
@@ -4344,11 +4344,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 130,
+                        "startLine": 131,
                         "startColumn": 4,
-                        "startOffset": 6895,
+                        "startOffset": 6983,
                         "endColumn": 53,
-                        "endOffset": 6944
+                        "endOffset": 7032
                     }
                 }
             },
@@ -4363,11 +4363,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 573,
+                        "startOffset": 661,
                         "endColumn": 44,
-                        "endOffset": 613
+                        "endOffset": 701
                     }
                 }
             },
@@ -4382,11 +4382,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 520,
+                        "startOffset": 608,
                         "endColumn": 52,
-                        "endOffset": 568
+                        "endOffset": 656
                     }
                 }
             },
@@ -4401,11 +4401,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1067,
+                        "startOffset": 1155,
                         "endColumn": 66,
-                        "endOffset": 1129
+                        "endOffset": 1217
                     }
                 }
             },
@@ -4422,9 +4422,9 @@
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1214,
+                        "startOffset": 1301,
                         "endColumn": 75,
-                        "endOffset": 1285
+                        "endOffset": 1372
                     }
                 }
             },
@@ -4439,11 +4439,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 477,
+                        "startOffset": 565,
                         "endColumn": 42,
-                        "endOffset": 515
+                        "endOffset": 603
                     }
                 }
             },
@@ -4458,11 +4458,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1021,
+                        "startOffset": 1109,
                         "endColumn": 45,
-                        "endOffset": 1062
+                        "endOffset": 1150
                     }
                 }
             },
@@ -4477,11 +4477,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 125,
+                        "startLine": 126,
                         "startColumn": 4,
-                        "startOffset": 6630,
+                        "startOffset": 6718,
                         "endColumn": 51,
-                        "endOffset": 6677
+                        "endOffset": 6765
                     }
                 }
             },
@@ -4496,11 +4496,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 103,
+                        "startLine": 104,
                         "startColumn": 4,
-                        "startOffset": 5572,
+                        "startOffset": 5660,
                         "endColumn": 65,
-                        "endOffset": 5633
+                        "endOffset": 5721
                     }
                 }
             },
@@ -4515,11 +4515,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 180,
+                        "startLine": 181,
                         "startColumn": 4,
-                        "startOffset": 9522,
+                        "startOffset": 9610,
                         "endColumn": 62,
-                        "endOffset": 9580
+                        "endOffset": 9668
                     }
                 }
             },
@@ -4534,11 +4534,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 181,
+                        "startLine": 182,
                         "startColumn": 4,
-                        "startOffset": 9585,
+                        "startOffset": 9673,
                         "endColumn": 62,
-                        "endOffset": 9643
+                        "endOffset": 9731
                     }
                 }
             },
@@ -4553,11 +4553,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 183,
+                        "startLine": 184,
                         "startColumn": 4,
-                        "startOffset": 9709,
+                        "startOffset": 9797,
                         "endColumn": 62,
-                        "endOffset": 9767
+                        "endOffset": 9855
                     }
                 }
             },
@@ -4572,11 +4572,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 182,
+                        "startLine": 183,
                         "startColumn": 4,
-                        "startOffset": 9648,
+                        "startOffset": 9736,
                         "endColumn": 60,
-                        "endOffset": 9704
+                        "endOffset": 9792
                     }
                 }
             },
@@ -4591,11 +4591,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 178,
+                        "startLine": 179,
                         "startColumn": 4,
-                        "startOffset": 9397,
+                        "startOffset": 9485,
                         "endColumn": 61,
-                        "endOffset": 9454
+                        "endOffset": 9542
                     }
                 }
             },
@@ -4610,11 +4610,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 179,
+                        "startLine": 180,
                         "startColumn": 4,
-                        "startOffset": 9459,
+                        "startOffset": 9547,
                         "endColumn": 62,
-                        "endOffset": 9517
+                        "endOffset": 9605
                     }
                 }
             },
@@ -4629,11 +4629,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 190,
+                        "startLine": 191,
                         "startColumn": 4,
-                        "startOffset": 10175,
+                        "startOffset": 10263,
                         "endColumn": 76,
-                        "endOffset": 10247
+                        "endOffset": 10335
                     }
                 }
             },
@@ -4648,11 +4648,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 177,
+                        "startLine": 178,
                         "startColumn": 4,
-                        "startOffset": 9335,
+                        "startOffset": 9423,
                         "endColumn": 61,
-                        "endOffset": 9392
+                        "endOffset": 9480
                     }
                 }
             },
@@ -4667,11 +4667,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 176,
+                        "startLine": 177,
                         "startColumn": 4,
-                        "startOffset": 9275,
+                        "startOffset": 9363,
                         "endColumn": 59,
-                        "endOffset": 9330
+                        "endOffset": 9418
                     }
                 }
             },
@@ -4686,11 +4686,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 166,
+                        "startLine": 167,
                         "startColumn": 4,
-                        "startOffset": 8638,
+                        "startOffset": 8726,
                         "endColumn": 75,
-                        "endOffset": 8709
+                        "endOffset": 8797
                     }
                 }
             },
@@ -4705,11 +4705,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 165,
+                        "startLine": 166,
                         "startColumn": 4,
-                        "startOffset": 8574,
+                        "startOffset": 8662,
                         "endColumn": 63,
-                        "endOffset": 8633
+                        "endOffset": 8721
                     }
                 }
             },
@@ -4724,11 +4724,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 116,
+                        "startLine": 117,
                         "startColumn": 4,
-                        "startOffset": 6198,
+                        "startOffset": 6286,
                         "endColumn": 47,
-                        "endOffset": 6241
+                        "endOffset": 6329
                     }
                 }
             },
@@ -4743,11 +4743,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_config.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 631,
+                        "startOffset": 719,
                         "endColumn": 73,
-                        "endOffset": 700
+                        "endOffset": 788
                     }
                 }
             },
@@ -4762,11 +4762,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 102,
+                        "startLine": 103,
                         "startColumn": 4,
-                        "startOffset": 5507,
+                        "startOffset": 5595,
                         "endColumn": 64,
-                        "endOffset": 5567
+                        "endOffset": 5655
                     }
                 }
             },
@@ -4781,11 +4781,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 100,
+                        "startLine": 101,
                         "startColumn": 4,
-                        "startOffset": 5371,
+                        "startOffset": 5459,
                         "endColumn": 59,
-                        "endOffset": 5426
+                        "endOffset": 5514
                     }
                 }
             },
@@ -4800,11 +4800,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 98,
+                        "startLine": 99,
                         "startColumn": 4,
-                        "startOffset": 5254,
+                        "startOffset": 5342,
                         "endColumn": 61,
-                        "endOffset": 5311
+                        "endOffset": 5399
                     }
                 }
             },
@@ -4819,11 +4819,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 99,
+                        "startLine": 100,
                         "startColumn": 4,
-                        "startOffset": 5316,
+                        "startOffset": 5404,
                         "endColumn": 54,
-                        "endOffset": 5366
+                        "endOffset": 5454
                     }
                 }
             },
@@ -4838,11 +4838,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 64,
+                        "startLine": 65,
                         "startColumn": 4,
-                        "startOffset": 3678,
+                        "startOffset": 3766,
                         "endColumn": 44,
-                        "endOffset": 3718
+                        "endOffset": 3806
                     }
                 }
             },
@@ -4857,11 +4857,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 49,
+                        "startLine": 50,
                         "startColumn": 4,
-                        "startOffset": 2907,
+                        "startOffset": 2995,
                         "endColumn": 48,
-                        "endOffset": 2951
+                        "endOffset": 3039
                     }
                 }
             },
@@ -4876,11 +4876,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 208,
+                        "startLine": 209,
                         "startColumn": 4,
-                        "startOffset": 11202,
+                        "startOffset": 11290,
                         "endColumn": 68,
-                        "endOffset": 11266
+                        "endOffset": 11354
                     }
                 }
             },
@@ -4895,11 +4895,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 203,
+                        "startLine": 204,
                         "startColumn": 4,
-                        "startOffset": 10891,
+                        "startOffset": 10979,
                         "endColumn": 53,
-                        "endOffset": 10940
+                        "endOffset": 11028
                     }
                 }
             },
@@ -4914,11 +4914,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 204,
+                        "startLine": 205,
                         "startColumn": 4,
-                        "startOffset": 10945,
+                        "startOffset": 11033,
                         "endColumn": 59,
-                        "endOffset": 11000
+                        "endOffset": 11088
                     }
                 }
             },
@@ -4933,11 +4933,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 197,
+                        "startLine": 198,
                         "startColumn": 4,
-                        "startOffset": 10597,
+                        "startOffset": 10685,
                         "endColumn": 56,
-                        "endOffset": 10649
+                        "endOffset": 10737
                     }
                 }
             },
@@ -4952,11 +4952,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 210,
+                        "startLine": 211,
                         "startColumn": 4,
-                        "startOffset": 11313,
+                        "startOffset": 11401,
                         "endColumn": 52,
-                        "endOffset": 11361
+                        "endOffset": 11449
                     }
                 }
             },
@@ -4971,11 +4971,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 211,
+                        "startLine": 212,
                         "startColumn": 4,
-                        "startOffset": 11366,
+                        "startOffset": 11454,
                         "endColumn": 69,
-                        "endOffset": 11431
+                        "endOffset": 11519
                     }
                 }
             },
@@ -4990,11 +4990,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 205,
+                        "startLine": 206,
                         "startColumn": 4,
-                        "startOffset": 11005,
+                        "startOffset": 11093,
                         "endColumn": 62,
-                        "endOffset": 11063
+                        "endOffset": 11151
                     }
                 }
             },
@@ -5009,11 +5009,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 198,
+                        "startLine": 199,
                         "startColumn": 4,
-                        "startOffset": 10654,
+                        "startOffset": 10742,
                         "endColumn": 52,
-                        "endOffset": 10702
+                        "endOffset": 10790
                     }
                 }
             },
@@ -5028,11 +5028,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 196,
+                        "startLine": 197,
                         "startColumn": 4,
-                        "startOffset": 10543,
+                        "startOffset": 10631,
                         "endColumn": 53,
-                        "endOffset": 10592
+                        "endOffset": 10680
                     }
                 }
             },
@@ -5047,11 +5047,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 202,
+                        "startLine": 203,
                         "startColumn": 4,
-                        "startOffset": 10826,
+                        "startOffset": 10914,
                         "endColumn": 64,
-                        "endOffset": 10886
+                        "endOffset": 10974
                     }
                 }
             },
@@ -5066,11 +5066,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 201,
+                        "startLine": 202,
                         "startColumn": 4,
-                        "startOffset": 10764,
+                        "startOffset": 10852,
                         "endColumn": 61,
-                        "endOffset": 10821
+                        "endOffset": 10909
                     }
                 }
             },
@@ -5085,11 +5085,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 206,
+                        "startLine": 207,
                         "startColumn": 4,
-                        "startOffset": 11068,
+                        "startOffset": 11156,
                         "endColumn": 70,
-                        "endOffset": 11134
+                        "endOffset": 11222
                     }
                 }
             },
@@ -5104,11 +5104,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 207,
+                        "startLine": 208,
                         "startColumn": 4,
-                        "startOffset": 11139,
+                        "startOffset": 11227,
                         "endColumn": 62,
-                        "endOffset": 11197
+                        "endOffset": 11285
                     }
                 }
             },
@@ -5123,11 +5123,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 199,
+                        "startLine": 200,
                         "startColumn": 4,
-                        "startOffset": 10707,
+                        "startOffset": 10795,
                         "endColumn": 55,
-                        "endOffset": 10758
+                        "endOffset": 10846
                     }
                 }
             },
@@ -5142,11 +5142,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 209,
+                        "startLine": 210,
                         "startColumn": 4,
-                        "startOffset": 11271,
+                        "startOffset": 11359,
                         "endColumn": 41,
-                        "endOffset": 11308
+                        "endOffset": 11396
                     }
                 }
             },
@@ -5161,11 +5161,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 105,
+                        "startLine": 106,
                         "startColumn": 4,
-                        "startOffset": 5699,
+                        "startOffset": 5787,
                         "endColumn": 60,
-                        "endOffset": 5755
+                        "endOffset": 5843
                     }
                 }
             },
@@ -5180,11 +5180,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 104,
+                        "startLine": 105,
                         "startColumn": 4,
-                        "startOffset": 5638,
+                        "startOffset": 5726,
                         "endColumn": 60,
-                        "endOffset": 5694
+                        "endOffset": 5782
                     }
                 }
             },
@@ -5199,11 +5199,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 685,
+                        "startOffset": 773,
                         "endColumn": 49,
-                        "endOffset": 730
+                        "endOffset": 818
                     }
                 }
             },
@@ -5218,11 +5218,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 618,
+                        "startOffset": 706,
                         "endColumn": 66,
-                        "endOffset": 680
+                        "endOffset": 768
                     }
                 }
             },
@@ -5237,11 +5237,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 37,
+                        "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 2310,
+                        "startOffset": 2398,
                         "endColumn": 57,
-                        "endOffset": 2363
+                        "endOffset": 2451
                     }
                 }
             },
@@ -5256,11 +5256,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 39,
+                        "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 2432,
+                        "startOffset": 2520,
                         "endColumn": 56,
-                        "endOffset": 2484
+                        "endOffset": 2572
                     }
                 }
             },
@@ -5275,11 +5275,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 33,
+                        "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 2071,
+                        "startOffset": 2159,
                         "endColumn": 57,
-                        "endOffset": 2124
+                        "endOffset": 2212
                     }
                 }
             },
@@ -5294,11 +5294,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 36,
+                        "startLine": 37,
                         "startColumn": 4,
-                        "startOffset": 2249,
+                        "startOffset": 2337,
                         "endColumn": 60,
-                        "endOffset": 2305
+                        "endOffset": 2393
                     }
                 }
             },
@@ -5313,11 +5313,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 38,
+                        "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 2368,
+                        "startOffset": 2456,
                         "endColumn": 63,
-                        "endOffset": 2427
+                        "endOffset": 2515
                     }
                 }
             },
@@ -5332,11 +5332,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 35,
+                        "startLine": 36,
                         "startColumn": 4,
-                        "startOffset": 2187,
+                        "startOffset": 2275,
                         "endColumn": 61,
-                        "endOffset": 2244
+                        "endOffset": 2332
                     }
                 }
             },
@@ -5351,11 +5351,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 34,
+                        "startLine": 35,
                         "startColumn": 4,
-                        "startOffset": 2129,
+                        "startOffset": 2217,
                         "endColumn": 57,
-                        "endOffset": 2182
+                        "endOffset": 2270
                     }
                 }
             },
@@ -5370,11 +5370,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 96,
+                        "startLine": 97,
                         "startColumn": 4,
-                        "startOffset": 5144,
+                        "startOffset": 5232,
                         "endColumn": 60,
-                        "endOffset": 5200
+                        "endOffset": 5288
                     }
                 }
             },
@@ -5389,11 +5389,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 48,
+                        "startLine": 49,
                         "startColumn": 4,
-                        "startOffset": 2849,
+                        "startOffset": 2937,
                         "endColumn": 57,
-                        "endOffset": 2902
+                        "endOffset": 2990
                     }
                 }
             },
@@ -5408,11 +5408,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 112,
+                        "startLine": 113,
                         "startColumn": 4,
-                        "startOffset": 5999,
+                        "startOffset": 6087,
                         "endColumn": 47,
-                        "endOffset": 6042
+                        "endOffset": 6130
                     }
                 }
             },
@@ -5427,11 +5427,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 110,
+                        "startLine": 111,
                         "startColumn": 4,
-                        "startOffset": 5909,
+                        "startOffset": 5997,
                         "endColumn": 45,
-                        "endOffset": 5950
+                        "endOffset": 6038
                     }
                 }
             },
@@ -5446,11 +5446,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 120,
+                        "startLine": 121,
                         "startColumn": 4,
-                        "startOffset": 6394,
+                        "startOffset": 6482,
                         "endColumn": 48,
-                        "endOffset": 6438
+                        "endOffset": 6526
                     }
                 }
             },
@@ -5465,11 +5465,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 38,
-                        "endOffset": 89
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 143,
+                        "endColumn": 34,
+                        "endOffset": 177
                     }
                 }
             },
@@ -5484,11 +5484,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 127,
+                        "startLine": 128,
                         "startColumn": 4,
-                        "startOffset": 6734,
+                        "startOffset": 6822,
                         "endColumn": 51,
-                        "endOffset": 6781
+                        "endOffset": 6869
                     }
                 }
             },
@@ -5505,9 +5505,9 @@
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 2094,
+                        "startOffset": 2181,
                         "endColumn": 58,
-                        "endOffset": 2148
+                        "endOffset": 2235
                     }
                 }
             },
@@ -5522,11 +5522,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 126,
+                        "startLine": 127,
                         "startColumn": 4,
-                        "startOffset": 6682,
+                        "startOffset": 6770,
                         "endColumn": 51,
-                        "endOffset": 6729
+                        "endOffset": 6817
                     }
                 }
             },
@@ -5541,11 +5541,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 97,
+                        "startLine": 98,
                         "startColumn": 4,
-                        "startOffset": 5205,
+                        "startOffset": 5293,
                         "endColumn": 48,
-                        "endOffset": 5249
+                        "endOffset": 5337
                     }
                 }
             },
@@ -5560,11 +5560,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 123,
+                        "startLine": 124,
                         "startColumn": 4,
-                        "startOffset": 6540,
+                        "startOffset": 6628,
                         "endColumn": 46,
-                        "endOffset": 6582
+                        "endOffset": 6670
                     }
                 }
             },
@@ -5579,11 +5579,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 121,
+                        "startLine": 122,
                         "startColumn": 4,
-                        "startOffset": 6443,
+                        "startOffset": 6531,
                         "endColumn": 45,
-                        "endOffset": 6484
+                        "endOffset": 6572
                     }
                 }
             },
@@ -5598,11 +5598,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 86,
+                        "startLine": 87,
                         "startColumn": 4,
-                        "startOffset": 4571,
+                        "startOffset": 4659,
                         "endColumn": 56,
-                        "endOffset": 4623
+                        "endOffset": 4711
                     }
                 }
             },
@@ -5617,11 +5617,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 87,
+                        "startLine": 88,
                         "startColumn": 4,
-                        "startOffset": 4628,
+                        "startOffset": 4716,
                         "endColumn": 63,
-                        "endOffset": 4687
+                        "endOffset": 4775
                     }
                 }
             },
@@ -5636,11 +5636,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 88,
+                        "startLine": 89,
                         "startColumn": 4,
-                        "startOffset": 4692,
+                        "startOffset": 4780,
                         "endColumn": 68,
-                        "endOffset": 4756
+                        "endOffset": 4844
                     }
                 }
             },
@@ -5655,11 +5655,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 91,
+                        "startLine": 92,
                         "startColumn": 4,
-                        "startOffset": 4890,
+                        "startOffset": 4978,
                         "endColumn": 59,
-                        "endOffset": 4945
+                        "endOffset": 5033
                     }
                 }
             },
@@ -5674,11 +5674,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 84,
+                        "startLine": 85,
                         "startColumn": 4,
-                        "startOffset": 4457,
+                        "startOffset": 4545,
                         "endColumn": 57,
-                        "endOffset": 4510
+                        "endOffset": 4598
                     }
                 }
             },
@@ -5693,11 +5693,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 93,
+                        "startLine": 94,
                         "startColumn": 4,
-                        "startOffset": 5010,
+                        "startOffset": 5098,
                         "endColumn": 57,
-                        "endOffset": 5063
+                        "endOffset": 5151
                     }
                 }
             },
@@ -5712,11 +5712,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 89,
+                        "startLine": 90,
                         "startColumn": 4,
-                        "startOffset": 4761,
+                        "startOffset": 4849,
                         "endColumn": 58,
-                        "endOffset": 4815
+                        "endOffset": 4903
                     }
                 }
             },
@@ -5731,11 +5731,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 90,
+                        "startLine": 91,
                         "startColumn": 4,
-                        "startOffset": 4820,
+                        "startOffset": 4908,
                         "endColumn": 69,
-                        "endOffset": 4885
+                        "endOffset": 4973
                     }
                 }
             },
@@ -5750,11 +5750,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 92,
+                        "startLine": 93,
                         "startColumn": 4,
-                        "startOffset": 4950,
+                        "startOffset": 5038,
                         "endColumn": 59,
-                        "endOffset": 5005
+                        "endOffset": 5093
                     }
                 }
             },
@@ -5769,11 +5769,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 83,
+                        "startLine": 84,
                         "startColumn": 4,
-                        "startOffset": 4391,
+                        "startOffset": 4479,
                         "endColumn": 65,
-                        "endOffset": 4452
+                        "endOffset": 4540
                     }
                 }
             },
@@ -5788,11 +5788,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 94,
+                        "startLine": 95,
                         "startColumn": 4,
-                        "startOffset": 5068,
+                        "startOffset": 5156,
                         "endColumn": 74,
-                        "endOffset": 5138
+                        "endOffset": 5226
                     }
                 }
             },
@@ -5807,11 +5807,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 85,
+                        "startLine": 86,
                         "startColumn": 4,
-                        "startOffset": 4515,
+                        "startOffset": 4603,
                         "endColumn": 55,
-                        "endOffset": 4566
+                        "endOffset": 4654
                     }
                 }
             },
@@ -5826,11 +5826,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 799,
+                        "startOffset": 887,
                         "endColumn": 65,
-                        "endOffset": 860
+                        "endOffset": 948
                     }
                 }
             },
@@ -5845,11 +5845,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 865,
+                        "startOffset": 953,
                         "endColumn": 68,
-                        "endOffset": 929
+                        "endOffset": 1017
                     }
                 }
             },
@@ -5866,9 +5866,9 @@
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
-                        "startOffset": 2354,
+                        "startOffset": 2441,
                         "endColumn": 54,
-                        "endOffset": 2404
+                        "endOffset": 2491
                     }
                 }
             },
@@ -5885,9 +5885,9 @@
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 2153,
+                        "startOffset": 2240,
                         "endColumn": 66,
-                        "endOffset": 2215
+                        "endOffset": 2302
                     }
                 }
             },
@@ -5904,9 +5904,9 @@
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 2220,
+                        "startOffset": 2307,
                         "endColumn": 59,
-                        "endOffset": 2275
+                        "endOffset": 2362
                     }
                 }
             },
@@ -5923,9 +5923,9 @@
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
-                        "startOffset": 2280,
+                        "startOffset": 2367,
                         "endColumn": 73,
-                        "endOffset": 2349
+                        "endOffset": 2436
                     }
                 }
             },
@@ -5942,9 +5942,9 @@
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 1937,
+                        "startOffset": 2024,
                         "endColumn": 48,
-                        "endOffset": 1981
+                        "endOffset": 2068
                     }
                 }
             },
@@ -5961,9 +5961,9 @@
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 1986,
+                        "startOffset": 2073,
                         "endColumn": 57,
-                        "endOffset": 2039
+                        "endOffset": 2126
                     }
                 }
             },
@@ -5980,9 +5980,9 @@
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
-                        "startOffset": 2044,
+                        "startOffset": 2131,
                         "endColumn": 48,
-                        "endOffset": 2088
+                        "endOffset": 2175
                     }
                 }
             },
@@ -5999,9 +5999,9 @@
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
-                        "startOffset": 1785,
+                        "startOffset": 1872,
                         "endColumn": 57,
-                        "endOffset": 1838
+                        "endOffset": 1925
                     }
                 }
             },
@@ -6018,9 +6018,9 @@
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
-                        "startOffset": 1843,
+                        "startOffset": 1930,
                         "endColumn": 56,
-                        "endOffset": 1895
+                        "endOffset": 1982
                     }
                 }
             },
@@ -6037,9 +6037,9 @@
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1495,
+                        "startOffset": 1582,
                         "endColumn": 48,
-                        "endOffset": 1539
+                        "endOffset": 1626
                     }
                 }
             },
@@ -6056,9 +6056,9 @@
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
-                        "startOffset": 1666,
+                        "startOffset": 1753,
                         "endColumn": 62,
-                        "endOffset": 1724
+                        "endOffset": 1811
                     }
                 }
             },
@@ -6075,9 +6075,9 @@
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 1729,
+                        "startOffset": 1816,
                         "endColumn": 55,
-                        "endOffset": 1780
+                        "endOffset": 1867
                     }
                 }
             },
@@ -6094,9 +6094,9 @@
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1328,
+                        "startOffset": 1415,
                         "endColumn": 48,
-                        "endOffset": 1372
+                        "endOffset": 1459
                     }
                 }
             },
@@ -6113,9 +6113,9 @@
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 1544,
+                        "startOffset": 1631,
                         "endColumn": 56,
-                        "endOffset": 1596
+                        "endOffset": 1683
                     }
                 }
             },
@@ -6132,9 +6132,9 @@
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1601,
+                        "startOffset": 1688,
                         "endColumn": 64,
-                        "endOffset": 1661
+                        "endOffset": 1748
                     }
                 }
             },
@@ -6151,9 +6151,9 @@
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1377,
+                        "startOffset": 1464,
                         "endColumn": 53,
-                        "endOffset": 1426
+                        "endOffset": 1513
                     }
                 }
             },
@@ -6170,9 +6170,9 @@
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1431,
+                        "startOffset": 1518,
                         "endColumn": 63,
-                        "endOffset": 1490
+                        "endOffset": 1577
                     }
                 }
             },
@@ -6187,11 +6187,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 204,
+                        "startOffset": 292,
                         "endColumn": 46,
-                        "endOffset": 246
+                        "endOffset": 334
                     }
                 }
             },
@@ -6206,11 +6206,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 154,
+                        "startOffset": 242,
                         "endColumn": 49,
-                        "endOffset": 199
+                        "endOffset": 287
                     }
                 }
             },
@@ -6225,11 +6225,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 251,
+                        "startOffset": 339,
                         "endColumn": 59,
-                        "endOffset": 306
+                        "endOffset": 394
                     }
                 }
             },
@@ -6244,11 +6244,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 311,
+                        "startOffset": 399,
                         "endColumn": 61,
-                        "endOffset": 368
+                        "endOffset": 456
                     }
                 }
             },
@@ -6263,11 +6263,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 68,
+                        "startLine": 69,
                         "startColumn": 4,
-                        "startOffset": 3776,
+                        "startOffset": 3864,
                         "endColumn": 48,
-                        "endOffset": 3820
+                        "endOffset": 3908
                     }
                 }
             },
@@ -6282,11 +6282,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 69,
+                        "startLine": 70,
                         "startColumn": 4,
-                        "startOffset": 3825,
+                        "startOffset": 3913,
                         "endColumn": 47,
-                        "endOffset": 3868
+                        "endOffset": 3956
                     }
                 }
             },
@@ -6301,11 +6301,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 66,
+                        "startLine": 67,
                         "startColumn": 4,
-                        "startOffset": 3724,
+                        "startOffset": 3812,
                         "endColumn": 50,
-                        "endOffset": 3770
+                        "endOffset": 3858
                     }
                 }
             },
@@ -6320,11 +6320,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 134,
+                        "startLine": 135,
                         "startColumn": 4,
-                        "startOffset": 7096,
+                        "startOffset": 7184,
                         "endColumn": 48,
-                        "endOffset": 7140
+                        "endOffset": 7228
                     }
                 }
             },
@@ -6339,11 +6339,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 81,
+                        "startLine": 82,
                         "startColumn": 4,
-                        "startOffset": 4327,
+                        "startOffset": 4415,
                         "endColumn": 62,
-                        "endOffset": 4385
+                        "endOffset": 4473
                     }
                 }
             },
@@ -6358,11 +6358,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 77,
+                        "startLine": 78,
                         "startColumn": 4,
-                        "startOffset": 4082,
+                        "startOffset": 4170,
                         "endColumn": 64,
-                        "endOffset": 4142
+                        "endOffset": 4230
                     }
                 }
             },
@@ -6377,11 +6377,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 78,
+                        "startLine": 79,
                         "startColumn": 4,
-                        "startOffset": 4147,
+                        "startOffset": 4235,
                         "endColumn": 59,
-                        "endOffset": 4202
+                        "endOffset": 4290
                     }
                 }
             },
@@ -6396,11 +6396,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 79,
+                        "startLine": 80,
                         "startColumn": 4,
-                        "startOffset": 4207,
+                        "startOffset": 4295,
                         "endColumn": 57,
-                        "endOffset": 4260
+                        "endOffset": 4348
                     }
                 }
             },
@@ -6415,11 +6415,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 80,
+                        "startLine": 81,
                         "startColumn": 4,
-                        "startOffset": 4265,
+                        "startOffset": 4353,
                         "endColumn": 61,
-                        "endOffset": 4322
+                        "endOffset": 4410
                     }
                 }
             },
@@ -6434,11 +6434,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 135,
+                        "startLine": 136,
                         "startColumn": 4,
-                        "startOffset": 7145,
+                        "startOffset": 7233,
                         "endColumn": 44,
-                        "endOffset": 7185
+                        "endOffset": 7273
                     }
                 }
             },
@@ -6453,11 +6453,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 194,
+                        "startLine": 195,
                         "startColumn": 4,
-                        "startOffset": 10485,
+                        "startOffset": 10573,
                         "endColumn": 56,
-                        "endOffset": 10537
+                        "endOffset": 10625
                     }
                 }
             },
@@ -6472,11 +6472,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1134,
+                        "startOffset": 1222,
                         "endColumn": 78,
-                        "endOffset": 1208
+                        "endOffset": 1296
                     }
                 }
             },
@@ -6491,11 +6491,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 934,
+                        "startOffset": 1022,
                         "endColumn": 86,
-                        "endOffset": 1016
+                        "endOffset": 1104
                     }
                 }
             },
@@ -6510,11 +6510,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 222,
+                        "startLine": 223,
                         "startColumn": 4,
-                        "startOffset": 11942,
+                        "startOffset": 12030,
                         "endColumn": 65,
-                        "endOffset": 12003
+                        "endOffset": 12091
                     }
                 }
             },
@@ -6529,11 +6529,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 221,
+                        "startLine": 222,
                         "startColumn": 4,
-                        "startOffset": 11875,
+                        "startOffset": 11963,
                         "endColumn": 66,
-                        "endOffset": 11937
+                        "endOffset": 12025
                     }
                 }
             },
@@ -6548,11 +6548,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 44,
+                        "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 2677,
+                        "startOffset": 2765,
                         "endColumn": 49,
-                        "endOffset": 2722
+                        "endOffset": 2810
                     }
                 }
             },
@@ -6567,11 +6567,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 46,
+                        "startLine": 47,
                         "startColumn": 4,
-                        "startOffset": 2790,
+                        "startOffset": 2878,
                         "endColumn": 57,
-                        "endOffset": 2843
+                        "endOffset": 2931
                     }
                 }
             },
@@ -6586,11 +6586,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 101,
+                        "startLine": 102,
                         "startColumn": 4,
-                        "startOffset": 5431,
+                        "startOffset": 5519,
                         "endColumn": 75,
-                        "endOffset": 5502
+                        "endOffset": 5590
                     }
                 }
             },
@@ -6605,11 +6605,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 117,
+                        "startLine": 118,
                         "startColumn": 4,
-                        "startOffset": 6246,
+                        "startOffset": 6334,
                         "endColumn": 49,
-                        "endOffset": 6291
+                        "endOffset": 6379
                     }
                 }
             },
@@ -6624,11 +6624,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 145,
+                        "startLine": 146,
                         "startColumn": 4,
-                        "startOffset": 7500,
+                        "startOffset": 7588,
                         "endColumn": 48,
-                        "endOffset": 7544
+                        "endOffset": 7632
                     }
                 }
             },
@@ -6643,11 +6643,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 146,
+                        "startLine": 147,
                         "startColumn": 4,
-                        "startOffset": 7549,
+                        "startOffset": 7637,
                         "endColumn": 54,
-                        "endOffset": 7599
+                        "endOffset": 7687
                     }
                 }
             },
@@ -6662,11 +6662,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 151,
+                        "startLine": 152,
                         "startColumn": 4,
-                        "startOffset": 7774,
+                        "startOffset": 7862,
                         "endColumn": 40,
-                        "endOffset": 7810
+                        "endOffset": 7898
                     }
                 }
             },
@@ -6681,11 +6681,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 107,
+                        "startLine": 108,
                         "startColumn": 4,
-                        "startOffset": 5761,
+                        "startOffset": 5849,
                         "endColumn": 51,
-                        "endOffset": 5808
+                        "endOffset": 5896
                     }
                 }
             },
@@ -6700,11 +6700,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 54,
+                        "startLine": 55,
                         "startColumn": 4,
-                        "startOffset": 3134,
+                        "startOffset": 3222,
                         "endColumn": 60,
-                        "endOffset": 3190
+                        "endOffset": 3278
                     }
                 }
             },
@@ -6719,11 +6719,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 53,
+                        "startLine": 54,
                         "startColumn": 4,
-                        "startOffset": 3073,
+                        "startOffset": 3161,
                         "endColumn": 60,
-                        "endOffset": 3129
+                        "endOffset": 3217
                     }
                 }
             },
@@ -6738,11 +6738,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 52,
+                        "startLine": 53,
                         "startColumn": 4,
-                        "startOffset": 3004,
+                        "startOffset": 3092,
                         "endColumn": 68,
-                        "endOffset": 3068
+                        "endOffset": 3156
                     }
                 }
             },
@@ -6757,11 +6757,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 55,
+                        "startLine": 56,
                         "startColumn": 4,
-                        "startOffset": 3195,
+                        "startOffset": 3283,
                         "endColumn": 63,
-                        "endOffset": 3254
+                        "endOffset": 3342
                     }
                 }
             },
@@ -6776,11 +6776,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 58,
+                        "startLine": 59,
                         "startColumn": 4,
-                        "startOffset": 3368,
+                        "startOffset": 3456,
                         "endColumn": 64,
-                        "endOffset": 3428
+                        "endOffset": 3516
                     }
                 }
             },
@@ -6795,11 +6795,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 59,
+                        "startLine": 60,
                         "startColumn": 4,
-                        "startOffset": 3433,
+                        "startOffset": 3521,
                         "endColumn": 73,
-                        "endOffset": 3502
+                        "endOffset": 3590
                     }
                 }
             },
@@ -6814,11 +6814,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 60,
+                        "startLine": 61,
                         "startColumn": 4,
-                        "startOffset": 3507,
+                        "startOffset": 3595,
                         "endColumn": 77,
-                        "endOffset": 3580
+                        "endOffset": 3668
                     }
                 }
             },
@@ -6833,11 +6833,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 51,
+                        "startLine": 52,
                         "startColumn": 4,
-                        "startOffset": 2957,
+                        "startOffset": 3045,
                         "endColumn": 46,
-                        "endOffset": 2999
+                        "endOffset": 3087
                     }
                 }
             },
@@ -6852,11 +6852,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 56,
+                        "startLine": 57,
                         "startColumn": 4,
-                        "startOffset": 3259,
+                        "startOffset": 3347,
                         "endColumn": 49,
-                        "endOffset": 3304
+                        "endOffset": 3392
                     }
                 }
             },
@@ -6871,11 +6871,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 57,
+                        "startLine": 58,
                         "startColumn": 4,
-                        "startOffset": 3309,
+                        "startOffset": 3397,
                         "endColumn": 58,
-                        "endOffset": 3363
+                        "endOffset": 3451
                     }
                 }
             },
@@ -6890,11 +6890,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 147,
+                        "startLine": 148,
                         "startColumn": 4,
-                        "startOffset": 7604,
+                        "startOffset": 7692,
                         "endColumn": 56,
-                        "endOffset": 7656
+                        "endOffset": 7744
                     }
                 }
             },
@@ -6909,11 +6909,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 118,
+                        "startLine": 119,
                         "startColumn": 4,
-                        "startOffset": 6296,
+                        "startOffset": 6384,
                         "endColumn": 47,
-                        "endOffset": 6339
+                        "endOffset": 6427
                     }
                 }
             },
@@ -6928,11 +6928,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 115,
+                        "startLine": 116,
                         "startColumn": 4,
-                        "startOffset": 6147,
+                        "startOffset": 6235,
                         "endColumn": 50,
-                        "endOffset": 6193
+                        "endOffset": 6281
                     }
                 }
             },
@@ -6947,11 +6947,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 113,
+                        "startLine": 114,
                         "startColumn": 4,
-                        "startOffset": 6047,
+                        "startOffset": 6135,
                         "endColumn": 48,
-                        "endOffset": 6091
+                        "endOffset": 6179
                     }
                 }
             },
@@ -6966,11 +6966,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 225,
+                        "startLine": 226,
                         "startColumn": 4,
-                        "startOffset": 12063,
+                        "startOffset": 12151,
                         "endColumn": 62,
-                        "endOffset": 12121
+                        "endOffset": 12209
                     }
                 }
             },
@@ -6985,11 +6985,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 72,
+                        "startLine": 73,
                         "startColumn": 4,
-                        "startOffset": 3925,
+                        "startOffset": 4013,
                         "endColumn": 53,
-                        "endOffset": 3974
+                        "endOffset": 4062
                     }
                 }
             },
@@ -7004,11 +7004,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 74,
+                        "startLine": 75,
                         "startColumn": 4,
-                        "startOffset": 4029,
+                        "startOffset": 4117,
                         "endColumn": 50,
-                        "endOffset": 4075
+                        "endOffset": 4163
                     }
                 }
             },
@@ -7023,11 +7023,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 71,
+                        "startLine": 72,
                         "startColumn": 4,
-                        "startOffset": 3874,
+                        "startOffset": 3962,
                         "endColumn": 50,
-                        "endOffset": 3920
+                        "endOffset": 4008
                     }
                 }
             },
@@ -7042,11 +7042,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 73,
+                        "startLine": 74,
                         "startColumn": 4,
-                        "startOffset": 3979,
+                        "startOffset": 4067,
                         "endColumn": 49,
-                        "endOffset": 4024
+                        "endOffset": 4112
                     }
                 }
             },
@@ -7061,11 +7061,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 137,
+                        "startLine": 138,
                         "startColumn": 4,
-                        "startOffset": 7191,
+                        "startOffset": 7279,
                         "endColumn": 62,
-                        "endOffset": 7249
+                        "endOffset": 7337
                     }
                 }
             },
@@ -7080,11 +7080,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 124,
+                        "startLine": 125,
                         "startColumn": 4,
-                        "startOffset": 6587,
+                        "startOffset": 6675,
                         "endColumn": 42,
-                        "endOffset": 6625
+                        "endOffset": 6713
                     }
                 }
             },
@@ -7099,11 +7099,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 114,
+                        "startLine": 115,
                         "startColumn": 4,
-                        "startOffset": 6096,
+                        "startOffset": 6184,
                         "endColumn": 50,
-                        "endOffset": 6142
+                        "endOffset": 6230
                     }
                 }
             },
@@ -7118,11 +7118,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 109,
+                        "startLine": 110,
                         "startColumn": 4,
-                        "startOffset": 5864,
+                        "startOffset": 5952,
                         "endColumn": 44,
-                        "endOffset": 5904
+                        "endOffset": 5992
                     }
                 }
             },
@@ -7137,11 +7137,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 131,
+                        "startLine": 132,
                         "startColumn": 4,
-                        "startOffset": 6949,
+                        "startOffset": 7037,
                         "endColumn": 36,
-                        "endOffset": 6981
+                        "endOffset": 7069
                     }
                 }
             },
@@ -7156,11 +7156,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 108,
+                        "startLine": 109,
                         "startColumn": 4,
-                        "startOffset": 5813,
+                        "startOffset": 5901,
                         "endColumn": 50,
-                        "endOffset": 5859
+                        "endOffset": 5947
                     }
                 }
             },
@@ -7175,11 +7175,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_ext_string.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 735,
+                        "startOffset": 823,
                         "endColumn": 63,
-                        "endOffset": 794
+                        "endOffset": 882
                     }
                 }
             },
@@ -7194,11 +7194,11 @@
                 "from": {
                     "file": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\values\\rc_kit_string.xml",
                     "position": {
-                        "startLine": 45,
+                        "startLine": 46,
                         "startColumn": 4,
-                        "startOffset": 2727,
+                        "startOffset": 2815,
                         "endColumn": 62,
-                        "endOffset": 2785
+                        "endOffset": 2873
                     }
                 }
             },
