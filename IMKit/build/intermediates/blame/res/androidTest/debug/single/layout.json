@@ -40,12 +40,12 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_refresh_list_view.xml"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_information_notification_message.xml",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_information_notification_message.xml"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_group_information_notification_message.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_information_notification_message.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_information_notification_message.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_information_notification_message.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_file_preview_content.xml",
@@ -64,12 +64,12 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_file_list.xml"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_albums.xml",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_albums.xml"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_message.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_message.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_albums.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_albums.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_members.xml",
@@ -168,20 +168,20 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_camera.xml"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fragment_base_setting.xml",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fragment_base_setting.xml"
-    },
-    {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_notice.xml",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_notice.xml"
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_location_message.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_location_message.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_file_message.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_file_message.xml"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_location_message.xml",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_location_message.xml"
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_notice.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_notice.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fragment_base_setting.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fragment_base_setting.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_input_pager_layout.xml",

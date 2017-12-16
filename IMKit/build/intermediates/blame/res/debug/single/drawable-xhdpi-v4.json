@@ -24,24 +24,24 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_pb_file_download_progress_progress.9.png"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_resolved_hover.png",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_resolved_hover.png"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_icon_rt_message_right.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_icon_rt_message_right.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_resolved_hover.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_resolved_hover.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_voice_sent.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_voice_sent.png"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_star.png",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_star.png"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f607.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f607.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_star.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_star.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_volume_1.png",
