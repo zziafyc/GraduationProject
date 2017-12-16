@@ -55,4 +55,5 @@ public class ItemMenuTopMarkDeleteCreator implements SwipeMenuCreator {
         menu.addMenuItem(openItem3);
 
     }
+
 }

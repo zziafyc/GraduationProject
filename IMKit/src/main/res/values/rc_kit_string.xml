@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools"
-           tools:ignore="MissingTranslation">
-<string name="rc_name">融云</string>
+<resources>
+    <string name="rc_name">融云</string>
 
     <!-- discussion_notification_msg -->
     <string name="rc_discussion_nt_msg_for_rename">"%1$s 修改讨论组名称为 %2$s"</string>
@@ -74,6 +73,8 @@
     <string name="rc_voice_cancel">松开手指，取消发送</string>
     <string name="rc_voice_short">录音时间太短</string>
     <string name="rc_voice_failure">录音失败！</string>
+    <string name="rc_voice_too_long">录制时间超长</string>
+    <string name="rc_voip_occupying">声音通道正被占用，请稍后再试</string>
 
 
     <string name="rc_pub_service_info_description">功能介绍</string>
@@ -82,7 +83,7 @@
     <string name="rc_pub_service_info_unfollow">取消关注</string>
     <string name="rc_pub_service_info_account">公众号：%s</string>
 
-    <string name="rc_notice_network_unavailable">网络连接不可用</string>
+    <string name="rc_notice_network_unavailable">当前网络不可用，请检查你的网络设置</string>
     <string name="rc_notice_disconnect">无法连接到服务器</string>
     <string name="rc_notice_tick">该帐号已经在其他设备登录</string>
     <string name="rc_notice_connecting">正在连接服务器</string>
@@ -119,7 +120,7 @@
     <string name="rc_saturday_format">周六</string>
     <string name="rc_sunsay_format">周日</string>
     <string name="rc_daybreak_format">凌晨</string>
-    <string name="rc_morning_format">早上</string>
+    <string name="rc_morning_format">上午</string>
     <string name="rc_noon_format">中午</string>
     <string name="rc_afternoon_format">下午</string>
     <string name="rc_night_format">晚上</string>
@@ -175,7 +176,7 @@
     <string name="rc_ac_file_send_preview">发文件</string>
     <string name="rc_ad_send_file_no_select_file">发送</string>
     <string name="rc_ad_send_file_select_file">发送(%1$s/20)</string>
-    <string name="rc_fr_no_file_message">还没有%1$s文件</string>
+    <string name="rc_fr_no_file_message">没有%1$s文件</string>
     <string name="rc_fr_loading_file_message">加载中...</string>
     <string name="rc_fr_file_category_title_text">文本</string>
     <string name="rc_fr_file_category_title_video">视频</string>
@@ -205,6 +206,7 @@
     <string name="rc_item_create_group">创建群组</string>
     <string name="rc_item_created_group">%1$s创建了群组</string>
     <string name="rc_item_invitation">%1$s邀请%2$s加入了群组</string>
+    <string name="rc_item_etc">等</string>
     <string name="rc_item_remove_group_member">%1$s将%2$s移出了群组</string>
     <string name="rc_item_remove_self">%1$s被%2$s移出了群组</string>
     <string name="rc_item_change_group_name">%1$s修改群名称为%2$s</string>

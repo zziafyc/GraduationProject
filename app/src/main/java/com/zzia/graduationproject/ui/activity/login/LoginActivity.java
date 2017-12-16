@@ -325,7 +325,7 @@ public class LoginActivity extends BaseActivity {
                         }.getType());
                         if (users != null) {
                             //用户最多保留三个
-                            if (users.size() >= 3) {
+                            if (users.size() > 3) {
                                 users.remove(users.size() - 1);
                             }
                         } else {

@@ -84,6 +84,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_comment_bg.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_file_icon_ppt.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_file_icon_ppt.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_files_normal.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_files_normal.png"
     },
@@ -162,6 +166,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_select_check_nor.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_select_check_nor.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_default_portrait.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_default_portrait.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f622.png",
@@ -628,6 +636,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_volume_0.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_unread_msg_arrow.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_unread_msg_arrow.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_unread_remind_without_count.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_unread_remind_without_count.png"
     },
@@ -860,6 +872,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_checkbox_none.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_checkbox_none.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f635.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f635.png"
     },
@@ -870,6 +886,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_origin_check_sel.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_origin_check_sel.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_file_icon_pdf.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_file_icon_pdf.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_files_pressed.png",
@@ -1024,16 +1044,16 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u2614.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_checkbox_full.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_checkbox_full.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ac_ram_icon.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ac_ram_icon.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f61d.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f61d.png"
-    },
-    {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\avatar_default.png",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\avatar_default.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_image_default.png",
@@ -1090,6 +1110,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_input_sub_menu_bg.9.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_input_sub_menu_bg.9.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ad_list_pdf_icon.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ad_list_pdf_icon.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f62d.png",
@@ -1232,10 +1256,6 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f556.png"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_unread_message_count.png",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_unread_message_count.png"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ext_plugin_location.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ext_plugin_location.png"
     },
@@ -1306,6 +1326,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_notification_network_available.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_notification_network_available.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ad_list_ppt_icon.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ad_list_ppt_icon.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_conversation_list_msg_send_failure.png",

@@ -5,18 +5,24 @@
     android:id="@+id/activity_campus_life"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zzia.graduationproject.ui.activity.smallchat.CampusLifeActivity"
-    android:background="@color/colorContentBg">
+    android:background="@color/colorContentBg"
+    tools:context="com.zzia.graduationproject.ui.activity.smallchat.CampusLifeActivity">
 
     <include layout="@layout/common_app_bar"/>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/acl_campus_lv"
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLaout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/titlebar"
-        android:layout_marginTop="@dimen/margin_12"
-        android:divider="@null">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titlebar">
 
-    </android.support.v7.widget.RecyclerView>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/acl_campus_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_12"
+            android:divider="@null">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
 </RelativeLayout>

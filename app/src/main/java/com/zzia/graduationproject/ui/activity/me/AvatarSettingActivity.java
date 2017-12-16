@@ -4,7 +4,6 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
-
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -40,6 +39,8 @@ import java.io.IOException;
 
 import butterknife.Bind;
 import io.rong.eventbus.EventBus;
+import io.rong.imkit.RongIM;
+import io.rong.imlib.model.UserInfo;
 
 public class AvatarSettingActivity extends BaseActivity {
     public static final int REQUEST_PICK = 20;
@@ -56,6 +57,7 @@ public class AvatarSettingActivity extends BaseActivity {
     TextView titleRightTv;
     Bitmap croppedBitmap;
     Uri imageUri;
+    UserInfo mUserInfo;
     private UploadManager mUploadManager = new UploadManager();
 
 
@@ -170,11 +172,20 @@ public class AvatarSettingActivity extends BaseActivity {
                                     public void onNext(BaseResp<Void> resp) {
                                         if (resp.resultCode == Constants.RespCode.SUCCESS) {
                                             if (resp.status == Constants.RespCode.SUCCESS) {
-                                                User newUser=App.getUser();
+                                                User newUser = App.getUser();
                                                 newUser.setAvatar(avatar);
                                                 App.setUser(newUser);
-                                                SharePreferenceUtils.put(AvatarSettingActivity.this,"user",newUser);
+                                                mUserInfo = new UserInfo(App.getUser().getUserId(), App.getUser().getNickName(), Uri.parse(App.getUser().getAvatar()));
+                                                SharePreferenceUtils.put(AvatarSettingActivity.this, "user", newUser);
                                                 EventBus.getDefault().post(new StringEvent("updateUserAvatar", avatar));
+                                                //通知融云,然后刷新本地缓存
+                                                RongIM.setUserInfoProvider(new RongIM.UserInfoProvider() {
+                                                    @Override
+                                                    public UserInfo getUserInfo(String s) {
+                                                        return mUserInfo;
+                                                    }
+                                                }, true);
+                                                RongIM.getInstance().refreshUserInfoCache(mUserInfo);
                                             }
                                         }
 

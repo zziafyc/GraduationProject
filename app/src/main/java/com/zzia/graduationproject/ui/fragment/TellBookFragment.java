@@ -5,7 +5,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 
-
 import com.shcyd.lib.adapter.ViewHolder;
 import com.shcyd.lib.widget.listview.PinnedHeaderListView;
 import com.zzia.graduationproject.R;
@@ -18,16 +17,19 @@ import com.zzia.graduationproject.base.BaseFragment;
 import com.zzia.graduationproject.base.Constants;
 import com.zzia.graduationproject.event.StringEvent;
 import com.zzia.graduationproject.model.User;
-import com.zzia.graduationproject.ui.activity.tellbook.DealFriendsMessageActivity;
 import com.zzia.graduationproject.ui.activity.tellbook.CustomCaptureActivity;
+import com.zzia.graduationproject.ui.activity.tellbook.DealFriendsMessageActivity;
 import com.zzia.graduationproject.ui.activity.tellbook.SearchUserActivity;
+import com.zzia.graduationproject.utils.SharePreferenceUtils;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
 import butterknife.Bind;
+import io.rong.eventbus.EventBus;
 import io.rong.imkit.RongIM;
 
 public class TellBookFragment extends BaseFragment {
@@ -76,9 +78,7 @@ public class TellBookFragment extends BaseFragment {
                     @Override
                     public void onClick(View view) {
                         User user = item;
-                        if (RongIM.getInstance() != null ) {
-                           /* RongIM.getInstance().setCurrentUserInfo(new UserInfo(App.getUser().getUserId(), App.getUser().getNickName(),null));
-                            RongIM.getInstance().setMessageAttachedUserInfo(true);*/
+                        if (RongIM.getInstance() != null) {
                             RongIM.getInstance().startPrivateChat(getActivity(), user.getUserId(), user.getRemark());
                         }
                     }
@@ -118,14 +118,21 @@ public class TellBookFragment extends BaseFragment {
 
     }
 
+    //设置头字母的时候也把好友添加到偏好设置
     private void setLetter(Map<String, List<User>> datas) {
         Iterator<String> iterator = datas.keySet().iterator();
+        List<User> users = new ArrayList<>();
         while (iterator.hasNext()) {
             String keyMap = iterator.next();
             for (User model : datas.get(keyMap)) {
                 model.letter = keyMap;
+                users.add(model);
             }
         }
+        //同时将每一个好友信息写到sp中，方便调用
+        SharePreferenceUtils.put(getActivity(), "friends", users);
+        //每次写到sp中就发送一个信息,然后会在MyConversation,中更新UI
+        EventBus.getDefault().post(new StringEvent("updateFriends"));
     }
 
     protected void initListener() {
@@ -146,7 +153,7 @@ public class TellBookFragment extends BaseFragment {
         searchEdit.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean hasFocus) {
-                if(hasFocus){
+                if (hasFocus) {
                     searchEdit.clearFocus();
                     go(SearchUserActivity.class);
 
@@ -161,8 +168,9 @@ public class TellBookFragment extends BaseFragment {
     protected boolean isBindEventBusHere() {
         return true;
     }
-    public void onEvent(StringEvent event){
-        if(event.getName().equals("updateFriendsList")){
+
+    public void onEvent(StringEvent event) {
+        if (event.getName().equals("updateFriendsList")) {
             initData();
         }
 

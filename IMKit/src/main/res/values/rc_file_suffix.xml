@@ -91,9 +91,15 @@
         <item>.xlw</item>
         <item>.xlsx</item>
     </array>
+    <array name="rc_ppt_file_suffix">
+        <item>.ppt</item>
+        <item>.pptx</item>
+    </array>
+    <array name="rc_pdf_file_suffix">
+        <item>.pdf</item>
+    </array>
     <array name="rc_other_file_suffix">
         <item>.apk</item>
-        <item>.pdf</item>
         <item>.doc</item>
         <item>.dot</item>
         <item>.xla</item>

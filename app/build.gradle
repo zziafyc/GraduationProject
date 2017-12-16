@@ -61,6 +61,7 @@ dependencies {
     })
     //compile 'com.android.support:appcompat-v7:24.2.1'
     compile project(path: ':lib')
+    compile project (':IMKit')
     testCompile 'junit:junit:4.12'
     //抽屉式浮型侧滑菜单
     compile 'com.rom4ek:arcnavigationview:1.0.2'
@@ -115,5 +116,8 @@ dependencies {
     //引入leakCanary内存泄漏检测
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    //引入smartRefreshLayout
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.3'//没有使用特殊Header，可以不加这行
 
 }

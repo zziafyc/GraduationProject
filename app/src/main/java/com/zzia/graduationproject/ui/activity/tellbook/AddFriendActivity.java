@@ -1,6 +1,5 @@
 package com.zzia.graduationproject.ui.activity.tellbook;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Selection;
 import android.text.Spannable;
@@ -14,7 +13,6 @@ import com.shcyd.lib.utils.StringUtils;
 import com.uuzuche.lib_zxing.activity.CodeUtils;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.api.ApiClient;
-import com.zzia.graduationproject.api.Apis;
 import com.zzia.graduationproject.api.MySubscriber;
 import com.zzia.graduationproject.api.resp.BaseResp;
 import com.zzia.graduationproject.base.App;
@@ -146,7 +144,7 @@ public class AddFriendActivity extends BaseActivity {
                 addLayout.setBackgroundResource(R.color.blue);
                 addFriendTv.setText("修改备注");
 
-            }else{
+            } else {
                 addLayout.setBackgroundResource(R.color.blue);
                 addLayout.setClickable(true);
                 addFriendTv.setText("通过验证");
@@ -177,6 +175,8 @@ public class AddFriendActivity extends BaseActivity {
                     friend.setApplicationId(App.getUser().getUserId());
                     friend.setApplicationDes(verifyInfoEdtTxt.getText().toString());
                     friend.setRemark1(remarkEdtTxt.getText().toString());
+                    friend.setRemark2(App.getUser().getNickName());
+                    friend.setIsDelete(0);
                     call(ApiClient.getApis().addFriend(friend), new MySubscriber<BaseResp<Void>>() {
                         @Override
                         public void onError(Throwable e) {
@@ -228,7 +228,7 @@ public class AddFriendActivity extends BaseActivity {
 
 
                         });
-                    }else{
+                    } else {
                         //已经是好友了，此时就要执行修改备注的接口
                         call(ApiClient.getApis().changeRemark(String.valueOf(friendFromMessage.getId()), remarkEdtTxt.getText().toString()), new MySubscriber<BaseResp<Void>>() {
                             @Override
@@ -241,6 +241,7 @@ public class AddFriendActivity extends BaseActivity {
                                 if (resp.resultCode == Constants.RespCode.SUCCESS) {
                                     if (resp.status == Constants.RespCode.SUCCESS) {
                                         //成功了需要刷新好友列表
+                                        showToast("修改备注成功！");
                                         EventBus.getDefault().post(new StringEvent("updateFriendsList"));
                                         finish();
                                     }

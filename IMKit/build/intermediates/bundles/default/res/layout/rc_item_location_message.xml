@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@id/rc_content"
-        android:layout_width="195dp"
+        android:layout_width="199dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom|left"

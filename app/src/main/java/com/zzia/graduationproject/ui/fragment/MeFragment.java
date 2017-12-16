@@ -2,7 +2,6 @@ package com.zzia.graduationproject.ui.fragment;
 
 
 import android.app.Dialog;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -108,10 +107,7 @@ public class MeFragment extends BaseFragment {
         noticeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent home = new Intent(Intent.ACTION_MAIN);
-                home.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                home.addCategory(Intent.CATEGORY_HOME);
-                startActivity(home);
+
             }
         });
     }

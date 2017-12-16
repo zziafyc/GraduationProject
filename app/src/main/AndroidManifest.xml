@@ -233,6 +233,10 @@
         <activity android:name=".ui.activity.login.LoginActivity">
         </activity>
         <activity android:name=".ui.MainActivity">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
         </activity>
         <activity android:name=".ui.activity.register.RegisterPhoneActivity">
         </activity>
@@ -245,11 +249,11 @@
         <activity android:name=".ui.activity.register.RegisterPasswordActivity">
         </activity>
         <activity android:name=".ui.StartActivity">
-            <!-- <intent-filter>
+             <intent-filter>
                  <action android:name="android.intent.action.MAIN"/>
 
                  <category android:name="android.intent.category.LAUNCHER"/>
-             </intent-filter>-->
+             </intent-filter>
         </activity>
         <activity
             android:name=".ui.activity.tellbook.CustomCaptureActivity"
@@ -301,10 +305,6 @@
             android:configChanges="keyboardHidden|orientation|screenSize|locale"
             android:theme="@android:style/Theme.Translucent"/>
         <activity android:name=".ui.activity.register.SnackBarActivityTest">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
     </application>
 

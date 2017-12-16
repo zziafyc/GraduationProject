@@ -200,6 +200,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ext_indicator.xml"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_file_preview_content.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ac_file_preview_content.xml"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_plugin_pager.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ext_plugin_pager.xml"
     },
@@ -244,6 +248,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_item_group_conversation.xml"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_conversation_notification_container.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_conversation_notification_container.xml"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_preview.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_picsel_preview.xml"
     },
@@ -278,6 +286,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menu_item.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_input_menu_item.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_notification_realtime_location.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_notification_realtime_location.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_activity.xml",

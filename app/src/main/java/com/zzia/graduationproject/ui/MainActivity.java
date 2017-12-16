@@ -7,13 +7,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.text.TextUtils;
 import android.view.MenuItem;
 import android.widget.RadioGroup;
 
 import com.rom4ek.arcnavigationview.ArcNavigationView;
 import com.zzia.graduationproject.R;
-import com.zzia.graduationproject.base.App;
 import com.zzia.graduationproject.base.BaseActivity;
 import com.zzia.graduationproject.ui.fragment.MeFragment;
 import com.zzia.graduationproject.ui.fragment.SmallChatFragment;
@@ -24,8 +22,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
-import io.rong.imkit.RongIM;
-import io.rong.imlib.RongIMClient;
 
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
     @Bind(R.id.nb_rg_naviBottom)
@@ -51,7 +47,6 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     @Override
     protected void initViewsAndEvents() {
         initViews();
-        connectRongYun();
         initFragment();
         selectFragment();
         initListener();
@@ -149,48 +144,6 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         return true;
     }
 
-    private void connectRongYun() {
-        //连接融云
-        if (this.getApplicationInfo().packageName.equals(App.getCurProcessName(this))) {
-            if (App.getUser() != null) {
-                if (!TextUtils.isEmpty(App.getUser().getToken())) {
-                    RongIM.connect(App.getUser().getToken(), new RongIMClient.ConnectCallback() {
-                        @Override
-                        public void onTokenIncorrect() {
-                            RongIM.connect(App.getUser().getToken(), new RongIMClient.ConnectCallback() {
-                                @Override
-                                public void onTokenIncorrect() {
-                                    showToast("token获取失败");
-
-
-                                }
-
-                                @Override
-                                public void onSuccess(String userId) {
-                                    //showToast("连接融云成功");
-                                }
-
-                                @Override
-                                public void onError(RongIMClient.ErrorCode errorCode) {
-                                    showToast("融云客户端错误");
-                                }
-                            });
-
-
-                        }
-
-                        @Override
-                        public void onSuccess(String userId) {
-                            //showToast("连接融云成功");
-                        }
-
-                        @Override
-                        public void onError(RongIMClient.ErrorCode errorCode) {
-                            showToast("融云客户端错误");
-                        }
-                    });
-                }
-            }
-        }
-    }
 }
+
+

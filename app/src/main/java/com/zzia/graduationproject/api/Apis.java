@@ -10,6 +10,7 @@ import com.zzia.graduationproject.model.User;
 import java.util.List;
 import java.util.Map;
 
+import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
@@ -22,9 +23,13 @@ import rx.Observable;
  */
 
 public interface Apis {
-    //关键字搜索用户
+    //关键字搜索用户(异步)
     @POST("userAction_getUserInfo")
     Observable<BaseResp<User>> getUserInfo(@Query("userId") String userId);
+
+    //融云搜索用户信息(同步)
+    @POST("userAction_getUserInfo")
+    Call<BaseResp<User>> getUserInfo2(@Query("userId") String userId);
 
     //用户注册
     @POST("userAction_register")
@@ -36,9 +41,9 @@ public interface Apis {
 
     //得到所有好友
     @POST("userAction_getAllFriends")
-    Observable<BaseResp<Map<String,List<User>>>> getAllFriends(@Query("userId") String userId);
+    Observable<BaseResp<Map<String, List<User>>>> getAllFriends(@Query("userId") String userId);
 
-   //添加好友
+    //添加好友
     @POST("userAction_addFriend")
     Observable<BaseResp<Void>> addFriend(@Body Friends friends);
 
@@ -60,15 +65,15 @@ public interface Apis {
 
     //得到校园所有动态接口
     @POST("diaryAction_getAllDiary")
-    Observable<BaseResp<List<Diary>>> getAllDiary(@Query("userId") String userId,@Query("currentPage") int currentPage,@Query("count") int count);
+    Observable<BaseResp<List<Diary>>> getAllDiary(@Query("userId") String userId, @Query("currentPage") int currentPage, @Query("count") int count);
 
     //得到好友的所有动态接口
     @POST("diaryAction_getAllFriendsDiary")
-    Observable<BaseResp<List<Diary>>> getAllFriendsDiary(@Query("userId") String userId,@Query("currentPage") int currentPage,@Query("count") int count);
+    Observable<BaseResp<List<Diary>>> getAllFriendsDiary(@Query("userId") String userId, @Query("currentPage") int currentPage, @Query("count") int count);
 
     //得到我发布的所有动态接口
     @POST("diaryAction_getAllMyDiary")
-    Observable<BaseResp<List<Diary>>> getAllMyDiary(@Query("userId") String userId,@Query("currentPage") int currentPage,@Query("count") int count);
+    Observable<BaseResp<List<Diary>>> getAllMyDiary(@Query("userId") String userId, @Query("currentPage") int currentPage, @Query("count") int count);
 
     //添加日记接口
     @POST("diaryAction_addDiary")
@@ -88,15 +93,15 @@ public interface Apis {
 
     //得到所有加我为好友的用户
     @POST("userAction_getAllFriendMessage")
-    Observable<BaseResp<List<Friends>>> getAllFriendMessage(@Query("userId") String userId,@Query("currentPage") int currentPage,@Query("count") int count);
+    Observable<BaseResp<List<Friends>>> getAllFriendMessage(@Query("userId") String userId, @Query("currentPage") int currentPage, @Query("count") int count);
 
     //同意，改变消息状态
     @POST("userAction_changeMessageState")
-    Observable<BaseResp<Void>> changeMessageState(@Query("id") String id,@Query("remark") String remark);
+    Observable<BaseResp<Void>> changeMessageState(@Query("id") String id, @Query("remark") String remark);
 
     //修改备注
     @POST("userAction_changeRemark")
-    Observable<BaseResp<Void>> changeRemark(@Query("id") String id,@Query("remark") String remark);
+    Observable<BaseResp<Void>> changeRemark(@Query("id") String id, @Query("remark") String remark);
 
     //得到我的莫一种旅行的列表接口
     @POST("travelAction_getTravelListByType")

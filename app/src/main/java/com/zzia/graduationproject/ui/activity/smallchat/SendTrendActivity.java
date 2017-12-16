@@ -1,10 +1,10 @@
 package com.zzia.graduationproject.ui.activity.smallchat;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.support.v4.content.ContextCompat;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -24,6 +24,7 @@ import com.qiniu.android.storage.UpCompletionHandler;
 import com.qiniu.android.storage.UploadManager;
 import com.qiniu.android.storage.UploadOptions;
 import com.shcyd.lib.utils.StringUtils;
+import com.umeng.socialize.utils.SocializeUtils;
 import com.yalantis.ucrop.entity.LocalMedia;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.adapter.GridImageAdapter;
@@ -33,6 +34,7 @@ import com.zzia.graduationproject.api.resp.BaseResp;
 import com.zzia.graduationproject.base.App;
 import com.zzia.graduationproject.base.BaseActivity;
 import com.zzia.graduationproject.base.Constants;
+import com.zzia.graduationproject.event.TrendEvent;
 import com.zzia.graduationproject.model.Diary;
 import com.zzia.graduationproject.model.PhotoConnect;
 import com.zzia.graduationproject.model.VideoConnect;
@@ -45,6 +47,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
+import io.rong.eventbus.EventBus;
 
 public class SendTrendActivity extends BaseActivity {
     @Bind(R.id.as_pics_rv)
@@ -61,6 +64,7 @@ public class SendTrendActivity extends BaseActivity {
     TextView sendTv;
     @Bind(R.id.ast_content_edit)
     EditText contentEdt;
+    private ProgressDialog mProgressDialog;
 
     GridImageAdapter mAdapter;
     public static final int REQUEST_LOCATION = 18;
@@ -109,6 +113,7 @@ public class SendTrendActivity extends BaseActivity {
     }
 
     private void initViews() {
+        mProgressDialog = new ProgressDialog(this);
         FullyGridLayoutManager manager = new FullyGridLayoutManager(SendTrendActivity.this, 4, GridLayoutManager.VERTICAL, false);
         picsRecyclerView.setLayoutManager(manager);
         //隐藏键盘
@@ -185,6 +190,7 @@ public class SendTrendActivity extends BaseActivity {
             key = "video_" + System.currentTimeMillis() + "." + data.split("\\.")[1];
             upLoadVideo(data, key, token);
         }
+        SocializeUtils.safeShowDialog(mProgressDialog);
     }
 
     private void upLoadPic(String data, String key, String token) {
@@ -204,14 +210,16 @@ public class SendTrendActivity extends BaseActivity {
                     call(ApiClient.getApis().addDiary(diary), new MySubscriber<BaseResp<Void>>() {
                         @Override
                         public void onError(Throwable e) {
-
+                            SocializeUtils.safeCloseDialog(mProgressDialog);
                         }
 
                         @Override
                         public void onNext(BaseResp<Void> resp) {
                             if (resp.resultCode == Constants.RespCode.SUCCESS) {
                                 if (resp.status == Constants.RespCode.SUCCESS) {
-                                    goAndFinish(CampusLifeActivity.class);
+                                    EventBus.getDefault().post(new TrendEvent("updateTrend"));
+                                    SocializeUtils.safeCloseDialog(mProgressDialog);
+                                    finish();
                                 }
                             }
                         }
@@ -241,14 +249,16 @@ public class SendTrendActivity extends BaseActivity {
                     call(ApiClient.getApis().addDiary(diary), new MySubscriber<BaseResp<Void>>() {
                         @Override
                         public void onError(Throwable e) {
-
+                            SocializeUtils.safeCloseDialog(mProgressDialog);
                         }
 
                         @Override
                         public void onNext(BaseResp<Void> resp) {
                             if (resp.resultCode == Constants.RespCode.SUCCESS) {
                                 if (resp.status == Constants.RespCode.SUCCESS) {
-                                    goAndFinish(CampusLifeActivity.class);
+                                    SocializeUtils.safeCloseDialog(mProgressDialog);
+                                    EventBus.getDefault().post(new TrendEvent("updateTrend"));
+                                    finish();
                                 }
                             }
                         }

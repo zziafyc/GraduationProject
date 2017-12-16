@@ -1,10 +1,6 @@
 package com.zzia.graduationproject.ui.activity.rongyun;
 
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-
 import com.shcyd.lib.utils.StringUtils;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.base.BaseActivity;

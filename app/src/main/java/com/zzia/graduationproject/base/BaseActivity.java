@@ -91,7 +91,7 @@ public abstract class BaseActivity extends BaseAppCompatActivity {
 
     }
 
-    public void call(Observable observable, MySubscriber subscriber) {
+    public  void call(Observable observable, MySubscriber subscriber) {
         Subscription subscription = ApiClient.call(observable, subscriber);
         subscriptions.add(subscription);
     }

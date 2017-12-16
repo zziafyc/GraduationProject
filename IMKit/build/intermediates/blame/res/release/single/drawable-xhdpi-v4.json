@@ -136,10 +136,6 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f615.png"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_unread_message_count.png",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_unread_message_count.png"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_icon_admin_hover.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_icon_admin_hover.png"
     },
@@ -236,10 +232,6 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_def_rich_content.png"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\avatar_default.png",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\avatar_default.png"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_default_group_portrait.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_default_group_portrait.png"
     },
@@ -328,6 +320,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f60d.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_unread_msg_arrow.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_unread_msg_arrow.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_btn_pub_service_enter_normal.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_btn_pub_service_enter_normal.png"
     },
@@ -410,6 +406,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u2b50.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u2b50.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_default_portrait.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_default_portrait.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_select_check_sel.png",
@@ -748,6 +748,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_image_default.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ad_list_ppt_icon.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ad_list_ppt_icon.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_no_hover.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_no_hover.png"
     },
@@ -850,6 +854,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f62d.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f62d.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_checkbox_none.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_checkbox_none.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_pb_file_download_progress_progress.9.png",
@@ -1064,6 +1072,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_warning.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ad_list_pdf_icon.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ad_list_pdf_icon.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f622.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f622.png"
     },
@@ -1118,6 +1130,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_notice_wraning.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_notice_wraning.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_file_icon_ppt.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_file_icon_ppt.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_picsel_catalog_selected.png",
@@ -1392,12 +1408,20 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f649.png"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_checkbox_full.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_checkbox_full.png"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u270f.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\u270f.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_menu_text.png",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_menu_text.png"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_file_icon_pdf.png",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_file_icon_pdf.png"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_plugin_default.png",

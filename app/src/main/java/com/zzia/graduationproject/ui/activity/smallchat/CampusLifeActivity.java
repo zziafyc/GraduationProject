@@ -27,6 +27,10 @@ import com.luck.picture.lib.ui.PictureVideoPlayActivity;
 import com.lzy.ninegrid.ImageInfo;
 import com.lzy.ninegrid.NineGridView;
 import com.lzy.ninegrid.preview.NineGridViewClickAdapter;
+import com.scwang.smartrefresh.layout.SmartRefreshLayout;
+import com.scwang.smartrefresh.layout.api.RefreshLayout;
+import com.scwang.smartrefresh.layout.listener.OnLoadmoreListener;
+import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.shcyd.lib.utils.StringUtils;
 import com.umeng.social.tool.UMImageMark;
 import com.umeng.socialize.ShareAction;
@@ -50,6 +54,7 @@ import com.zzia.graduationproject.base.Constants;
 import com.zzia.graduationproject.base.recyclerview.CommonAdapter;
 import com.zzia.graduationproject.base.recyclerview.MyDividerItemDecoration;
 import com.zzia.graduationproject.base.recyclerview.ViewHolder;
+import com.zzia.graduationproject.event.TrendEvent;
 import com.zzia.graduationproject.model.DefaultContent;
 import com.zzia.graduationproject.model.Diary;
 import com.zzia.graduationproject.model.DiaryPraise;
@@ -75,6 +80,8 @@ public class CampusLifeActivity extends BaseActivity {
     ImageView rightImgView;
     @Bind(R.id.acl_campus_lv)
     RecyclerView mRecyclerView;
+    @Bind(R.id.refreshLaout)
+    SmartRefreshLayout refreshLayout;
     CommonAdapter<Diary> mAdapter;
     List<Diary> mList = new ArrayList<>();
     Dialog deleteDiaryDialog;
@@ -101,7 +108,7 @@ public class CampusLifeActivity extends BaseActivity {
     String campusLife;
     String friendsTrend;
     String mySendDiary;
-    int currentPage = 0;
+    int currentPage = 1;
     int count = 10;
     //友盟变量
     private UMImage imageurl, imagelocal;
@@ -382,14 +389,14 @@ public class CampusLifeActivity extends BaseActivity {
                             currentPage++;
                             mList.addAll(resp.data);
                             mAdapter.notifyDataSetChanged();
-                            //做缓存添加到sqLite
+                          /*  //做缓存添加到sqLite
                             for (Diary diary : resp.data) {
                                 diary.save();
                                 for (PhotoConnect photoConnect : diary.getPhotoList()) {
                                     photoConnect.save();
                                 }
 
-                            }
+                            }*/
                         }
                     }
                 }
@@ -530,9 +537,26 @@ public class CampusLifeActivity extends BaseActivity {
         rightImgView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 mPop.showAtLocation(findViewById(R.id.activity_campus_life), Gravity.BOTTOM, 0, 0);
                 WindowUtils.backgroundAlpha(CampusLifeActivity.this, 0.5f);
+            }
+        });
+
+        refreshLayout.setOnRefreshListener(new OnRefreshListener() {
+            @Override
+            public void onRefresh(RefreshLayout refreshlayout) {
+                refreshlayout.finishRefresh(2000);
+                currentPage = 1;
+                mList.clear();
+                initData();
+            }
+        });
+
+        refreshLayout.setOnLoadmoreListener(new OnLoadmoreListener() {
+            @Override
+            public void onLoadmore(RefreshLayout refreshlayout) {
+                refreshlayout.finishLoadmore(2000);
+                initData();
             }
         });
     }
@@ -561,7 +585,7 @@ public class CampusLifeActivity extends BaseActivity {
                 Bundle bundle = new Bundle();
                 bundle.putInt("selectType", selectType);
                 bundle.putSerializable("selectMedia", (Serializable) selectMedia);
-                goAndFinish(SendTrendActivity.class, bundle);
+                go(SendTrendActivity.class, bundle);
             }
         }
     };
@@ -673,5 +697,19 @@ public class CampusLifeActivity extends BaseActivity {
     protected void onDestroy() {
         super.onDestroy();
         UMShareAPI.get(this).release();
+    }
+
+    @Override
+    protected boolean isBindEventBusHere() {
+        return true;
+    }
+
+    public void onEvent(TrendEvent event) {
+        if (event.getName().equals("updateTrend")) {
+            mList.clear();
+            currentPage = 1;
+            initData();
+
+        }
     }
 }

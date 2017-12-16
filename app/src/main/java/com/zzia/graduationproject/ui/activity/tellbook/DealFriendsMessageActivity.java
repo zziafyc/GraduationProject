@@ -19,7 +19,6 @@ import com.zzia.graduationproject.base.ItemMenuDeleteCreator;
 import com.zzia.graduationproject.event.StringEvent;
 import com.zzia.graduationproject.model.Friends;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,8 +30,8 @@ public class DealFriendsMessageActivity extends BaseActivity {
     SwipeMenuListView mSwipeMenuListView;
     BasicAdapter<Friends> mAdapter;
     List<Friends> mList = new ArrayList<>();
-    int currentPage=0;
-    int count =10;
+    int currentPage = 0;
+    int count = 10;
 
 
     @Override
@@ -57,7 +56,7 @@ public class DealFriendsMessageActivity extends BaseActivity {
             @Override
             protected void render(final ViewHolder holder, final Friends item, final int position) {
                 holder.setImage(R.id.item_avatar_iv, item.getApplicationUser().getAvatar());
-                holder.setText(R.id.item_name_tv, item.getApplicationUser().getNickName());
+                holder.setText(R.id.item_name_tv, item.getRemark2());
                 holder.setText(R.id.item_tel_tv, item.getApplicationUser().getTel());
                 holder.setText(R.id.item_address_tv, item.getApplicationUser().getAddress());
                 if (item.getApplicationUser().getSex().equals("男生")) {
@@ -68,20 +67,20 @@ public class DealFriendsMessageActivity extends BaseActivity {
                 if (item.getState() == 0) {
                     //还未处理
                     holder.setText(R.id.item_state_tv, "同  意");
-                    holder.setBackgroundImage(R.id.item_state_tv,R.drawable.bg_button_blue);
+                    holder.setBackgroundImage(R.id.item_state_tv, R.drawable.bg_button_blue);
                     holder.onClick(R.id.item_state_tv, new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
                             item.setState(1);
                             holder.setText(R.id.item_state_tv, "已同意");
-                            holder.setBackgroundImage(R.id.item_state_tv,R.drawable.bg_button_grey);
+                            holder.setBackgroundImage(R.id.item_state_tv, R.drawable.bg_button_grey);
                             //请求后台,默认备注是对方昵称
-                            changeState(String.valueOf(item.getId()),item.getApplicationUser().getNickName());
+                            changeState(String.valueOf(item.getId()), item.getApplicationUser().getNickName(), position);
                         }
                     });
                 } else {
                     holder.setText(R.id.item_state_tv, "已同意");
-                    holder.setBackgroundImage(R.id.item_state_tv,R.drawable.bg_button_grey);
+                    holder.setBackgroundImage(R.id.item_state_tv, R.drawable.bg_button_grey);
                 }
             }
         };
@@ -90,7 +89,7 @@ public class DealFriendsMessageActivity extends BaseActivity {
     }
 
     private void initData() {
-        call(ApiClient.getApis().getAllFriendMessage(App.getUser().getUserId(),currentPage,count), new MySubscriber<BaseResp<List<Friends>>>() {
+        call(ApiClient.getApis().getAllFriendMessage(App.getUser().getUserId(), currentPage, count), new MySubscriber<BaseResp<List<Friends>>>() {
             @Override
             public void onError(Throwable e) {
 
@@ -98,12 +97,12 @@ public class DealFriendsMessageActivity extends BaseActivity {
 
             @Override
             public void onNext(BaseResp<List<Friends>> resp) {
-                if(resp.resultCode== Constants.RespCode.SUCCESS){
-                    if(resp.status==Constants.RespCode.SUCCESS){
+                if (resp.resultCode == Constants.RespCode.SUCCESS) {
+                    if (resp.status == Constants.RespCode.SUCCESS) {
                         currentPage++;
                         mList.addAll(resp.data);
                         mAdapter.notifyDataSetChanged();
-                    }else{
+                    } else {
                         showToast("暂无申请记录");
                     }
 
@@ -120,7 +119,7 @@ public class DealFriendsMessageActivity extends BaseActivity {
             public boolean onMenuItemClick(int position, SwipeMenu menu, int index) {
                 switch (index) {
                     case 0:
-                        deleteItem(String.valueOf(mList.get(position).getId()),position);
+                        deleteItem(String.valueOf(mList.get(position).getId()), position);
                         break;
                 }
                 return false;
@@ -129,10 +128,10 @@ public class DealFriendsMessageActivity extends BaseActivity {
         mSwipeMenuListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> view, View view1, int position, long l) {
-                        Bundle bundle=new Bundle();
-                        bundle.putSerializable("friendFromMessage",mList.get(position));
-                        go(AddFriendActivity.class,bundle);
-                    }
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("friendFromMessage", mList.get(position));
+                go(AddFriendActivity.class, bundle);
+            }
 
         });
     }
@@ -146,8 +145,8 @@ public class DealFriendsMessageActivity extends BaseActivity {
 
             @Override
             public void onNext(BaseResp<Void> resp) {
-                if(resp.resultCode==Constants.RespCode.SUCCESS){
-                    if(resp.status==Constants.RespCode.SUCCESS){
+                if (resp.resultCode == Constants.RespCode.SUCCESS) {
+                    if (resp.status == Constants.RespCode.SUCCESS) {
                         mList.remove(position);
                         mAdapter.notifyDataSetChanged();
                     }
@@ -158,8 +157,8 @@ public class DealFriendsMessageActivity extends BaseActivity {
 
     }
 
-    public void changeState(String id,String remark){
-        call(ApiClient.getApis().changeMessageState(id,remark), new MySubscriber<BaseResp<Void>>() {
+    public void changeState(String id, String remark, final int position) {
+        call(ApiClient.getApis().changeMessageState(id, remark), new MySubscriber<BaseResp<Void>>() {
             @Override
             public void onError(Throwable e) {
 
@@ -167,12 +166,13 @@ public class DealFriendsMessageActivity extends BaseActivity {
 
             @Override
             public void onNext(BaseResp<Void> resp) {
-                if(resp.resultCode==Constants.RespCode.SUCCESS){
-                    if(resp.status==Constants.RespCode.SUCCESS){
+                if (resp.resultCode == Constants.RespCode.SUCCESS) {
+                    if (resp.status == Constants.RespCode.SUCCESS) {
                         //成功了需要刷新好友列表
                         EventBus.getDefault().post(new StringEvent("updateFriendsList"));
+
                     }
-                }else{
+                } else {
                     //失败了是需要回滚的，这里没有处理
                 }
             }
@@ -183,9 +183,11 @@ public class DealFriendsMessageActivity extends BaseActivity {
     protected boolean isBindEventBusHere() {
         return true;
     }
-    public void onEvent(StringEvent event){
-        if(event.getName().equals("updateFriendsList")){
+
+    public void onEvent(StringEvent event) {
+        if (event.getName().equals("updateFriendsList")) {
             mList.clear();
+            currentPage = 0;
             initData();
 
         }

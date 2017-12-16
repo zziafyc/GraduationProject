@@ -43,7 +43,7 @@
             android:layout_gravity="right|center_vertical"
             android:background="@android:color/transparent"
             android:paddingRight="10dp"
-            android:textColor="#ffffff"
+            android:textColor="@color/rc_btn_file_list_send"
             android:textSize="18sp"
             android:text="@string/rc_ad_send_file_no_select_file"/>
     </LinearLayout>

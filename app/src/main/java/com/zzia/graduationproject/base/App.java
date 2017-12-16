@@ -3,7 +3,6 @@ package com.zzia.graduationproject.base;
 import android.app.ActivityManager;
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.net.Uri;
 import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 import android.widget.ImageView;
@@ -12,16 +11,22 @@ import com.baidu.mapapi.SDKInitializer;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.lzy.ninegrid.NineGridView;
+import com.scwang.smartrefresh.layout.SmartRefreshLayout;
+import com.scwang.smartrefresh.layout.api.DefaultRefreshFooterCreater;
+import com.scwang.smartrefresh.layout.api.DefaultRefreshHeaderCreater;
+import com.scwang.smartrefresh.layout.api.RefreshFooter;
+import com.scwang.smartrefresh.layout.api.RefreshHeader;
+import com.scwang.smartrefresh.layout.api.RefreshLayout;
+import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
+import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
+import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 import com.squareup.leakcanary.LeakCanary;
 import com.tencent.bugly.Bugly;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
 import com.zzia.graduationproject.R;
-import com.zzia.graduationproject.RongProvider.MyPrivateConversationProvider;
-import com.zzia.graduationproject.api.ApiClient;
-import com.zzia.graduationproject.api.MySubscriber;
-import com.zzia.graduationproject.api.resp.BaseResp;
 import com.zzia.graduationproject.model.User;
+import com.zzia.graduationproject.ui.activity.rongyun.MyPrivateConversationProvider;
 
 import org.litepal.LitePal;
 import org.litepal.tablemanager.Connector;
@@ -29,9 +34,6 @@ import org.litepal.tablemanager.Connector;
 import cn.jpush.android.api.JPushInterface;
 import cn.smssdk.SMSSDK;
 import io.rong.imkit.RongIM;
-import io.rong.imlib.model.UserInfo;
-
-import static com.zzia.graduationproject.api.ApiClient.call;
 
 /**
  * Created by fyc on 2016/12/26.
@@ -51,6 +53,22 @@ public class App extends MultiDexApplication {
         //微博
         PlatformConfig.setSinaWeibo("3921700954", "04b48b094faeb16683c32669824ebdad", "http://sns.whalecloud.com");
 
+        //设置全局的Header构建器
+        SmartRefreshLayout.setDefaultRefreshHeaderCreater(new DefaultRefreshHeaderCreater() {
+            @Override
+            public RefreshHeader createRefreshHeader(Context context, RefreshLayout layout) {
+                layout.setPrimaryColorsId(R.color.colorBlowLabel, R.color.colorText);//全局设置主题颜色
+                return new ClassicsHeader(context).setSpinnerStyle(SpinnerStyle.Scale);//指定为经典Header，默认是 贝塞尔雷达Header
+            }
+        });
+        //设置全局的Footer构建器
+        SmartRefreshLayout.setDefaultRefreshFooterCreater(new DefaultRefreshFooterCreater() {
+            @Override
+            public RefreshFooter createRefreshFooter(Context context, RefreshLayout layout) {
+                //指定为经典Footer，默认是 BallPulseFooter
+                return new ClassicsFooter(context).setSpinnerStyle(SpinnerStyle.Scale);
+            }
+        });
     }
 
     public static App getInstance() {
@@ -78,8 +96,8 @@ public class App extends MultiDexApplication {
         /**
          * 内存泄漏检测
          */
-        if(LeakCanary.isInAnalyzerProcess(this)){
-           return;
+        if (LeakCanary.isInAnalyzerProcess(this)) {
+            return;
         }
         LeakCanary.install(this);
         /**
@@ -116,35 +134,7 @@ public class App extends MultiDexApplication {
         RongIM.getInstance().enableNewComingMessageIcon(true);//显示新消息提醒
         RongIM.getInstance().enableUnreadMessageIcon(true);//显示未读消息数目
         RongIM.getInstance().registerConversationTemplate(new MyPrivateConversationProvider());
-        //登录成功后，设置内容提供者
-        RongIM.setUserInfoProvider(new RongIM.UserInfoProvider() {
-            @Override
-            public UserInfo getUserInfo(String userId) {
-                try {
-                    call(ApiClient.getApis().getUserInfo(userId), new MySubscriber<BaseResp<User>>() {
-                        @Override
-                        public void onError(Throwable e) {
 
-                        }
-
-                        @Override
-                        public void onNext(BaseResp<User> resp) {
-                            if (resp.resultCode == Constants.RespCode.SUCCESS) {
-                                if (resp.status == Constants.RespCode.SUCCESS) {
-                                    model = resp.data;
-                                }
-                            }
-                        }
-                    });
-                    if (model != null) {
-                        return new UserInfo(model.getUserId(), model.getNickName(), Uri.parse(model.getAvatar()));
-                    }
-                } catch (Exception e) {
-                    return null;
-                }
-                return null;
-            }
-        }, true);
         /**
          * 关于nineGridView的加载方式,Glide 加载
          */
@@ -162,7 +152,9 @@ public class App extends MultiDexApplication {
                 return null;
             }
         }
-        NineGridView.setImageLoader(new GlideImageLoader());
+        NineGridView.setImageLoader(new
+
+                GlideImageLoader());
     }
 
     /**

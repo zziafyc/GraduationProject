@@ -327,7 +327,6 @@
     </array>
     <array name="rc_other_file_suffix">
         <item>.apk</item>
-        <item>.pdf</item>
         <item>.doc</item>
         <item>.dot</item>
         <item>.xla</item>
@@ -340,6 +339,13 @@
         <item>.jpe</item>
         <item>.jpeg</item>
         <item>.jpg</item>
+    </array>
+    <array name="rc_pdf_file_suffix">
+        <item>.pdf</item>
+    </array>
+    <array name="rc_ppt_file_suffix">
+        <item>.ppt</item>
+        <item>.pptx</item>
     </array>
     <array name="rc_video_file_suffix">
         <item>.rmvb</item>
@@ -436,6 +442,16 @@
     <dimen name="rc_conversation_item_data_size">14sp</dimen>
     <dimen name="rc_conversation_item_name_size">16sp</dimen>
     <dimen name="rc_conversation_item_time_size">13sp</dimen>
+    <dimen name="rc_dimen_size_18">18dp</dimen>
+    <dimen name="rc_dimen_size_24">24dp</dimen>
+    <dimen name="rc_dimen_size_3">3dp</dimen>
+    <dimen name="rc_dimen_size_40">40dp</dimen>
+    <dimen name="rc_dimen_size_44">44dp</dimen>
+    <dimen name="rc_dimen_size_5">5dp</dimen>
+    <dimen name="rc_dimen_size_50">50dp</dimen>
+    <dimen name="rc_dimen_size_7">7dp</dimen>
+    <dimen name="rc_dimen_size_9">9dp</dimen>
+    <dimen name="rc_extension_board_height">282dp</dimen>
     <dimen name="rc_popup_dialog_distance_to_edge">40dp</dimen>
     <item name="rc_actionbar" type="id"/>
     <item name="rc_back" type="id"/>
@@ -494,7 +510,10 @@
     <item name="rc_warning" type="id"/>
     <integer name="rc_chatroom_first_pull_message_count">10</integer>
     <integer name="rc_custom_service_evaluation_interval">60</integer>
-    <integer name="rc_message_recall_interval">120</integer>
+    <integer name="rc_extension_emoji_count_per_page">20</integer>
+    <integer name="rc_extension_plugin_count_per_page">8</integer>
+    <integer name="rc_message_recall_interval">180</integer>
+    <integer name="rc_read_receipt_request_interval">120</integer>
     <string name="rc_ac_file_download_btn">开始下载</string>
     <string name="rc_ac_file_download_open_file_btn">用其他应用打开</string>
     <string name="rc_ac_file_download_preview">文件预览</string>
@@ -533,8 +552,10 @@
     <string name="rc_android.permission.READ_EXTERNAL_STORAGE">存储空间</string>
     <string name="rc_android.permission.RECORD_AUDIO">麦克风</string>
     <string name="rc_android.permission.WRITE_EXTERNAL_STORAGE">存储空间</string>
+    <string name="rc_android.settings.action.MANAGE_OVERLAY_PERMISSION">悬浮窗</string>
     <string name="rc_audio_input">按住 说话</string>
     <string name="rc_audio_input_hover">松开 发送</string>
+    <string name="rc_authorities_fileprovider">.FileProvider</string>
     <string name="rc_blacklist_prompt">您已被加入黑名单</string>
     <string name="rc_called_accept">对方接受了通话请求</string>
     <string name="rc_called_is_calling">对方正在通话中</string>
@@ -598,8 +619,8 @@
     <string name="rc_discussion_nt_msg_for_you">"你"</string>
     <string name="rc_exit_calling">是否退出通话界面？</string>
     <string name="rc_ext_cancel">取消</string>
-    <string name="rc_ext_exit_confirm">结束共享</string>
     <string name="rc_ext_exit_location_sharing">是否结束位置共享？</string>
+    <string name="rc_ext_exit_location_sharing_confirm">结束共享</string>
     <string name="rc_ext_location_permission_failed">您需要在设置里打开定位权限</string>
     <string name="rc_ext_send">发送</string>
     <string name="rc_ext_warning">提示</string>
@@ -613,7 +634,7 @@
     <string name="rc_fr_file_category_title_video">视频</string>
     <string name="rc_fr_file_list_most_selected_files">您最多只能选择20个文件</string>
     <string name="rc_fr_loading_file_message">加载中...</string>
-    <string name="rc_fr_no_file_message">还没有%1$s文件</string>
+    <string name="rc_fr_no_file_message">没有%1$s文件</string>
     <string name="rc_fr_storage_folder_list_no_files">无法读取%1$s中的文件</string>
     <string name="rc_fr_storage_folder_list_search">搜索</string>
     <string name="rc_friday_format">周五</string>
@@ -629,6 +650,7 @@
     <string name="rc_item_created_group">%1$s创建了群组</string>
     <string name="rc_item_dismiss_groups">解散了群组</string>
     <string name="rc_item_divided_string">、</string>
+    <string name="rc_item_etc">等</string>
     <string name="rc_item_group_notification_summary">[群组通知]</string>
     <string name="rc_item_invitation">%1$s邀请%2$s加入了群组</string>
     <string name="rc_item_join_group">加入了群组</string>
@@ -643,6 +665,8 @@
     <string name="rc_kicked_from_chatroom">你已被踢出聊天室</string>
     <string name="rc_location_fail">定位失败</string>
     <string name="rc_location_fetching">获取中……</string>
+    <string name="rc_location_sharing_exceed_max">超过最大位置共享人数</string>
+    <string name="rc_location_temp_failed">定位失败，请稍后重试</string>
     <string name="rc_message_content_draft">[草稿]</string>
     <string name="rc_message_content_file">[文件]</string>
     <string name="rc_message_content_image">[图片]</string>
@@ -654,7 +678,7 @@
     <string name="rc_message_unread_count">"···"</string>
     <string name="rc_monday_format">周一</string>
     <string name="rc_month_format">月</string>
-    <string name="rc_morning_format">早上</string>
+    <string name="rc_morning_format">上午</string>
     <string name="rc_name">融云</string>
     <string name="rc_network_error">网络连接错误</string>
     <string name="rc_network_exception">网络异常请稍后再试</string>
@@ -671,7 +695,7 @@
     <string name="rc_notice_enter_chatroom">进入聊天室</string>
     <string name="rc_notice_input_conversation_error">会话尚未创建</string>
     <string name="rc_notice_load_data_fail">获取数据失败</string>
-    <string name="rc_notice_network_unavailable">网络连接不可用</string>
+    <string name="rc_notice_network_unavailable">当前网络不可用，请检查你的网络设置</string>
     <string name="rc_notice_select_one_picture_at_last">请至少选择一张图片</string>
     <string name="rc_notice_tick">该帐号已经在其他设备登录</string>
     <string name="rc_other_is_sharing_location">%s正在共享位置</string>
@@ -739,7 +763,9 @@
     <string name="rc_voice_failure">录音失败！</string>
     <string name="rc_voice_rec">手指上滑，取消发送</string>
     <string name="rc_voice_short">录音时间太短</string>
+    <string name="rc_voice_too_long">录制时间超长</string>
     <string name="rc_voip_cpu_error">很抱歉，该功能暂时不支持您的机型</string>
+    <string name="rc_voip_occupying">声音通道正被占用，请稍后再试</string>
     <string name="rc_waiting">等待中</string>
     <string name="rc_wednesday_format">周三</string>
     <string name="rc_year_format">年</string>

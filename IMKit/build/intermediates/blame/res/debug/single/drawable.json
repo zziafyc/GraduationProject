@@ -116,6 +116,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_pb_file_download_progress.xml"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_unread_msg_bg_style.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_unread_msg_bg_style.xml"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_cs_group_dialog_ok_selector.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_cs_group_dialog_ok_selector.xml"
     },
@@ -182,6 +186,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_corner_style.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_corner_style.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_message_checkbox.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_message_checkbox.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_an_voice_sent.xml",

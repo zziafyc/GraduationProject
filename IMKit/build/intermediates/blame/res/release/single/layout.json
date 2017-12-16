@@ -24,6 +24,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ext_emoticon_tab_item.xml"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_notification_realtime_location.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_notification_realtime_location.xml"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_root_menu_item.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ext_root_menu_item.xml"
     },
@@ -64,12 +68,12 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_item_group_information_notification_message.xml"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_albums.xml",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ac_albums.xml"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_discussion_notification_message.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_item_discussion_notification_message.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_albums.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ac_albums.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_rich_content_message.xml",
@@ -88,12 +92,12 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_item_voice_message.xml"
     },
     {
-        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_conversation.xml",
-        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_fr_conversation.xml"
-    },
-    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_base_activity_layout.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_base_activity_layout.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_conversation.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_fr_conversation.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_file_list.xml",
@@ -212,6 +216,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_item_image_message.xml"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_conversation_notification_container.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_conversation_notification_container.xml"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_input_menus.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_input_menus.xml"
     },
@@ -222,6 +230,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_alert_warning.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_cs_alert_warning.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_file_preview_content.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\layout\\rc_ac_file_preview_content.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_plugin_pager.xml",

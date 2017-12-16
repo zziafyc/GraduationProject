@@ -8,5 +8,5 @@
     android:autoLink="all"
     android:gravity="center_vertical|left"
     android:textColorLink="#2972ab"
-    android:maxWidth="242dp"
+    android:maxWidth="235dp"
     android:paddingLeft="9dp" />

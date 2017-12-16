@@ -12,7 +12,6 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.PopupWindow;
 import android.widget.Toast;
 
 import com.shcyd.lib.widget.popup.LoadingPopup;
@@ -118,7 +117,24 @@ public abstract class BaseFragment extends Fragment {
 
     }
 
-    public void call(Observable observable, MySubscriber subscriber) {
+    public void  call(Observable observable, MySubscriber subscriber) {
+        Subscription subscription = null;
+        try {
+            subscription = observable.subscribeOn(Schedulers.io())
+                    .unsubscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(subscriber);
+            subscriptions.add(subscription);
+        } catch (Exception e) {
+            if (subscription != null && !subscription.isUnsubscribed()) {
+                subscription.unsubscribe();
+            }
+            //Log.e("error", e.getMessage());
+        } finally {
+
+        }
+    }
+    public void  call2(Observable observable, MySubscriber subscriber) {
         Subscription subscription = null;
         try {
             subscription = observable.subscribeOn(Schedulers.io())

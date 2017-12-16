@@ -28,6 +28,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_switch_btn.xml"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_unread_msg_bg_style.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_unread_msg_bg_style.xml"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_cs_group_dialog_ok_selector.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_cs_group_dialog_ok_selector.xml"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_ac_btn_file_download_open_button.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_ac_btn_file_download_open_button.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_message_checkbox.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\src\\main\\res\\drawable\\rc_message_checkbox.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_read_receipt_request_button.xml",

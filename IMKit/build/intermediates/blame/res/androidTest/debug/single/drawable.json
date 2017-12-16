@@ -20,6 +20,10 @@
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_yes_selector.xml"
     },
     {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_message_checkbox.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_message_checkbox.xml"
+    },
+    {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_top_list_selector.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_top_list_selector.xml"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ext_plugin_location_selector.xml",
         "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ext_plugin_location_selector.xml"
+    },
+    {
+        "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_unread_msg_bg_style.xml",
+        "source": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_unread_msg_bg_style.xml"
     },
     {
         "merged": "G:\\GitHubProject_local\\GraduationProject\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_menu_background_selector.xml",
