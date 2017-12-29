@@ -5,7 +5,6 @@ import android.os.Message;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
@@ -15,10 +14,8 @@ import com.shcyd.lib.utils.RegExpValidatorUtils;
 import com.shcyd.lib.utils.StringUtils;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.base.BaseActivity;
-import com.zzia.graduationproject.base.Constants;
 import com.zzia.graduationproject.model.User;
 
-import java.io.Serializable;
 import java.util.Timer;
 import java.util.TimerTask;
 

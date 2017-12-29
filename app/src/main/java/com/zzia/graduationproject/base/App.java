@@ -20,7 +20,6 @@ import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
 import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;
-import com.squareup.leakcanary.LeakCanary;
 import com.tencent.bugly.Bugly;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
@@ -96,10 +95,10 @@ public class App extends MultiDexApplication {
         /**
          * 内存泄漏检测
          */
-        if (LeakCanary.isInAnalyzerProcess(this)) {
+      /*  if (LeakCanary.isInAnalyzerProcess(this)) {
             return;
         }
-        LeakCanary.install(this);
+        LeakCanary.install(this);*/
         /**
          * bugly的初始化
          */

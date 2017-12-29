@@ -18,7 +18,6 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.base.App;
-import com.zzia.graduationproject.base.Constants;
 
 
 import java.io.ByteArrayOutputStream;

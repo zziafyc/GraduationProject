@@ -11,7 +11,6 @@ import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.adapter.MyPagerAdapter;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.Bind;
 import cn.hugeterry.coordinatortablayout.CoordinatorTabLayout;

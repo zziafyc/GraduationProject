@@ -1,6 +1,5 @@
 package com.zzia.graduationproject.ui.activity.register;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -28,7 +27,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
-import rx.Observable;
 
 public class RegisterPasswordActivity extends BaseActivity {
     @Bind(R.id.arp_input_edit)

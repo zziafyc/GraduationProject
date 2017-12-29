@@ -26,8 +26,6 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import com.zzia.graduationproject.R;
 
-import butterknife.ButterKnife;
-
 /**
  * Created by fyc on 2017/4/27
  * 邮箱：847891359@qq.com

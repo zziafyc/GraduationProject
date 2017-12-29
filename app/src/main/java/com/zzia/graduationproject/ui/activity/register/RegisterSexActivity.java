@@ -1,6 +1,5 @@
 package com.zzia.graduationproject.ui.activity.register;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;

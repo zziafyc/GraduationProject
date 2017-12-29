@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.zzia.graduationproject"
-        minSdkVersion 21
+        minSdkVersion 18
         targetSdkVersion 25
         versionCode 2
         versionName "2.0"

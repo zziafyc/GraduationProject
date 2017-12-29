@@ -2,16 +2,13 @@ package com.zzia.graduationproject.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.melnykov.fab.FloatingActionButton;
-import com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.api.ApiClient;
 import com.zzia.graduationproject.api.MySubscriber;

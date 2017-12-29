@@ -51,7 +51,7 @@
     <uses-permission android:name="com.zzia.graduationproject.permission.JPUSH_MESSAGE"/>
 
     <application
-        android:name=".base.App"
+        android:name="com.zzia.graduationproject.base.App"
         android:allowBackup="true"
         android:icon="@mipmap/login_logo"
         android:label="@string/app_name"
@@ -89,7 +89,7 @@
         </meta-data>
         <!-- 微信回调 -->
         <activity
-            android:name=".wxapi.WXEntryActivity"
+            android:name="com.zzia.graduationproject.wxapi.WXEntryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:screenOrientation="portrait"
@@ -115,7 +115,7 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <!-- 微博回调 -->
         <activity
-            android:name=".wbapi.WBShareActivity"
+            android:name="com.zzia.graduationproject.wbapi.WBShareActivity"
             android:configChanges="keyboardHidden|orientation"
             android:exported="false"
             android:screenOrientation="portrait"
@@ -148,7 +148,7 @@
             android:value="1173fb24d610c7ae68c1dde7"/>
         <!-- 测试状态通知栏，需要打开的Activity -->
         <activity
-            android:name=".ui.activity.push.JPushActivity"
+            android:name="com.zzia.graduationproject.ui.activity.push.JPushActivity"
             android:exported="false">
             <intent-filter>
                 <action android:name="jpush.testAction"/>
@@ -156,7 +156,7 @@
             </intent-filter>
         </activity>
         <receiver
-            android:name=".ui.activity.push.MyReceiver"
+            android:name="com.zzia.graduationproject.ui.activity.push.MyReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -230,25 +230,25 @@
             android:exported="false"/>
 
 
-        <activity android:name=".ui.activity.login.LoginActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.login.LoginActivity">
         </activity>
-        <activity android:name=".ui.MainActivity">
+        <activity android:name="com.zzia.graduationproject.ui.MainActivity">
            <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>-->
         </activity>
-        <activity android:name=".ui.activity.register.RegisterPhoneActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.register.RegisterPhoneActivity">
         </activity>
-        <activity android:name=".ui.activity.register.RegisterCampusActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.register.RegisterCampusActivity">
         </activity>
-        <activity android:name=".ui.activity.register.RegisterNameActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.register.RegisterNameActivity">
         </activity>
-        <activity android:name=".ui.activity.register.RegisterCityActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.register.RegisterCityActivity">
         </activity>
-        <activity android:name=".ui.activity.register.RegisterPasswordActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.register.RegisterPasswordActivity">
         </activity>
-        <activity android:name=".ui.StartActivity">
+        <activity android:name="com.zzia.graduationproject.ui.StartActivity">
              <intent-filter>
                  <action android:name="android.intent.action.MAIN"/>
 
@@ -256,17 +256,17 @@
              </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activity.tellbook.CustomCaptureActivity"
+            android:name="com.zzia.graduationproject.ui.activity.tellbook.CustomCaptureActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ui.activity.tellbook.AddFriendActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.tellbook.AddFriendActivity">
         </activity>
-        <activity android:name=".ui.activity.register.RegisterSexActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.register.RegisterSexActivity">
         </activity>
-        <activity android:name=".ui.activity.me.AvatarSettingActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.me.AvatarSettingActivity">
         </activity>
-        <activity android:name=".ui.activity.me.SettingActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.me.SettingActivity">
         </activity>
-        <activity android:name=".ui.activity.rongyun.ConversationActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.rongyun.ConversationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
 
@@ -278,33 +278,33 @@
                     android:scheme="rong"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.smallchat.CampusLifeActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.smallchat.CampusLifeActivity">
         </activity>
         <activity
-            android:name=".ui.activity.smallchat.SendTrendActivity"
+            android:name="com.zzia.graduationproject.ui.activity.smallchat.SendTrendActivity"
             android:windowSoftInputMode="adjustResize|stateHidden">
         </activity>
         <activity android:name="com.luck.picture.lib.ui.PictureExternalPreviewActivity">
         </activity>
         <activity
-            android:name=".ui.activity.smallchat.LocationActivity"
+            android:name="com.zzia.graduationproject.ui.activity.smallchat.LocationActivity"
             android:windowSoftInputMode="adjustResize|stateHidden">
         </activity>
         <activity
-            android:name=".ui.activity.smalltravel.TravelPlanActivity"
+            android:name="com.zzia.graduationproject.ui.activity.smalltravel.TravelPlanActivity"
             android:windowSoftInputMode="adjustResize|stateHidden">
         </activity>
-        <activity android:name=".ui.activity.smalltravel.RewriteMemberActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.smalltravel.RewriteMemberActivity">
         </activity>
-        <activity android:name=".ui.activity.tellbook.SearchUserActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.tellbook.SearchUserActivity">
         </activity>
-        <activity android:name=".ui.activity.tellbook.DealFriendsMessageActivity">
+        <activity android:name="com.zzia.graduationproject.ui.activity.tellbook.DealFriendsMessageActivity">
         </activity>
         <activity
             android:name="com.tencent.bugly.beta.ui.BetaActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|locale"
             android:theme="@android:style/Theme.Translucent"/>
-        <activity android:name=".ui.activity.register.SnackBarActivityTest">
+        <activity android:name="com.zzia.graduationproject.ui.activity.register.SnackBarActivityTest">
         </activity>
     </application>
 

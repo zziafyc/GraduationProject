@@ -1,12 +1,9 @@
 package com.zzia.graduationproject.ui.activity.me;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.shcyd.lib.base.BaseAppCompatActivity;
 import com.shcyd.lib.base.BaseAppManager;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.api.ApiClient;

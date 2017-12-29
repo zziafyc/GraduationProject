@@ -1,13 +1,10 @@
 package com.zzia.graduationproject.ui.activity.smalltravel;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -40,7 +37,6 @@ import java.util.Map;
 
 import butterknife.Bind;
 import io.rong.eventbus.EventBus;
-import io.rong.imkit.widget.adapter.BaseAdapter;
 
 public class RewriteMemberActivity extends BaseActivity {
     //搜索

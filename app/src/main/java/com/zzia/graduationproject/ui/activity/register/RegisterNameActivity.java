@@ -1,6 +1,5 @@
 package com.zzia.graduationproject.ui.activity.register;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -13,8 +12,6 @@ import com.shcyd.lib.utils.StringUtils;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.base.BaseActivity;
 import com.zzia.graduationproject.model.User;
-
-import java.io.Serializable;
 
 import butterknife.Bind;
 

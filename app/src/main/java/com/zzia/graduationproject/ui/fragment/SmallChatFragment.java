@@ -105,7 +105,7 @@ public class SmallChatFragment extends BaseFragment {
         if (getActivity().getApplicationInfo().packageName.equals(App.getCurProcessName(getActivity()))) {
             if (App.getUser() != null) {
                 if (!TextUtils.isEmpty(App.getUser().getToken())) {
-                    User user = App.getUser();
+                    //User user = App.getUser();
                     //用rxjava来做处理
                     Observable.create(new Observable.OnSubscribe<String>() {
                         @Override

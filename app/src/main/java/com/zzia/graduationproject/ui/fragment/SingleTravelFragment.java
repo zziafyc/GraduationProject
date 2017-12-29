@@ -4,13 +4,10 @@ import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ListView;
 
 import com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader;
 import com.melnykov.fab.FloatingActionButton;
-import com.shcyd.lib.adapter.BasicAdapter;
 import com.zzia.graduationproject.R;
 import com.zzia.graduationproject.api.ApiClient;
 import com.zzia.graduationproject.api.MySubscriber;
