@@ -20,13 +20,13 @@ public final class R {
         public static int rc_image_size = 0x7f0b0006;
     }
     public static final class string {
-        public static int rc_heartbeat_timer = 0x7f05010a;
+        public static int rc_heartbeat_timer = 0x7f050106;
         public static int rc_init_failed = 0x7f050071;
         public static int rc_location_sharing_ended = 0x7f050088;
-        public static int rc_media_message_default_save_path = 0x7f05010c;
+        public static int rc_media_message_default_save_path = 0x7f050108;
         public static int rc_notification_new_msg = 0x7f0500aa;
         public static int rc_notification_new_plural_msg = 0x7f0500ab;
         public static int rc_notification_ticker_text = 0x7f0500ac;
-        public static int rc_quit_custom_service = 0x7f0500ce;
+        public static int rc_quit_custom_service = 0x7f0500cd;
     }
 }

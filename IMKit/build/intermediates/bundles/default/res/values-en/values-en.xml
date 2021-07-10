@@ -193,7 +193,6 @@
     <string name="rc_plugin_location_sharing">Real-time Location</string>
     <string name="rc_plugins_camera">Camera</string>
     <string name="rc_plugins_files">File</string>
-    <string name="rc_plugins_image">Image</string>
     <string name="rc_plugins_location">Location</string>
     <string name="rc_plugins_voip">Voice Call</string>
     <string name="rc_pub_service_info_account">Official Account：%1$s</string>
@@ -229,9 +228,6 @@
     <string name="rc_tuesday_format">Tue</string>
     <string name="rc_user_recalled_message">%s recalled one message</string>
     <string name="rc_voice_cancel">Release to cancel</string>
-    <string name="rc_voice_dialog_cancel_send">Release to cancel</string>
-    <string name="rc_voice_dialog_swipe">Slide up to cancel</string>
-    <string name="rc_voice_dialog_time_short">Audio recorder short</string>
     <string name="rc_voice_failure"> Message error!</string>
     <string name="rc_voice_rec">Slide up to cancel</string>
     <string name="rc_voice_short">Message too short</string>
