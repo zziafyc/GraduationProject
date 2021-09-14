@@ -17,7 +17,7 @@ public class QiNiuFileUpload {
     //七牛云的SK
     public static final String secretKey = "tUKf7LOvNnTyAYqC30WYj3xQgtSwMHjnDtd9z6dU";
     //空间名称
-    public static final String bucket = "graduationprojectbucket";
+    public static final String bucket = "zhongyong";
     //时间
     static long  expireSeconds = 3600;
 

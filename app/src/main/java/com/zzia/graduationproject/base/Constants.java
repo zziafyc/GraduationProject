@@ -28,7 +28,7 @@ public class Constants {
     public static class ThirdParty {
         public static final String MOB_APPKEY = "1c04a57b90a60";
         public static final String MOB_APPSECRET = "0d95c0ae80a2620ac7a14fa72678dbcc";
-        public static final String QINIU_BUCKET="http://opx8c36ai.bkt.clouddn.com";
+        public static final String QINIU_BUCKET="http://zhongyongqiniu.chinaatech.com";
     }
 
     public static class Urls {

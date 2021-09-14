@@ -13,7 +13,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.oginotihiro.cropview.CropView;
+import com.qiniu.android.common.FixedZone;
 import com.qiniu.android.http.ResponseInfo;
+import com.qiniu.android.storage.Configuration;
 import com.qiniu.android.storage.UpCompletionHandler;
 import com.qiniu.android.storage.UploadManager;
 import com.qiniu.android.storage.UploadOptions;
@@ -58,7 +60,15 @@ public class AvatarSettingActivity extends BaseActivity {
     Bitmap croppedBitmap;
     Uri imageUri;
     UserInfo mUserInfo;
-    private UploadManager mUploadManager = new UploadManager();
+    Configuration config = new Configuration.Builder()
+            .connectTimeout(90)              // 链接超时。默认90秒
+            .useHttps(true)                  // 是否使用https上传域名
+            .useConcurrentResumeUpload(true) // 使用并发上传，使用并发上传时，除最后一块大小不定外，其余每个块大小固定为4M，
+            .concurrentTaskCount(3)          // 并发上传线程数量为3
+            .responseTimeout(90)             // 服务器响应超时。默认90秒
+            .zone(FixedZone.zone2)           // 设置区域，不指定会自动选择。指定不同区域的上传域名、备用域名、备用IP。
+            .build();
+    private UploadManager mUploadManager = new UploadManager(config);
 
 
     @Override

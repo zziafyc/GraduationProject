@@ -19,10 +19,14 @@ import com.luck.picture.lib.compress.Luban;
 import com.luck.picture.lib.model.FunctionConfig;
 import com.luck.picture.lib.model.FunctionOptions;
 import com.luck.picture.lib.model.PictureConfig;
+import com.qiniu.android.common.FixedZone;
+import com.qiniu.android.common.ZoneInfo;
 import com.qiniu.android.http.ResponseInfo;
+import com.qiniu.android.storage.Configuration;
 import com.qiniu.android.storage.UpCompletionHandler;
 import com.qiniu.android.storage.UploadManager;
 import com.qiniu.android.storage.UploadOptions;
+import com.qiniu.common.Zone;
 import com.shcyd.lib.utils.StringUtils;
 import com.umeng.socialize.utils.SocializeUtils;
 import com.yalantis.ucrop.entity.LocalMedia;
@@ -85,7 +89,15 @@ public class SendTrendActivity extends BaseActivity {
     private int previewBottomBgColor;  //预览底部颜色
     private int bottomBgColor;
     private List<LocalMedia> selectMedia = new ArrayList<>();  //已选的
-    private UploadManager mUploadManager = new UploadManager();
+    Configuration config = new Configuration.Builder()
+            .connectTimeout(90)              // 链接超时。默认90秒
+            .useHttps(true)                  // 是否使用https上传域名
+            .useConcurrentResumeUpload(true) // 使用并发上传，使用并发上传时，除最后一块大小不定外，其余每个块大小固定为4M，
+            .concurrentTaskCount(3)          // 并发上传线程数量为3
+            .responseTimeout(90)             // 服务器响应超时。默认90秒
+            .zone(FixedZone.zone2)           // 设置区域，不指定会自动选择。指定不同区域的上传域名、备用域名、备用IP。
+            .build();
+    private UploadManager mUploadManager = new UploadManager(config);
     int k = 0;//标记已上传的图片数
     private List<PhotoConnect> mPhotoList = new ArrayList<>();
     private List<VideoConnect> mVideoConnectList = new ArrayList<>();
